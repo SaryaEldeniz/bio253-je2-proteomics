@@ -1,4 +1,4 @@
-# Bio253 – *S. aureus* JE2 proteome & phosphoproteome: starter pack
+# Bio253 – *S. aureus* JE2 proteome & phosphoproteome: Sarya Repo
 
 Starter code for the Bio253 block course (UZH/ETHZ, HS2026). You work in small groups
 (2–3 people) on a **fresh, unpublished** proteomics data set of *Staphylococcus aureus*

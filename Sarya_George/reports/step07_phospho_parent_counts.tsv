@@ -1,0 +1,4 @@
+contrast	significant_sites	same_direction	opposite_direction	parent_below_thresholds	parent_unavailable
+stk vs anc	19	1	0	16	2
+stp vs anc	43	0	1	42	0
+stp vs stk	60	4	0	52	4

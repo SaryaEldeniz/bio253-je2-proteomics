@@ -16,3 +16,7 @@ definitions in the `contrasts` sheet of `DE_total.xlsx`.
 ### AI assistance
 
 Codex helped locate the files, draft the script and verify the saved check. I verified the contrast names and signs against the `contrasts` sheet in `data/raw/total/DE_total.xlsx`.
+
+## Step 7 — Phospho-STYH interactions
+
+[2026-11-12 · Analysis, table and volcano plots](2026-11-12_step07.md)

@@ -1,7 +1,4 @@
 # Load the Sarya_George project from its own folder or the repository root.
-suppressPackageStartupMessages({
-  library(dplyr); library(tidyr); library(readr); library(stringr); library(ggplot2)
-})
 find_group_root <- function(start=getwd()) {
   path <- normalizePath(start,winslash="/",mustWork=TRUE)
   repeat {
@@ -14,6 +11,11 @@ find_group_root <- function(start=getwd()) {
 }
 # Backward-compatible name used by the existing analysis functions.
 REPO_ROOT <- find_group_root()
+project_library <- file.path(REPO_ROOT,"renv","library")
+if(dir.exists(project_library)) .libPaths(c(project_library,.libPaths()))
+suppressPackageStartupMessages({
+  library(dplyr); library(tidyr); library(readr); library(stringr); library(ggplot2)
+})
 DATA_ROOT <- Sys.getenv("JE2_DATA_DIR",unset="")
 if(!nzchar(DATA_ROOT)) {
   config<-file.path(REPO_ROOT,"config","data_dir.txt")

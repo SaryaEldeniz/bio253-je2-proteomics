@@ -1,5 +1,10 @@
 # Run once in R/RStudio. Installation is separate from analysis scripts.
+group_root<-if(file.exists("Sarya_George.Rproj")) getwd() else file.path(getwd(),"Sarya_George")
+stopifnot(file.exists(file.path(group_root,"Sarya_George.Rproj")))
+lib<-file.path(group_root,"renv","library")
+dir.create(lib,recursive=TRUE,showWarnings=FALSE)
+.libPaths(c(lib,.libPaths()))
 required <- c("dplyr", "tidyr", "readr", "stringr", "ggplot2", "testthat", "readxl", "curl", "jsonlite", "digest")
 missing <- setdiff(required, rownames(installed.packages()))
-if (length(missing)) install.packages(missing, repos = "https://cloud.r-project.org")
+if (length(missing)) install.packages(missing,lib=lib,repos = "https://cloud.r-project.org")
 message("Required packages are available.")

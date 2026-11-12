@@ -24,3 +24,5 @@ results/*
 *.raw
 *.sdia
 .DS_Store
+renv/library/
+renv/staging/

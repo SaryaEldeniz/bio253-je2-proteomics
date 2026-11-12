@@ -1,0 +1,10 @@
+During startup - Warning messages:
+1: Setting LC_COLLATE=C.UTF-8 failed 
+2: Setting LC_CTYPE=C.UTF-8 failed 
+3: Setting LC_MONETARY=C.UTF-8 failed 
+4: Setting LC_TIME=C.UTF-8 failed 
+Passed: 40-run coverage, unique tests, effective set sizes and independently recomputed BH families.
+Passed: all cached ranks, foreground counts, policy restrictions, native directions and leading-edge membership.
+Passed: independent Fisher exact test for primary interaction_stp_vs_stk_at_TSB_vs_SN UniProt_keywords::KW-0732 negative (overlap 24 of 70 ; study FDR 1.4421e-08 ).
+Passed: contributing proteins have mapped JE2 keys and UniProt accessions.
+All completed Step 5 result checks passed. No files were changed.

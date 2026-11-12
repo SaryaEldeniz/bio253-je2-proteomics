@@ -1,0 +1,11 @@
+contrast	priority	question	contrast_type	contrast_label	positive_direction	negative_direction	formula
+TSB_vs_SN_at_anc	core	Long PASN response in the ancestor	environmental	anc: TSB vs SN	Higher in TSB	Higher in SN	(anc_TSB) - (anc_SN)
+TSB_vs_SN_at_stk	core	Long PASN response in the kinase mutant	environmental	stk: TSB vs SN	Higher in TSB	Higher in SN	(stk_TSB) - (stk_SN)
+TSB_vs_SN_at_stp	core	Long PASN response in the phosphatase mutant	environmental	stp: TSB vs SN	Higher in TSB	Higher in SN	(stp_TSB) - (stp_SN)
+stk_vs_anc_at_TSB	core	Kinase mutant effect in control medium; first Venn	mutant	stk vs anc in TSB	Higher in stk	Higher in anc	(stk_TSB) - (anc_TSB)
+stp_vs_anc_at_TSB	core	Phosphatase mutant effect in control medium; first Venn	mutant	stp vs anc in TSB	Higher in stp	Higher in anc	(stp_TSB) - (anc_TSB)
+stk_vs_anc_at_SN	core	Kinase mutant effect during long PASN exposure; second Venn	mutant	stk vs anc in SN	Higher in stk	Higher in anc	(stk_SN) - (anc_SN)
+stp_vs_anc_at_SN	core	Phosphatase mutant effect during long PASN exposure; second Venn	mutant	stp vs anc in SN	Higher in stp	Higher in anc	(stp_SN) - (anc_SN)
+interaction_stk_vs_anc_at_TSB_vs_SN	core	Does the kinase mutant differ in its PASN response?	interaction	stk vs anc: PASN response difference	SN-TSB change more positive in anc	SN-TSB change more positive in stk	(anc_SN + stk_TSB) - (anc_TSB + stk_SN)
+interaction_stp_vs_anc_at_TSB_vs_SN	core	Does the phosphatase mutant differ in its PASN response?	interaction	stp vs anc: PASN response difference	SN-TSB change more positive in anc	SN-TSB change more positive in stp	(anc_SN + stp_TSB) - (anc_TSB + stp_SN)
+interaction_stp_vs_stk_at_TSB_vs_SN	follow_up	Do the two mutants differ in their PASN response?	interaction	stp vs stk: PASN response difference	SN-TSB change more positive in stk	SN-TSB change more positive in stp	(stk_SN + stp_TSB) - (stk_TSB + stp_SN)

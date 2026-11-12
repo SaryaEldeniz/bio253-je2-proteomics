@@ -1,27 +1,36 @@
 file	lines	functions
-R/analysis/design.R	52	project_i_contrasts; contrast_weights; contrast_formula
+R/analysis/design.R	51	project_i_contrasts; contrast_weights; contrast_formula
 R/analysis/step04_results.R	130	step04_contrast_plan; step04_group_support; step04_classify; annotate_step04; step04_hit_summary; read_comparison
+R/analysis/step05_enrichment.R	76	step05_collections; step05_prepare; step05_pathways; run_step05_ora; step05_adjust; step05_member_labels; read_enrichment
+R/analysis/step05_gsea.R	99	run_step05_gsea
 R/data_access/discover_inputs.R	13	search_course_files; input_provenance
 R/data_access/parse.R	173	parse_sample_name; protein_key; parse_description; parse_fasta_headers; parse_dea_excel; parse_abundance_excel; parse_combined_site
 R/data_access/read.R	95	derived_path; check_derived; read_annotation; add_annotation; read_dea; as_design_factors; read_abundances; read_sites; read_samples
 R/figures/design_plot.R	26	plot_experimental_design
 R/figures/plot.R	113	plot_protein; add_x_position; medium_x_axis; plot_sites; volcano; count_hits
 R/figures/step04_plots.R	126	plot_step04_volcano; plot_step04_hit_counts; plot_step04_samples
+R/figures/step05_plots.R	155	.step05_empty_plot; .step05_plot_input; .step05_q_display; .step05_direction_key; plot_step05_ora; plot_step05_gsea; plot_step05_nes_heatmap
 R/identifiers/identifiers.R	128	annotation_zip_path; read_je2_metadata; read_je2_terms; read_identifier_map; read_identifier_aliases; lookup_je2; prepare_uniprot_query; protein_resource_links; read_local_physical_links; local_interactions; annotate_reference_edges
 R/reference/constants.R	38	(entry script / no top-level functions)
 R/reference/find.R	43	find_protein; protein_label; explain_contrast
 R/reference/phis.R	66	peptide_variants; n_sty_acceptors; co_phospho_sty; all_variants_in; any_variant_in; phosphopeptide_set; lp_class; check_his_tiers
-R/setup.R	28	find_group_root
+R/setup.R	30	find_group_root
 R/web_resources/web_resources.R	283	.api_identifiers; .api_species; .api_throttle; .api_request; api_provenance; .api_tsv; .uniprot_summary; uniprot_entry; .string_request; .string_resolve_rows; string_resolve; .string_validate_ids; .string_score; string_network; string_partners; string_functional_annotation; .kegg_identifiers; .kegg_parse_links; kegg_links; kegg_entry
-scripts/00_setup/install_packages.R	5	(entry script / no top-level functions)
+scripts/00_setup/install_enrichment_packages.R	14	(entry script / no top-level functions)
+scripts/00_setup/install_packages.R	10	(entry script / no top-level functions)
 scripts/00_setup/write_code_index.R	12	(entry script / no top-level functions)
 scripts/01_data/00_inventory_inputs.R	14	(entry script / no top-level functions)
 scripts/01_data/01_validate_design.R	199	record_check
 scripts/02_identifiers/03_build_identifier_map.R	163	(entry script / no top-level functions)
 scripts/03_web_resources/03_query_web_resources.R	84	(entry script / no top-level functions)
+scripts/03_web_resources/05_check_pathway_resources.R	71	(entry script / no top-level functions)
 scripts/04_analysis/04_assemble_comparisons.R	138	(entry script / no top-level functions)
 scripts/04_analysis/04_reconcile_counts.R	42	(entry script / no top-level functions)
+scripts/05_enrichment/05_run_enrichment.R	147	(entry script / no top-level functions)
+scripts/05_enrichment/05_write_report.R	126	md_table
 scripts/05_figures/04_render_figures.R	52	render_step04_figures
+scripts/05_figures/05_render_enrichment.R	124	render_step05_enrichment
+scripts/05_figures/05_render_module_evidence.R	48	save_evidence
 scripts/90_exploratory_archive/G_inspect.R	31	(entry script / no top-level functions)
 scripts/90_exploratory_archive/I_biological_summary.R	33	(entry script / no top-level functions)
 scripts/90_exploratory_archive/I_marker_interactions.R	15	(entry script / no top-level functions)
@@ -35,9 +44,12 @@ scripts/90_exploratory_archive/week2_preview.R	38	(entry script / no top-level f
 tests/check_design.R	40	check_code
 tests/check_identifiers.R	45	check_id
 tests/check_step04.R	40	check_result
+tests/check_step05_gsea.R	48	check_gsea; rejected
+tests/check_step05_ora.R	20	verify
+tests/check_step05_results.R	196	read_table; numeric_equal; split_ids; key; expected_direction; check_adjustment
 tests/check_web_resources.R	55	check_api; expect_rejected
 tests/run_tests.R	5	(entry script / no top-level functions)
 tests/testthat/test-data.R	49	has_data
 tests/testthat/test-parsing.R	67	(entry script / no top-level functions)
 notebook/1_CheckDesign.R	21	(entry script / no top-level functions)
-run_step.R	14	run_project_step
+run_step.R	17	run_project_step

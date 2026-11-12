@@ -1,0 +1,15 @@
+October source export; total proteome only. Phosphosite enrichment is deferred to the localization/parent-protein workflow.
+min_size = 10
+max_size = 500
+protein_FDR = 0.1
+protein_abs_log2FC = 1
+pathway_FDR = 0.1
+seed_base = 20261112
+eps = 1e-10
+sample_size = 101
+n_perm_simple = 1000
+score = signed source DEA statistic; no jitter; deterministic ID order at ties
+family = BH by method and policy across all 10 contrasts and 5 collections; ORA includes both directions
+Memberships: supplied course JE2/STRING snapshot transferred through singleton high-quality UniProt ortholog mappings.
+No live API membership is mixed into the enrichment snapshot. No source protein-level effects or FDRs are refitted.
+Significant means pathway study-wide BH FDR < 0.1; ORA protein thresholds source FDR < 0.1 and abs(log2 effect) > 1.

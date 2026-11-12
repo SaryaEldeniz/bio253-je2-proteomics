@@ -10,7 +10,7 @@ respond to PASN, and where do Stk1/Stp1 and their candidate targets sit?**
 | `R/data_access/` | File discovery, input provenance, table extraction and reading helpers. |
 | `R/identifiers/` | JE2/UniProt/STRING matching, aliases and annotation lookup. |
 | `R/web_resources/` | Cached UniProt, STRING and KEGG API clients. |
-| `R/analysis/` | Experimental design, contrast definitions and annotated comparison logic. |
+| `R/analysis/` | Experimental design, comparison logic, ORA and ranked GSEA. |
 | `R/figures/` | Reusable R functions that draw figures. |
 | `R/reference/` | Course constants, reference lookup and pHis helper functions. |
 | `scripts/00_setup/` | Package installation script. |
@@ -18,6 +18,7 @@ respond to PASN, and where do Stk1/Stp1 and their candidate targets sit?**
 | `scripts/02_identifiers/` | Build the local annotation/identifier map. |
 | `scripts/03_web_resources/` | Run the small live public-API demonstration. |
 | `scripts/04_analysis/` | Assemble comparison tables and reconcile August/October counts. |
+| `scripts/05_enrichment/` | ORA/GSEA runs, sensitivity analyses and the generated results guide. |
 | `scripts/05_figures/` | Regenerate figures from saved analysis tables. |
 | `scripts/90_exploratory_archive/` | Earlier exploratory R scripts, explicitly separated from final analysis. |
 | `tests/` | Focused synthetic checks and the original helper tests. |
@@ -50,6 +51,10 @@ run_project_step("design")
 run_project_step("identifiers")
 run_project_step("analysis")
 run_project_step("figures")   # redraw without rebuilding comparison tables
+run_project_step("enrichment")
+run_project_step("enrichment_figures")
+run_project_step("enrichment_resources") # public-ID queries; network required
+run_project_step("enrichment_report")
 ```
 
 Optional: `run_project_step("api")` queries public identifiers only; it needs
@@ -77,6 +82,30 @@ View(hits)
 ```
 
 See `docs/step03_identifiers.md`, `docs/web_resources.md` and `docs/step04_usage.md`.
+
+## Step 5 pathway analysis
+
+Install the additional enrichment engine once with
+`source("scripts/00_setup/install_enrichment_packages.R")`. Compatible R 4.4
+Windows binaries are installed in the ignored project-local `renv/library/`.
+The general installer also uses this local folder. This is a local package
+library, not a complete renv lockfile; exact run versions are recorded in the report.
+
+Open [the Step 5 results guide](reports/step05/README.md) for findings, pathway
+tables and figures, and [the methods guide](docs/step05_methods.md) for every
+analysis choice. `read_enrichment("GSEA", collection="KEGG")` loads primary
+study-significant findings; set `significant_only=FALSE` for all tested terms.
+
+ORA uses directional hit lists with source FDR <0.1 and absolute log2 effect >1.
+GSEA uses all eligible proteins ranked by the signed source statistic. The main
+background has 2,058 singleton UniProt ortholog IDs. KEGG, GO BP/MF/CC and UniProt
+keywords come from the fixed supplied STRING-v12 snapshot; live reference-organism
+lookups do not change those memberships. Replication, model-label and local-JE2
+sensitivities remain separately labelled. Main pathway significance is study-wide
+BH FDR <0.1 by method across all ten comparisons and five collections.
+
+This step concerns protein abundance. Phosphosite localization, protein-adjusted
+site changes, Venn diagrams and sequence logos remain in the later site workflow.
 
 ## Checks and provenance
 

@@ -1,0 +1,53 @@
+contrast	display_name	locus_tag	uniprot_acc	diff	FDR	estimate_type	group_detection_pattern
+TSB_vs_SN_at_anc	B7H15_02470	B7H15_02470	Q2G0U2	0.9315593373266454	8.364109385898633e-5	observed	anc_TSB=3/3; anc_SN=3/3
+interaction_stk_vs_anc_at_TSB_vs_SN	B7H15_02470	B7H15_02470	Q2G0U2	-0.0709084869686204	0.9230104081903068	observed	anc_TSB=3/3; anc_SN=3/3; stk_TSB=3/3; stk_SN=3/3
+interaction_stp_vs_anc_at_TSB_vs_SN	B7H15_02470	B7H15_02470	Q2G0U2	0.5411177384178321	0.1076245872184167	observed	anc_TSB=3/3; anc_SN=3/3; stp_TSB=3/3; stp_SN=3/3
+interaction_stp_vs_stk_at_TSB_vs_SN	B7H15_02470	B7H15_02470	Q2G0U2	0.6120262253864526	0.04169272479394907	observed	stk_TSB=3/3; stk_SN=3/3; stp_TSB=3/3; stp_SN=3/3
+TSB_vs_SN_at_anc	purQ	B7H15_05535	Q2FZJ1	3.317096617629025	6.502135741013828e-15	observed	anc_TSB=3/3; anc_SN=3/3
+interaction_stk_vs_anc_at_TSB_vs_SN	purQ	B7H15_05535	Q2FZJ1	0.6082865032366622	0.06147406783904792	observed	anc_TSB=3/3; anc_SN=3/3; stk_TSB=3/3; stk_SN=3/3
+interaction_stp_vs_anc_at_TSB_vs_SN	purQ	B7H15_05535	Q2FZJ1	0.1497320237044	0.713621412739172	observed	anc_TSB=3/3; anc_SN=3/3; stp_TSB=3/3; stp_SN=3/3
+interaction_stp_vs_stk_at_TSB_vs_SN	purQ	B7H15_05535	Q2FZJ1	-0.4585544795322622	0.1325496430704361	observed	stk_TSB=3/3; stk_SN=3/3; stp_TSB=3/3; stp_SN=3/3
+TSB_vs_SN_at_anc	purL	B7H15_05540	Q2FZJ0	2.919960504606639	4.539614947376642e-18	observed	anc_TSB=3/3; anc_SN=3/3
+interaction_stk_vs_anc_at_TSB_vs_SN	purL	B7H15_05540	Q2FZJ0	0.7068858427291276	7.064189085319799e-4	observed	anc_TSB=3/3; anc_SN=3/3; stk_TSB=3/3; stk_SN=3/3
+interaction_stp_vs_anc_at_TSB_vs_SN	purL	B7H15_05540	Q2FZJ0	0.4453398964660114	0.02334618021763002	observed	anc_TSB=3/3; anc_SN=3/3; stp_TSB=3/3; stp_SN=3/3
+interaction_stp_vs_stk_at_TSB_vs_SN	purL	B7H15_05540	Q2FZJ0	-0.2615459462631162	0.1623220523014848	observed	stk_TSB=3/3; stk_SN=3/3; stp_TSB=3/3; stp_SN=3/3
+TSB_vs_SN_at_anc	purF	B7H15_05545	Q2FZI9	2.720547874432114	3.82217999851741e-15	observed	anc_TSB=3/3; anc_SN=3/3
+interaction_stk_vs_anc_at_TSB_vs_SN	purF	B7H15_05545	Q2FZI9	1.313980135178254	1.965376034706395e-5	observed	anc_TSB=3/3; anc_SN=3/3; stk_TSB=3/3; stk_SN=3/3
+interaction_stp_vs_anc_at_TSB_vs_SN	purF	B7H15_05545	Q2FZI9	0.5404203991110053	0.0413204163294718	observed	anc_TSB=3/3; anc_SN=3/3; stp_TSB=3/3; stp_SN=3/3
+interaction_stp_vs_stk_at_TSB_vs_SN	purF	B7H15_05545	Q2FZI9	-0.7735597360672486	0.00380693100385652	observed	stk_TSB=3/3; stk_SN=3/3; stp_TSB=3/3; stp_SN=3/3
+TSB_vs_SN_at_anc	purM	B7H15_05550	Q2FZI8	2.603417861220674	2.382427395934018e-15	observed	anc_TSB=3/3; anc_SN=3/3
+interaction_stk_vs_anc_at_TSB_vs_SN	purM	B7H15_05550	Q2FZI8	1.256461737771144	1.691139374998214e-5	observed	anc_TSB=3/3; anc_SN=3/3; stk_TSB=3/3; stk_SN=3/3
+interaction_stp_vs_anc_at_TSB_vs_SN	purM	B7H15_05550	Q2FZI8	0.5259557915272715	0.03904222071172782	observed	anc_TSB=3/3; anc_SN=3/3; stp_TSB=3/3; stp_SN=3/3
+interaction_stp_vs_stk_at_TSB_vs_SN	purM	B7H15_05550	Q2FZI8	-0.7305059462438726	0.00425791793985387	observed	stk_TSB=3/3; stk_SN=3/3; stp_TSB=3/3; stp_SN=3/3
+TSB_vs_SN_at_anc	purH	B7H15_05560	Q2FZI6	4.257743827999773	1.2157763968191628e-18	observed	anc_TSB=3/3; anc_SN=3/3
+interaction_stk_vs_anc_at_TSB_vs_SN	purH	B7H15_05560	Q2FZI6	0.7487959725741469	0.00360029821127426	observed	anc_TSB=3/3; anc_SN=3/3; stk_TSB=3/3; stk_SN=3/3
+interaction_stp_vs_anc_at_TSB_vs_SN	purH	B7H15_05560	Q2FZI6	-0.3691363547720821	0.1199444522220426	observed	anc_TSB=3/3; anc_SN=3/3; stp_TSB=3/3; stp_SN=3/3
+interaction_stp_vs_stk_at_TSB_vs_SN	purH	B7H15_05560	Q2FZI6	-1.117932327346229	2.426934495512994e-5	observed	stk_TSB=3/3; stk_SN=3/3; stp_TSB=3/3; stp_SN=3/3
+TSB_vs_SN_at_anc	purD	B7H15_05565	Q2FZI5	2.018046561807465	2.287302045339231e-15	observed	anc_TSB=3/3; anc_SN=3/3
+interaction_stk_vs_anc_at_TSB_vs_SN	purD	B7H15_05565	Q2FZI5	0.9007516318825322	2.911653543300057e-5	observed	anc_TSB=3/3; anc_SN=3/3; stk_TSB=3/3; stk_SN=3/3
+interaction_stp_vs_anc_at_TSB_vs_SN	purD	B7H15_05565	Q2FZI5	0.3696883432618268	0.0555350191817273	observed	anc_TSB=3/3; anc_SN=3/3; stp_TSB=3/3; stp_SN=3/3
+interaction_stp_vs_stk_at_TSB_vs_SN	purD	B7H15_05565	Q2FZI5	-0.5310632886207056	0.00520800016018715	observed	stk_TSB=3/3; stk_SN=3/3; stp_TSB=3/3; stp_SN=3/3
+TSB_vs_SN_at_anc	Stp1	B7H15_06350	Q2FZ65	-0.4279799747390859	0.3936504196563219	observed	anc_TSB=3/3; anc_SN=3/3
+interaction_stk_vs_anc_at_TSB_vs_SN	Stp1	B7H15_06350	Q2FZ65	-0.00106297270110766	1	observed	anc_TSB=3/3; anc_SN=3/3; stk_TSB=3/3; stk_SN=3/3
+interaction_stp_vs_anc_at_TSB_vs_SN	Stp1	B7H15_06350	Q2FZ65	-3.351456415576545	0.2863489055805438	observed	anc_TSB=3/3; anc_SN=3/3; stp_TSB=1/3; stp_SN=3/3
+interaction_stp_vs_stk_at_TSB_vs_SN	Stp1	B7H15_06350	Q2FZ65	-3.350393442875437	0.2598113946762537	observed	stk_TSB=3/3; stk_SN=3/3; stp_TSB=1/3; stp_SN=3/3
+TSB_vs_SN_at_anc	Stk1	B7H15_06355	Q2FZ64	-0.4883345392074125	2.674776130168131e-4	lod_imputed	anc_TSB=3/3; anc_SN=3/3
+interaction_stk_vs_anc_at_TSB_vs_SN	Stk1	B7H15_06355	Q2FZ64	0.4883345392074148	0.5525700592783974	lod_imputed	anc_TSB=3/3; anc_SN=3/3; stk_TSB=0/3; stk_SN=0/3
+interaction_stp_vs_anc_at_TSB_vs_SN	Stk1	B7H15_06355	Q2FZ64	0.4883345392074134	0.4965552198350202	lod_imputed	anc_TSB=3/3; anc_SN=3/3; stp_TSB=3/3; stp_SN=0/3
+interaction_stp_vs_stk_at_TSB_vs_SN	Stk1	B7H15_06355	Q2FZ64	-1.332267629550188e-15	1	lod_imputed	stk_TSB=0/3; stk_SN=0/3; stp_TSB=3/3; stp_SN=0/3
+TSB_vs_SN_at_anc	B7H15_13270	B7H15_13270	Q2FVM4	-2.791468223127526	2.290287994857505e-9	observed	anc_TSB=3/3; anc_SN=3/3
+interaction_stk_vs_anc_at_TSB_vs_SN	B7H15_13270	B7H15_13270	Q2FVM4	0.6343100115182851	0.3588768448386974	observed	anc_TSB=3/3; anc_SN=3/3; stk_TSB=3/3; stk_SN=3/3
+interaction_stp_vs_anc_at_TSB_vs_SN	B7H15_13270	B7H15_13270	Q2FVM4	1.495169975070757	0.02033153872569136	observed	anc_TSB=3/3; anc_SN=3/3; stp_TSB=3/3; stp_SN=3/3
+interaction_stp_vs_stk_at_TSB_vs_SN	B7H15_13270	B7H15_13270	Q2FVM4	0.8608599635524721	0.1954264707210046	observed	stk_TSB=3/3; stk_SN=3/3; stp_TSB=3/3; stp_SN=3/3
+TSB_vs_SN_at_anc	B7H15_13280	B7H15_13280	Q2FVM2	-2.256935788985992	1.757834269803954e-13	observed	anc_TSB=3/3; anc_SN=3/3
+interaction_stk_vs_anc_at_TSB_vs_SN	B7H15_13280	B7H15_13280	Q2FVM2	-0.2941143688469634	0.3225017548301012	observed	anc_TSB=3/3; anc_SN=3/3; stk_TSB=3/3; stk_SN=3/3
+interaction_stp_vs_anc_at_TSB_vs_SN	B7H15_13280	B7H15_13280	Q2FVM2	0.5825667806843564	0.02334618021763002	observed	anc_TSB=3/3; anc_SN=3/3; stp_TSB=3/3; stp_SN=3/3
+interaction_stp_vs_stk_at_TSB_vs_SN	B7H15_13280	B7H15_13280	Q2FVM2	0.87668114953132	7.752472204762772e-4	observed	stk_TSB=3/3; stk_SN=3/3; stp_TSB=3/3; stp_SN=3/3
+TSB_vs_SN_at_anc	B7H15_13285	B7H15_13285	Q2FVM1	-2.813162394353605	5.930792915844475e-16	observed	anc_TSB=3/3; anc_SN=3/3
+interaction_stk_vs_anc_at_TSB_vs_SN	B7H15_13285	B7H15_13285	Q2FVM1	0.1768058953105704	0.5500624168050549	observed	anc_TSB=3/3; anc_SN=3/3; stk_TSB=3/3; stk_SN=3/3
+interaction_stp_vs_anc_at_TSB_vs_SN	B7H15_13285	B7H15_13285	Q2FVM1	0.9054756761825504	4.758321357781784e-4	observed	anc_TSB=3/3; anc_SN=3/3; stp_TSB=3/3; stp_SN=3/3
+interaction_stp_vs_stk_at_TSB_vs_SN	B7H15_13285	B7H15_13285	Q2FVM1	0.72866978087198	0.0013717046195829	observed	stk_TSB=3/3; stk_SN=3/3; stp_TSB=3/3; stp_SN=3/3
+TSB_vs_SN_at_anc	B7H15_13295	B7H15_13295	Q2FVL9	0.2376047566985946	0.3384106000684335	observed	anc_TSB=3/3; anc_SN=3/3
+interaction_stk_vs_anc_at_TSB_vs_SN	B7H15_13295	B7H15_13295	Q2FVL9	0.8140083003530372	0.1259277452378216	observed	anc_TSB=3/3; anc_SN=3/3; stk_TSB=3/3; stk_SN=3/3
+interaction_stp_vs_anc_at_TSB_vs_SN	B7H15_13295	B7H15_13295	Q2FVL9	1.31887088471078	0.01187850573008287	observed	anc_TSB=3/3; anc_SN=3/3; stp_TSB=3/3; stp_SN=3/3
+interaction_stp_vs_stk_at_TSB_vs_SN	B7H15_13295	B7H15_13295	Q2FVL9	0.5048625843577424	0.3930959272590678	observed	stk_TSB=3/3; stk_SN=3/3; stp_TSB=3/3; stp_SN=3/3

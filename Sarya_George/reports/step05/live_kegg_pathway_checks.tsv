@@ -1,0 +1,7 @@
+source_term_id	query_id	status	returned_name	retrieved_utc	request_url
+map03010	map03010	retrieved	Ribosome	2026-11-12 14:20:06 UTC	https://rest.kegg.jp/get/map03010
+map00230	map00230	retrieved	Purine metabolism	2026-11-12 14:20:07 UTC	https://rest.kegg.jp/get/map00230
+map02020	map02020	retrieved	Two-component system	2026-11-12 14:20:08 UTC	https://rest.kegg.jp/get/map02020
+map00910	map00910	retrieved	Nitrogen metabolism	2026-11-12 14:20:09 UTC	https://rest.kegg.jp/get/map00910
+map00051	map00051	retrieved	Fructose and mannose metabolism	2026-11-12 14:20:10 UTC	https://rest.kegg.jp/get/map00051
+map00561	map00561	retrieved	Glycerolipid metabolism	2026-11-12 14:20:11 UTC	https://rest.kegg.jp/get/map00561

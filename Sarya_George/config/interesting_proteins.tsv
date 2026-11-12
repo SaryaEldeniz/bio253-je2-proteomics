@@ -1,0 +1,10 @@
+query	label	reason
+B7H15_06355	Stk1	Kinase regulator
+B7H15_06350	Stp1	Phosphatase regulator
+B7H15_13375	TcyA	Cystine transporter candidate
+B7H15_13370	TcyB	Cystine transporter candidate
+B7H15_13365	TcyC	Cystine transporter candidate
+B7H15_02105	TcyP-like	Alternative transporter candidate
+B7H15_02095	AhpC	Oxidative stress candidate
+B7H15_07015	KatA	Oxidative stress candidate
+B7H15_03880	NorA	Efflux candidate

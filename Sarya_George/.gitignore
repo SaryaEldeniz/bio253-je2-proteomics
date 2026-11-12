@@ -1,0 +1,26 @@
+# Machine-specific settings, raw inputs and full local result tables.
+config/data_dir.txt
+config/annotation_zip.txt
+data/*
+!data/README.md
+results/*
+!results/README.md
+.Rhistory
+.Rproj.user/
+.Renviron
+.env
+.quarto/
+*_files/
+*.xlsx
+*.xls
+*.tsv.gz
+*.csv.gz
+*.rds
+*.RData
+*.rda
+*.fasta
+*.gff
+*.mzML
+*.raw
+*.sdia
+.DS_Store

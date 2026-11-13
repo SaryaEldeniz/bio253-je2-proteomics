@@ -21,7 +21,7 @@ The course design comprised the wild-type ancestor (`anc`) and two transposon mu
 
 We used the October total-proteome and STYH differential analyses. Step 4 selected ordinary protein entries (CDS) with source FDR < 0.10 and absolute log₂ effect > 1. Step 5 used over-representation analysis (ORA) of selected hits and gene set enrichment analysis (GSEA) of ranked protein estimates. The enrichment FDRs cited here are the primary study-wide values from Step 5. In `TSB_vs_SN_at_anc`, a positive source effect points toward TSB and a negative effect toward SN. With `R_g = log₂(SN_g / TSB_g)`, the three native interaction effects are `R_anc − R_stk`, `R_anc − R_stp` and `R_stk − R_stp`. [Step 4 comparisons](https://github.com/SaryaEldeniz/bio253-je2-proteomics/blob/efcb91c438a6b010e0191eeba6b7446c730501fe/Sarya_George/reports/step04_comparisons.md) · [Step 5 methods](https://github.com/SaryaEldeniz/bio253-je2-proteomics/blob/efcb91c438a6b010e0191eeba6b7446c730501fe/Sarya_George/docs/step05_methods.md)
 
-Step 7 matched phosphosite and parent-protein estimates in the same interaction and applied FDR < 0.10 and absolute log₂ effect > 1 to each layer. Steps 8 and 9 used four direct mutant-versus-ancestor comparisons within the two media with the same STYH hit criteria. These steps used the estimates in the course exports. [Step 7](step07_phospho_parent_comparison.md) · [Step 8](../notebook/2026-11-12_step08.md) · [Step 9](../notebook/2026-11-13_step09.md)
+Step 7 matched phosphosite and parent-protein estimates in the same interaction and applied FDR < 0.10 and absolute log₂ effect > 1 to each layer. Steps 8 and 9 used four direct mutant-versus-ancestor comparisons within the two media with the same STYH hit criteria. The overall Venn diagrams and residue counts included both source estimate types. The residue-specific Venn diagrams and position-0 logo used hits labelled `observed` in the supplied analysis that met the selection criteria in only one mutant contrast within a medium. [Step 7](step07_phospho_parent_comparison.md) · [Step 8](../notebook/2026-11-12_step08.md) · [Step 9](../notebook/2026-11-13_step09.md)
 
 ## Results
 
@@ -57,11 +57,17 @@ The parent-protein categories compare separately fitted effects. A protein estim
 
 ### Overlap and residue distribution
 
-Of the shared significant hits, 18 of 20 in TSB and 31 of 32 in SN showed the same direction relative to `anc`. These are direct comparisons within a medium. The interaction analysis above addresses differences in PASN response across media. [Step 8 counts](step08_phospho_venn_counts.tsv)
+In TSB, 40 significant hits were exclusive to the `stk` comparison, 20 were shared and 56 were exclusive to the `stp` comparison. The corresponding counts in SN were 13, 32 and 31. Of the shared hits, 18 of 20 in TSB and 31 of 32 in SN had the same effect sign relative to `anc`. These are direct comparisons within a medium. The interaction analysis above addresses differences in PASN response across media. [Step 8 counts](step08_phospho_venn_counts.tsv)
 
 ![Venn overlap for the two mutant-versus-ancestor contrasts in each medium.](../figures/step08/figure08_phospho_venn.png){width=100%}
 
-Phosphothreonine accounted for the most hits by count in all four direct contrasts. Every significant phosphohistidine estimate in those comparisons was labeled LOD-imputed. The Step 9 position-0 logo summarizes the central residues of exclusive Source observed hits. Its letter heights represent within-group frequencies from the Venn counts. [Position-0 logo](../figures/step09/figure09_central_residue_logo.png) [Step 9 counts](step09_phospho_residue_counts.tsv)
+The four direct contrasts yielded 60 and 76 hits in TSB and 45 and 63 in SN for the `stk` and `stp` comparisons, respectively. Across both estimate types, phosphothreonine accounted for the most hits by count in all four contrasts. Every significant phosphohistidine estimate carried the LOD-imputed flag. [Step 9 counts](step09_phospho_residue_counts.tsv)
+
+![Significant STYH hits by phosphorylated residue and source estimate type.](../figures/step09/figure09_phospho_residue_counts.png){width=100%}
+
+The exclusive `Source observed` sets contained 3 hits for `stk` and 4 for `stp` in each medium. Threonine accounted for 3 of 4 hits in the exclusive `stp` set in TSB. Serine accounted for 2 of 3 hits in the exclusive `stk` set in SN. The logo shows the frequency of the phosphorylated residue at position 0. The group sizes support descriptive comparisons. Sequence context and substrate specificity remain undetermined. [Residue-specific Venn diagrams](../figures/step09/figure09_phospho_residue_venn.png) · [Exclusive-hit counts](step09_phospho_residue_venn_counts.tsv)
+
+![Position-0 residue frequencies among exclusive Source observed hits.](../figures/step09/figure09_central_residue_logo.png){width=100%}
 
 ## Discussion
 

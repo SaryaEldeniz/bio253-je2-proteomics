@@ -15,4 +15,17 @@
 
 Across the three Step 7 interactions, 16 of 19, 42 of 43 and 52 of 60 significant STYH site estimates had a parent-protein estimate below the combined FDR and effect-size criteria. These categories compare two separately fitted effects. An abundance-adjusted phosphorylation effect remains undetermined. The original models flagged 18 of 19, 42 of 43 and 56 of 60 significant site estimates as LOD-imputed. [Step 7 results](step07_phospho_parent_comparison.md)
 
-Step 9 found the highest count of significant estimates for pT in all four direct mutant contrasts. All significant pH estimates carried the LOD-imputed flag. The counts describe the supplied STYH analysis. The [position-0 logo](../figures/step09/figure09_central_residue_logo.png) summarizes the central residues of exclusive Source observed hits using the Venn counts. [Step 9 results](../notebook/2026-11-13_step09.md)
+Step 8 counted 20 shared significant sites in TSB and 32 in SN across both source estimate types. Of these, 18 and 31, respectively, had the same effect sign relative to `anc`. [Step 8 counts](step08_phospho_venn_counts.tsv)
+
+In Step 9, pT had the most significant hits in each of the four direct contrasts when both estimate types were included. All significant pH estimates carried the LOD-imputed flag. [Counts by residue and estimate type](step09_phospho_residue_counts.tsv)
+
+For the exclusive `Source observed` hits, the [position-0 logo](../figures/step09/figure09_central_residue_logo.png) shows the phosphorylated residue frequencies for the same sets as the [residue-specific Venn diagrams](../figures/step09/figure09_phospho_residue_venn.png).
+
+| Medium | Exclusive to | n | pS | pT | pY |
+| --- | --- | ---: | ---: | ---: | ---: |
+| TSB | `stk` vs `anc` | 3 | 1 | 1 | 1 |
+| TSB | `stp` vs `anc` | 4 | 1 | 3 | 0 |
+| SN | `stk` vs `anc` | 3 | 2 | 1 | 0 |
+| SN | `stp` vs `anc` | 4 | 2 | 2 | 0 |
+
+Here, exclusivity refers to meeting the selection criteria in just one mutant-versus-ancestor contrast in the same medium. With three or four hits per group, the distributions are descriptive. The logo shows the phosphorylated residue at position 0. Sequence context and kinase or phosphatase specificity remain undetermined. [Exclusive-hit counts](step09_phospho_residue_venn_counts.tsv)

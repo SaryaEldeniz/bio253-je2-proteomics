@@ -46,13 +46,18 @@ draw_residue_counts <- function(counts, output_path) {
   for (i in seq_along(contrasts)) {
     panel <- counts[counts$contrast == contrasts[i], ]
     par(mar = c(2.6, 2.7, 2.6, 0.8))
-    centers <- barplot(t(as.matrix(panel[c("observed", "lod_imputed")])),
+    bar_counts <- t(as.matrix(panel[c("observed", "lod_imputed")]))
+    centers <- barplot(bar_counts,
                        names.arg = paste0("p", panel$residue), col = colours,
                        border = NA, ylim = c(0, axis_max), axes = FALSE, cex.names = 0.95)
     axis(2, at = seq(0, axis_max, 10), las = 1, tck = -0.02, cex.axis = 0.84, col = ink)
     abline(h = 0, col = ink, xpd = FALSE)
-    text(centers, panel$significant, labels = panel$significant, pos = 3, offset = 0.28,
-         col = ink, cex = 0.91)
+    observed <- panel$observed > 0L
+    imputed <- panel$lod_imputed > 0L
+    text(centers[observed], panel$observed[observed], labels = panel$observed[observed],
+         pos = 3, offset = 0.20, col = ink, cex = 0.99, font = 2)
+    text(centers[imputed], colSums(bar_counts)[imputed], labels = panel$lod_imputed[imputed],
+         pos = 3, offset = 0.29, col = ink, cex = 0.99, font = 2)
     title(main = titles[i], adj = 0, line = 0.55, col.main = ink, cex.main = 1.03)
   }
 

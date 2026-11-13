@@ -74,63 +74,6 @@ draw_residue_counts <- function(counts, output_path) {
   mtext("Number of significant sites", side = 2, outer = TRUE, line = 0.45, col = ink)
 }
 
-draw_synthetic_logo <- function(output_path) {
-  # A fixed toy alignment made for this illustration.
-  sequences <- c("AVTASGLVK", "GLTASGIVR", "VLTGSGLLK", "ALVASALVR",
-                 "GMVGSGIVK", "VMLGSGLLR", "AVVASALVK", "GLTGSGIVR",
-                 "VMTGSAILK", "ALVGSGVVR", "GLLASGLLK", "VMVGSALVR")
-  alignment <- do.call(rbind, strsplit(sequences, "", fixed = TRUE))
-  positions <- seq_len(ncol(alignment)) - 5L
-  palette <- c(A = "#286694", G = "#457b8f", I = "#427a51", K = "#8556a0",
-               L = "#264d7a", M = "#287d62", R = "#9d5587", S = "#b65c14",
-               T = "#008179", V = "#526c35")
-
-  png(output_path, width = 1820, height = 670, res = 165, bg = "white")
-  on.exit(invisible(dev.off()), add = TRUE)
-  ink <- "#152D40"
-  grid::grid.text("How to read a sequence logo", x = 0.08, y = 0.91, just = "left",
-                  gp = grid::gpar(fontsize = 26, fontface = "bold", col = ink))
-  grid::grid.text("Synthetic alignment for methods illustration", x = 0.08, y = 0.79, just = "left",
-                  gp = grid::gpar(fontsize = 12, fontface = "bold", col = "#8E4C1E"))
-
-  grid::pushViewport(grid::viewport(x = 0.54, y = 0.48, width = 0.82, height = 0.26,
-                                    xscale = c(-4.5, 4.5), yscale = c(0, 1)))
-  grid::grid.rect(x = grid::unit(0, "native"), width = grid::unit(0.92, "native"),
-                  gp = grid::gpar(fill = "#FFF0DF", col = NA))
-  grid::grid.yaxis(at = c(0, 0.25, 0.5, 0.75, 1), label = c("0", "25", "50", "75", "100"),
-                   gp = grid::gpar(fontsize = 10, col = ink))
-  grid::grid.xaxis(at = positions, gp = grid::gpar(fontsize = 10, col = ink))
-  grid::grid.text("Frequency (%)", x = grid::unit(-0.10, "npc"), rot = 90,
-                  gp = grid::gpar(fontsize = 11, col = ink))
-
-  for (i in seq_along(positions)) {
-    proportions <- sort(prop.table(table(alignment[, i])))
-    lower_edge <- 0
-    for (j in seq_along(proportions)) {
-      letter <- names(proportions)[j]
-      fraction <- as.numeric(proportions[j])
-      # Size each glyph to fit its frequency band and its column.
-      measure <- grid::textGrob(letter, gp = grid::gpar(fontsize = 100, fontface = "bold"))
-      glyph_height <- grid::convertHeight(grid::grobHeight(measure), "inches", valueOnly = TRUE)
-      glyph_width <- grid::convertWidth(grid::grobWidth(measure), "inches", valueOnly = TRUE)
-      band_height <- grid::convertHeight(grid::unit(0.96 * fraction, "native"), "inches", valueOnly = TRUE)
-      column_width <- grid::convertWidth(grid::unit(0.96, "native"), "inches", valueOnly = TRUE)
-      fontsize <- 100 * band_height / glyph_height
-      stopifnot(glyph_width * fontsize / 100 <= column_width)
-      grid::grid.text(letter, x = grid::unit(positions[i], "native"),
-                      y = grid::unit(lower_edge + fraction / 2, "native"),
-                      gp = grid::gpar(fontsize = fontsize, fontface = "bold", col = palette[letter]))
-      lower_edge <- lower_edge + fraction
-    }
-  }
-  grid::popViewport()
-  grid::grid.text("Position in the alignment", x = 0.54, y = 0.19,
-                  gp = grid::gpar(fontsize = 12, col = ink))
-  grid::grid.text("Letter height represents frequency among 12 invented sequences. Position 0 is the aligned centre.",
-                  x = 0.08, y = 0.063, just = "left",
-                  gp = grid::gpar(fontsize = 10.5, col = "#495866"))
-}
-
 report_dir <- file.path(group_root, "reports")
 figure_dir <- file.path(group_root, "figures", "step09")
 dir.create(report_dir, recursive = TRUE, showWarnings = FALSE)
@@ -138,5 +81,4 @@ dir.create(figure_dir, recursive = TRUE, showWarnings = FALSE)
 write.table(counts, file.path(report_dir, "step09_phospho_residue_counts.tsv"),
             sep = "\t", quote = FALSE, row.names = FALSE)
 draw_residue_counts(counts, file.path(figure_dir, "figure09_phospho_residue_counts.png"))
-draw_synthetic_logo(file.path(figure_dir, "figure09_synthetic_sequence_logo.png"))
 print(counts, row.names = FALSE)

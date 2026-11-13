@@ -1,0 +1,17 @@
+contrast	residue	tested	significant	observed	lod_imputed
+stk_vs_anc_at_TSB	S	1749	20	1	19
+stk_vs_anc_at_TSB	T	1432	22	3	19
+stk_vs_anc_at_TSB	Y	638	11	1	10
+stk_vs_anc_at_TSB	H	416	7	0	7
+stp_vs_anc_at_TSB	S	1749	22	1	21
+stp_vs_anc_at_TSB	T	1432	38	5	33
+stp_vs_anc_at_TSB	Y	638	10	0	10
+stp_vs_anc_at_TSB	H	416	6	0	6
+stk_vs_anc_at_SN	S	1749	12	2	10
+stk_vs_anc_at_SN	T	1432	26	5	21
+stk_vs_anc_at_SN	Y	638	4	0	4
+stk_vs_anc_at_SN	H	416	3	0	3
+stp_vs_anc_at_SN	S	1749	18	2	16
+stp_vs_anc_at_SN	T	1432	34	6	28
+stp_vs_anc_at_SN	Y	638	5	0	5
+stp_vs_anc_at_SN	H	416	6	0	6

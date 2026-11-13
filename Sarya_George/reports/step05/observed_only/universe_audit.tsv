@@ -1,0 +1,11 @@
+contrast	universe	source_observed	source_LOD	sparse_observed_retained	positive_hits	negative_hits	tested_terms	failed_GSEA
+TSB_vs_SN_at_anc	1858	1858	0	42	229	133	786	0
+TSB_vs_SN_at_stk	1858	1858	0	77	261	142	786	0
+TSB_vs_SN_at_stp	1858	1858	0	43	237	135	786	0
+stk_vs_anc_at_TSB	1858	1858	0	52	45	57	786	0
+stp_vs_anc_at_TSB	1858	1858	0	18	26	87	786	0
+stk_vs_anc_at_SN	1858	1858	0	62	48	77	786	0
+stp_vs_anc_at_SN	1858	1858	0	61	32	70	786	0
+interaction_stk_vs_anc_at_TSB_vs_SN	1858	1858	0	102	51	27	786	0
+interaction_stp_vs_anc_at_TSB_vs_SN	1858	1858	0	71	29	32	786	0
+interaction_stp_vs_stk_at_TSB_vs_SN	1858	1858	0	101	25	60	786	0

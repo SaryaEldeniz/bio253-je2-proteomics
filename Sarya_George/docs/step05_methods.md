@@ -250,6 +250,29 @@ medium, so these comparisons do not isolate secreted toxins from nutrient effect
 Phosphosite-level enrichment and motif analysis remain outside this protein-level
 Step 5 protocol until localization and parent-protein abundance have been examined.
 
+## Requested observed-only display, 2026-11-13
+
+The [all-results index](../reports/step05/observed_only/README.md) is a separate
+analysis with `policy="observed_only"`. It retains quality-mapped singleton CDS
+entries with finite source statistics and source model label `observed` (1,858
+proteins per comparison), without adding a replicate-count filter. Source
+`lod_imputed` rows are excluded from both foregrounds and the background/ranking.
+This is different from the earlier `observed_replicated` sensitivity.
+
+ORA and GSEA are rerun for this universe, keeping all five original collections
+in the study-level BH families across the ten comparisons. The displayed/exported
+GO BP/MF/CC and KEGG findings use FDR_study<0.1 and the unchanged effective set
+size filter of 10-500. No further Top-N limit is applied. GSEA panels sort by
+descending signed NES, including negative scores at the bottom. ORA directions
+remain separate; each panel sorts by descending fold enrichment. Per-plot TSVs
+record the exact displayed order. Comparisons with no passing terms get explicit
+empty plots; an empty result is not evidence of biological absence.
+
+The two individual-protein sample plots retain the selected proteins but now
+show only TSB and SN. Their values are measured normalized abundances, not
+imputed values. Their original primary-based protein selection is retained and
+is distinct from the observed-only enrichment analysis.
+
 ## Primary method references
 
 - [Official fgsea tutorial](https://bioconductor.org/packages/release/bioc/vignettes/fgsea/inst/doc/fgsea-tutorial.html): preranked input, multilevel estimation, size limits, leading edges, enrichment plots and overrepresentation universes.

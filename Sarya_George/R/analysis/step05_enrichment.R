@@ -9,14 +9,14 @@ step05_collections <- function() {
 }
 
 step05_prepare <- function(x,policy="primary") {
-  policy<-match.arg(policy,c("primary","replicated","observed_replicated","local_JE2"))
+  policy<-match.arg(policy,c("primary","replicated","observed_replicated","local_JE2","observed_only"))
   if(anyDuplicated(x$protein_key)) stop("Prepare one contrast at a time; protein keys must be unique.")
   x<-filter(x,eligible_cds,is.finite(diff),is.finite(FDR),is.finite(statistic))
   if(policy!="local_JE2") {
     x<-filter(x,eligible_uniprot_annotation,n_JE2_good_total_DEA==1,!is.na(uniprot_acc))
   }
   if(policy %in% c("replicated","observed_replicated")) x<-filter(x,all_relevant_groups_2of3)
-  if(policy=="observed_replicated") x<-filter(x,estimate_type=="observed")
+  if(policy %in% c("observed_replicated","observed_only")) x<-filter(x,estimate_type=="observed")
   x<-mutate(x,target_id=if(policy=="local_JE2") protein_key else uniprot_acc)
   if(anyDuplicated(x$target_id)) stop("Target collisions must be resolved explicitly before enrichment.")
   x
@@ -67,6 +67,7 @@ step05_member_labels <- function(ids,mapping) {
 read_enrichment <- function(method="ORA",contrast=NULL,policy="primary",significant_only=TRUE,collection=NULL) {
   method<-match.arg(toupper(method),c("ORA","GSEA"))
   path<-file.path(REPO_ROOT,"results","step05",paste0(tolower(method),"_all.tsv.gz"))
+  if(policy=="observed_only") path<-file.path(REPO_ROOT,"results","step05","observed_only",paste0(tolower(method),"_all.tsv.gz"))
   if(!file.exists(path)) stop('First run run_project_step("enrichment").')
   x<-read_tsv(path,show_col_types=FALSE) |> filter(.data$policy==.env$policy)
   if(!is.null(contrast)) x<-filter(x,.data$contrast %in% .env$contrast)

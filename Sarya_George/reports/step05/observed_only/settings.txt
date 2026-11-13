@@ -1,0 +1,17 @@
+Source October total proteome; observed_only retains estimate_type=='observed'.
+No additional >=2/3 measurement filter. Some retained proteins have only1/3 measured values in a relevant group.
+UniProt-quality and singleton mapping filters are unchanged. Background, GSEA ranks and ORA lists all exclude source-LOD flags.
+All five original annotation collections are tested and included in BH correction, separately for each method across ten contrasts.
+GO BP/MF/CC and KEGG displayed without top-N truncation; significance is study-wide FDR<0.1.
+Existing 10-500 effective-member size eligibility is unchanged; source protein effects and FDRs are not refitted.
+policy = observed_only
+min_size = 10
+max_size = 500
+protein_FDR = 0.1
+protein_abs_log2FC = 1
+pathway_FDR = 0.1
+seed_base = 20261113
+eps = 1e-10
+sample_size = 101
+n_perm_simple = 1000
+family = BH separately by method across ten contrasts and all five original collections; ORA includes both directions

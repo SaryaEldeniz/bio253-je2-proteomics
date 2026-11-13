@@ -6,7 +6,9 @@ run_project_step <- function(step) {
     figures="05_figures/04_render_figures.R",enrichment="05_enrichment/05_run_enrichment.R",
     enrichment_figures="05_figures/05_render_enrichment.R",
     enrichment_resources="03_web_resources/05_check_pathway_resources.R",
-    enrichment_report="05_enrichment/05_write_report.R")
+    enrichment_report="05_enrichment/05_write_report.R",
+    enrichment_observed="05_enrichment/05_run_observed_enrichment.R",
+    enrichment_all_figures="05_figures/05_render_all_observed.R")
   if(length(step)!=1 || !step %in% names(scripts)) stop("Choose: ",paste(names(scripts),collapse=", "))
   source(file.path(REPO_ROOT,"scripts",scripts[[step]]))
 }

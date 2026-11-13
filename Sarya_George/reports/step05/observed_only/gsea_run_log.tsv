@@ -1,0 +1,11 @@
+contrast	seed	warning
+TSB_vs_SN_at_anc	20261114	For some of the pathways the P-values were likely overestimated. For such pathways log2err is set to NA. | For some pathways, in reality P-values are less than 1e-10. You can set the `eps` argument to zero for better estimation.
+TSB_vs_SN_at_stk	20261115	For some of the pathways the P-values were likely overestimated. For such pathways log2err is set to NA. | For some pathways, in reality P-values are less than 1e-10. You can set the `eps` argument to zero for better estimation.
+TSB_vs_SN_at_stp	20261116	For some of the pathways the P-values were likely overestimated. For such pathways log2err is set to NA. | For some pathways, in reality P-values are less than 1e-10. You can set the `eps` argument to zero for better estimation.
+stk_vs_anc_at_TSB	20261117	none
+stp_vs_anc_at_TSB	20261118	For some of the pathways the P-values were likely overestimated. For such pathways log2err is set to NA. | For some pathways, in reality P-values are less than 1e-10. You can set the `eps` argument to zero for better estimation.
+stk_vs_anc_at_SN	20261119	none
+stp_vs_anc_at_SN	20261120	For some of the pathways the P-values were likely overestimated. For such pathways log2err is set to NA. | For some pathways, in reality P-values are less than 1e-10. You can set the `eps` argument to zero for better estimation.
+interaction_stk_vs_anc_at_TSB_vs_SN	20261121	none
+interaction_stp_vs_anc_at_TSB_vs_SN	20261122	For some of the pathways the P-values were likely overestimated. For such pathways log2err is set to NA. | For some pathways, in reality P-values are less than 1e-10. You can set the `eps` argument to zero for better estimation.
+interaction_stp_vs_stk_at_TSB_vs_SN	20261123	For some of the pathways the P-values were likely overestimated. For such pathways log2err is set to NA. | For some pathways, in reality P-values are less than 1e-10. You can set the `eps` argument to zero for better estimation.

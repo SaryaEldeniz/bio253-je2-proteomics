@@ -1,0 +1,165 @@
+Observed-only Step 5 verification
+2026-11-13 10:57 CET
+
+PASS: Ten complete observed-only runs and single-line warning records
+PASS: Both methods preserve the observed-only UniProt policy and five-collection testing family
+PASS: Unique enrichment tests
+PASS: ORA study-wide BH independently recalculated across all tests
+PASS: ORA TSB_vs_SN_at_anc local BH
+PASS: ORA TSB_vs_SN_at_stk local BH
+PASS: ORA TSB_vs_SN_at_stp local BH
+PASS: ORA stk_vs_anc_at_TSB local BH
+PASS: ORA stp_vs_anc_at_TSB local BH
+PASS: ORA stk_vs_anc_at_SN local BH
+PASS: ORA stp_vs_anc_at_SN local BH
+PASS: ORA interaction_stk_vs_anc_at_TSB_vs_SN local BH
+PASS: ORA interaction_stp_vs_anc_at_TSB_vs_SN local BH
+PASS: ORA interaction_stp_vs_stk_at_TSB_vs_SN local BH
+PASS: GSEA study-wide BH independently recalculated across all tests
+PASS: GSEA TSB_vs_SN_at_anc local BH
+PASS: GSEA TSB_vs_SN_at_stk local BH
+PASS: GSEA TSB_vs_SN_at_stp local BH
+PASS: GSEA stk_vs_anc_at_TSB local BH
+PASS: GSEA stp_vs_anc_at_TSB local BH
+PASS: GSEA stk_vs_anc_at_SN local BH
+PASS: GSEA stp_vs_anc_at_SN local BH
+PASS: GSEA interaction_stk_vs_anc_at_TSB_vs_SN local BH
+PASS: GSEA interaction_stp_vs_anc_at_TSB_vs_SN local BH
+PASS: GSEA interaction_stp_vs_stk_at_TSB_vs_SN local BH
+PASS: TSB_vs_SN_at_anc exact source-observed universe, with no additional replication restriction
+PASS: TSB_vs_SN_at_anc source effects/FDR/statistics and full ranks preserved
+PASS: TSB_vs_SN_at_anc source-observed sparse proteins are retained when present
+PASS: TSB_vs_SN_at_anc matched ORA lists and backgrounds
+PASS: TSB_vs_SN_at_anc all overlaps and leading edges consist of eligible observed proteins
+PASS: TSB_vs_SN_at_stk exact source-observed universe, with no additional replication restriction
+PASS: TSB_vs_SN_at_stk source effects/FDR/statistics and full ranks preserved
+PASS: TSB_vs_SN_at_stk source-observed sparse proteins are retained when present
+PASS: TSB_vs_SN_at_stk matched ORA lists and backgrounds
+PASS: TSB_vs_SN_at_stk all overlaps and leading edges consist of eligible observed proteins
+PASS: TSB_vs_SN_at_stp exact source-observed universe, with no additional replication restriction
+PASS: TSB_vs_SN_at_stp source effects/FDR/statistics and full ranks preserved
+PASS: TSB_vs_SN_at_stp source-observed sparse proteins are retained when present
+PASS: TSB_vs_SN_at_stp matched ORA lists and backgrounds
+PASS: TSB_vs_SN_at_stp all overlaps and leading edges consist of eligible observed proteins
+PASS: stk_vs_anc_at_TSB exact source-observed universe, with no additional replication restriction
+PASS: stk_vs_anc_at_TSB source effects/FDR/statistics and full ranks preserved
+PASS: stk_vs_anc_at_TSB source-observed sparse proteins are retained when present
+PASS: stk_vs_anc_at_TSB matched ORA lists and backgrounds
+PASS: stk_vs_anc_at_TSB all overlaps and leading edges consist of eligible observed proteins
+PASS: stp_vs_anc_at_TSB exact source-observed universe, with no additional replication restriction
+PASS: stp_vs_anc_at_TSB source effects/FDR/statistics and full ranks preserved
+PASS: stp_vs_anc_at_TSB source-observed sparse proteins are retained when present
+PASS: stp_vs_anc_at_TSB matched ORA lists and backgrounds
+PASS: stp_vs_anc_at_TSB all overlaps and leading edges consist of eligible observed proteins
+PASS: stk_vs_anc_at_SN exact source-observed universe, with no additional replication restriction
+PASS: stk_vs_anc_at_SN source effects/FDR/statistics and full ranks preserved
+PASS: stk_vs_anc_at_SN source-observed sparse proteins are retained when present
+PASS: stk_vs_anc_at_SN matched ORA lists and backgrounds
+PASS: stk_vs_anc_at_SN all overlaps and leading edges consist of eligible observed proteins
+PASS: stp_vs_anc_at_SN exact source-observed universe, with no additional replication restriction
+PASS: stp_vs_anc_at_SN source effects/FDR/statistics and full ranks preserved
+PASS: stp_vs_anc_at_SN source-observed sparse proteins are retained when present
+PASS: stp_vs_anc_at_SN matched ORA lists and backgrounds
+PASS: stp_vs_anc_at_SN all overlaps and leading edges consist of eligible observed proteins
+PASS: interaction_stk_vs_anc_at_TSB_vs_SN exact source-observed universe, with no additional replication restriction
+PASS: interaction_stk_vs_anc_at_TSB_vs_SN source effects/FDR/statistics and full ranks preserved
+PASS: interaction_stk_vs_anc_at_TSB_vs_SN source-observed sparse proteins are retained when present
+PASS: interaction_stk_vs_anc_at_TSB_vs_SN matched ORA lists and backgrounds
+PASS: interaction_stk_vs_anc_at_TSB_vs_SN all overlaps and leading edges consist of eligible observed proteins
+PASS: interaction_stp_vs_anc_at_TSB_vs_SN exact source-observed universe, with no additional replication restriction
+PASS: interaction_stp_vs_anc_at_TSB_vs_SN source effects/FDR/statistics and full ranks preserved
+PASS: interaction_stp_vs_anc_at_TSB_vs_SN source-observed sparse proteins are retained when present
+PASS: interaction_stp_vs_anc_at_TSB_vs_SN matched ORA lists and backgrounds
+PASS: interaction_stp_vs_anc_at_TSB_vs_SN all overlaps and leading edges consist of eligible observed proteins
+PASS: interaction_stp_vs_stk_at_TSB_vs_SN exact source-observed universe, with no additional replication restriction
+PASS: interaction_stp_vs_stk_at_TSB_vs_SN source effects/FDR/statistics and full ranks preserved
+PASS: interaction_stp_vs_stk_at_TSB_vs_SN source-observed sparse proteins are retained when present
+PASS: interaction_stp_vs_stk_at_TSB_vs_SN matched ORA lists and backgrounds
+PASS: interaction_stp_vs_stk_at_TSB_vs_SN all overlaps and leading edges consist of eligible observed proteins
+PASS: A real significant ORA row is available for independent verification
+PASS: Independent one-sided Fisher exact test matches a real ORA result
+PASS: All 80 plot groups are documented, including empty groups
+PASS: Every plot declares observed-only policy and no top-N truncation
+PASS: Combined plotted-row table contains every significant GO/KEGG result exactly once
+PASS: GSEA KEGG TSB_vs_SN_at_anc complete membership, descending rows and PNG/PDF files
+PASS: GSEA KEGG TSB_vs_SN_at_stk complete membership, descending rows and PNG/PDF files
+PASS: GSEA KEGG TSB_vs_SN_at_stp complete membership, descending rows and PNG/PDF files
+PASS: GSEA KEGG stk_vs_anc_at_TSB complete membership, descending rows and PNG/PDF files
+PASS: GSEA KEGG stp_vs_anc_at_TSB complete membership, descending rows and PNG/PDF files
+PASS: GSEA KEGG stk_vs_anc_at_SN complete membership, descending rows and PNG/PDF files
+PASS: GSEA KEGG stp_vs_anc_at_SN complete membership, descending rows and PNG/PDF files
+PASS: GSEA KEGG interaction_stk_vs_anc_at_TSB_vs_SN complete membership, descending rows and PNG/PDF files
+PASS: GSEA KEGG interaction_stp_vs_anc_at_TSB_vs_SN complete membership, descending rows and PNG/PDF files
+PASS: GSEA KEGG interaction_stp_vs_stk_at_TSB_vs_SN complete membership, descending rows and PNG/PDF files
+PASS: GSEA GO_BP TSB_vs_SN_at_anc complete membership, descending rows and PNG/PDF files
+PASS: GSEA GO_BP TSB_vs_SN_at_stk complete membership, descending rows and PNG/PDF files
+PASS: GSEA GO_BP TSB_vs_SN_at_stp complete membership, descending rows and PNG/PDF files
+PASS: GSEA GO_BP stk_vs_anc_at_TSB complete membership, descending rows and PNG/PDF files
+PASS: GSEA GO_BP stp_vs_anc_at_TSB complete membership, descending rows and PNG/PDF files
+PASS: GSEA GO_BP stk_vs_anc_at_SN complete membership, descending rows and PNG/PDF files
+PASS: GSEA GO_BP stp_vs_anc_at_SN complete membership, descending rows and PNG/PDF files
+PASS: GSEA GO_BP interaction_stk_vs_anc_at_TSB_vs_SN complete membership, descending rows and PNG/PDF files
+PASS: GSEA GO_BP interaction_stp_vs_anc_at_TSB_vs_SN complete membership, descending rows and PNG/PDF files
+PASS: GSEA GO_BP interaction_stp_vs_stk_at_TSB_vs_SN complete membership, descending rows and PNG/PDF files
+PASS: GSEA GO_MF TSB_vs_SN_at_anc complete membership, descending rows and PNG/PDF files
+PASS: GSEA GO_MF TSB_vs_SN_at_stk complete membership, descending rows and PNG/PDF files
+PASS: GSEA GO_MF TSB_vs_SN_at_stp complete membership, descending rows and PNG/PDF files
+PASS: GSEA GO_MF stk_vs_anc_at_TSB complete membership, descending rows and PNG/PDF files
+PASS: GSEA GO_MF stp_vs_anc_at_TSB complete membership, descending rows and PNG/PDF files
+PASS: GSEA GO_MF stk_vs_anc_at_SN complete membership, descending rows and PNG/PDF files
+PASS: GSEA GO_MF stp_vs_anc_at_SN complete membership, descending rows and PNG/PDF files
+PASS: GSEA GO_MF interaction_stk_vs_anc_at_TSB_vs_SN complete membership, descending rows and PNG/PDF files
+PASS: GSEA GO_MF interaction_stp_vs_anc_at_TSB_vs_SN complete membership, descending rows and PNG/PDF files
+PASS: GSEA GO_MF interaction_stp_vs_stk_at_TSB_vs_SN complete membership, descending rows and PNG/PDF files
+PASS: GSEA GO_CC TSB_vs_SN_at_anc complete membership, descending rows and PNG/PDF files
+PASS: GSEA GO_CC TSB_vs_SN_at_stk complete membership, descending rows and PNG/PDF files
+PASS: GSEA GO_CC TSB_vs_SN_at_stp complete membership, descending rows and PNG/PDF files
+PASS: GSEA GO_CC stk_vs_anc_at_TSB complete membership, descending rows and PNG/PDF files
+PASS: GSEA GO_CC stp_vs_anc_at_TSB complete membership, descending rows and PNG/PDF files
+PASS: GSEA GO_CC stk_vs_anc_at_SN complete membership, descending rows and PNG/PDF files
+PASS: GSEA GO_CC stp_vs_anc_at_SN complete membership, descending rows and PNG/PDF files
+PASS: GSEA GO_CC interaction_stk_vs_anc_at_TSB_vs_SN complete membership, descending rows and PNG/PDF files
+PASS: GSEA GO_CC interaction_stp_vs_anc_at_TSB_vs_SN complete membership, descending rows and PNG/PDF files
+PASS: GSEA GO_CC interaction_stp_vs_stk_at_TSB_vs_SN complete membership, descending rows and PNG/PDF files
+PASS: ORA KEGG TSB_vs_SN_at_anc complete membership, descending rows and PNG/PDF files
+PASS: ORA KEGG TSB_vs_SN_at_stk complete membership, descending rows and PNG/PDF files
+PASS: ORA KEGG TSB_vs_SN_at_stp complete membership, descending rows and PNG/PDF files
+PASS: ORA KEGG stk_vs_anc_at_TSB complete membership, descending rows and PNG/PDF files
+PASS: ORA KEGG stp_vs_anc_at_TSB complete membership, descending rows and PNG/PDF files
+PASS: ORA KEGG stk_vs_anc_at_SN complete membership, descending rows and PNG/PDF files
+PASS: ORA KEGG stp_vs_anc_at_SN complete membership, descending rows and PNG/PDF files
+PASS: ORA KEGG interaction_stk_vs_anc_at_TSB_vs_SN complete membership, descending rows and PNG/PDF files
+PASS: ORA KEGG interaction_stp_vs_anc_at_TSB_vs_SN complete membership, descending rows and PNG/PDF files
+PASS: ORA KEGG interaction_stp_vs_stk_at_TSB_vs_SN complete membership, descending rows and PNG/PDF files
+PASS: ORA GO_BP TSB_vs_SN_at_anc complete membership, descending rows and PNG/PDF files
+PASS: ORA GO_BP TSB_vs_SN_at_stk complete membership, descending rows and PNG/PDF files
+PASS: ORA GO_BP TSB_vs_SN_at_stp complete membership, descending rows and PNG/PDF files
+PASS: ORA GO_BP stk_vs_anc_at_TSB complete membership, descending rows and PNG/PDF files
+PASS: ORA GO_BP stp_vs_anc_at_TSB complete membership, descending rows and PNG/PDF files
+PASS: ORA GO_BP stk_vs_anc_at_SN complete membership, descending rows and PNG/PDF files
+PASS: ORA GO_BP stp_vs_anc_at_SN complete membership, descending rows and PNG/PDF files
+PASS: ORA GO_BP interaction_stk_vs_anc_at_TSB_vs_SN complete membership, descending rows and PNG/PDF files
+PASS: ORA GO_BP interaction_stp_vs_anc_at_TSB_vs_SN complete membership, descending rows and PNG/PDF files
+PASS: ORA GO_BP interaction_stp_vs_stk_at_TSB_vs_SN complete membership, descending rows and PNG/PDF files
+PASS: ORA GO_MF TSB_vs_SN_at_anc complete membership, descending rows and PNG/PDF files
+PASS: ORA GO_MF TSB_vs_SN_at_stk complete membership, descending rows and PNG/PDF files
+PASS: ORA GO_MF TSB_vs_SN_at_stp complete membership, descending rows and PNG/PDF files
+PASS: ORA GO_MF stk_vs_anc_at_TSB complete membership, descending rows and PNG/PDF files
+PASS: ORA GO_MF stp_vs_anc_at_TSB complete membership, descending rows and PNG/PDF files
+PASS: ORA GO_MF stk_vs_anc_at_SN complete membership, descending rows and PNG/PDF files
+PASS: ORA GO_MF stp_vs_anc_at_SN complete membership, descending rows and PNG/PDF files
+PASS: ORA GO_MF interaction_stk_vs_anc_at_TSB_vs_SN complete membership, descending rows and PNG/PDF files
+PASS: ORA GO_MF interaction_stp_vs_anc_at_TSB_vs_SN complete membership, descending rows and PNG/PDF files
+PASS: ORA GO_MF interaction_stp_vs_stk_at_TSB_vs_SN complete membership, descending rows and PNG/PDF files
+PASS: ORA GO_CC TSB_vs_SN_at_anc complete membership, descending rows and PNG/PDF files
+PASS: ORA GO_CC TSB_vs_SN_at_stk complete membership, descending rows and PNG/PDF files
+PASS: ORA GO_CC TSB_vs_SN_at_stp complete membership, descending rows and PNG/PDF files
+PASS: ORA GO_CC stk_vs_anc_at_TSB complete membership, descending rows and PNG/PDF files
+PASS: ORA GO_CC stp_vs_anc_at_TSB complete membership, descending rows and PNG/PDF files
+PASS: ORA GO_CC stk_vs_anc_at_SN complete membership, descending rows and PNG/PDF files
+PASS: ORA GO_CC stp_vs_anc_at_SN complete membership, descending rows and PNG/PDF files
+PASS: ORA GO_CC interaction_stk_vs_anc_at_TSB_vs_SN complete membership, descending rows and PNG/PDF files
+PASS: ORA GO_CC interaction_stp_vs_anc_at_TSB_vs_SN complete membership, descending rows and PNG/PDF files
+PASS: ORA GO_CC interaction_stp_vs_stk_at_TSB_vs_SN complete membership, descending rows and PNG/PDF files
+
+All observed-only analysis and uncapped plotting checks passed.

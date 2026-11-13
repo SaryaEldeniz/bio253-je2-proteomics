@@ -65,10 +65,9 @@ kinase mutant. The negative phosphatase-versus-kinase interaction is consistent
 with a larger fall in the kinase mutant than in the phosphatase mutant.
 
 The [measured sample-value plot](../../figures/step05/step05_candidate_sample_values.png)
-shows six purine enzymes with 3/3 measured values in each of the nine groups.
-Their abundances fall visibly in long SN, while their 15-minute pulse values
-remain much closer to TSB. The pulse pattern is descriptive context: pulse
-contrasts were not included in this ten-contrast enrichment analysis.
+shows six purine enzymes with 3/3 measured values in each displayed TSB/SN group.
+Their abundances fall visibly in long SN. The 15-minute pulse is omitted from
+the revised sample plots and is outside this ten-contrast enrichment analysis.
 These six identifiers were also checked against current reference entries:
 [PurD Q2FZI5](https://rest.uniprot.org/uniprotkb/Q2FZI5.json),
 [PurH Q2FZI6](https://rest.uniprot.org/uniprotkb/Q2FZI6.json),
@@ -170,8 +169,8 @@ enrichment memberships from the small live STRING context network. Functional
 network edges do not demonstrate direct binding or kinase-substrate relationships.
 
 The sample-value plot also makes the existing mutant caveat visible. Stp1 values
-in the stp background are highly variable, with a high sample in the pulse/SN
-groups; its TSB group has only 1/3 measured values. Stk1 has 0/3 measured values
+in the stp background are highly variable, with a high sample in the SN
+group; its TSB group has only 1/3 measured values. Stk1 has 0/3 measured values
 in stp SN. A missing detection is not a measured zero. Consequently, the stp
 phenotype cannot automatically be interpreted as an isolated phosphatase effect
 with normal kinase abundance. This step preserves the supplied DEA rather than

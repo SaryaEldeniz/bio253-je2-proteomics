@@ -64,6 +64,7 @@ if(file.exists(file.path(out,"live_uniprot_checks.tsv"))) {
     " STRING reference IDs were verified against UniProt cross-references. The small functional network provides context; it is not independent proof of direct targets.")
 }
 lines<-c("# Step 5: October total-proteome functional enrichment", "",
+  "> Updated display request (2026-11-13): [all significant GO/KEGG results excluding source LOD models](observed_only/README.md). The report below retains the original primary analysis; the new observed-only figures use their own matching background and recalculated enrichment statistics. Sample-evidence PNGs now show TSB and SN only.","",
   paste0("Generated ",format(Sys.time(),"%Y-%m-%d %H:%M %Z")," from the saved October comparisons."),"",
   "ORA and GSEA are complete for ten comparisons, with three separately labelled sensitivity policies. The source protein effects/FDRs were preserved. These analyses identify concentrations of protein abundance changes in functional categories; they do not directly measure pathway activity or phosphorylation.","",
   "## How many tests and findings?", "",md_table(totals),"",

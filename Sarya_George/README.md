@@ -107,6 +107,29 @@ BH FDR <0.1 by method across all ten comparisons and five collections.
 This step concerns protein abundance. Phosphosite localization, protein-adjusted
 site changes, Venn diagrams and sequence logos remain in the later site workflow.
 
+### Requested view: all significant GO/KEGG terms without source LOD flags
+
+The [observed-only figure index](reports/step05/observed_only/README.md) contains
+every significant GO BP/MF/CC and KEGG result for each of the ten comparisons,
+without Top-N truncation. GSEA rows run from highest signed NES to lowest;
+ORA rows run from highest fold enrichment to lowest within each direction panel.
+The original primary Top-N figures remain the initial broad-universe view.
+
+```r
+source("run_step.R")
+run_project_step("enrichment_observed")
+run_project_step("enrichment_all_figures")
+View(read_enrichment("GSEA",policy="observed_only",collection="KEGG"))
+```
+
+This analysis removes source-model `lod_imputed` entries from the background,
+ORA lists and GSEA ranking before testing. Its 1,858 eligible mapped proteins
+include some with only 1/3 measured values in a relevant group. It deliberately
+does not add the extra >=2/3 restriction of `observed_replicated`. Enrichment
+FDRs are recalculated for this background; source protein-level effects/FDRs
+are preserved. The original effective-set size filter (10-500) and study FDR<0.1
+remain unchanged. Sample-evidence plots now display TSB and SN only.
+
 ## Checks and provenance
 
 Run the `tests/check_design.R`, `tests/check_identifiers.R`,

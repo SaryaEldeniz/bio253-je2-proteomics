@@ -1,6 +1,8 @@
 # Step 5: October total-proteome functional enrichment
 
-Generated 2026-11-12 15:33 CET from the saved October comparisons.
+> Updated display request (2026-11-13): [all significant GO/KEGG results excluding source LOD models](observed_only/README.md). The report below retains the original primary analysis; the new observed-only figures use their own matching background and recalculated enrichment statistics. Sample-evidence PNGs now show TSB and SN only.
+
+Generated 2026-11-13 10:55 CET from the saved October comparisons.
 
 ORA and GSEA are complete for ten comparisons, with three separately labelled sensitivity policies. The source protein effects/FDRs were preserved. These analyses identify concentrations of protein abundance changes in functional categories; they do not directly measure pathway activity or phosphorylation.
 

@@ -33,5 +33,6 @@ dir.create(report_dir, recursive = TRUE, showWarnings = FALSE)
 dir.create(figure_dir, recursive = TRUE, showWarnings = FALSE)
 write.table(interaction_table, file.path(report_dir, "step07_phospho_parent_counts.tsv"),
             sep = "\t", quote = FALSE, row.names = FALSE)
-plot_step07_volcano(phospho, contrasts, titles,
+figure_titles <- c("stk vs ancestor", "stp vs ancestor", "stp vs stk")
+plot_step07_volcano(phospho, contrasts, figure_titles,
                     file.path(figure_dir, "figure07_phospho_interaction_volcanoes.png"))

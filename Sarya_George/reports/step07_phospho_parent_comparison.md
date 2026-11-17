@@ -28,7 +28,7 @@ These are comparisons of separately fitted effects. Establishing a phosphorylati
 
 ![Phospho-STYH volcano plots for the three TSB versus SN interactions](../figures/step07/figure07_phospho_interaction_volcanoes.png)
 
-The panels show the STYH interaction effect and −log₁₀(FDR) on common axes. Following the Step 4 plotting convention, significant negative effects are blue, significant positive effects are orange, and grey marks estimates below the thresholds. Circles denote source-observed estimates and crosses denote LOD-flagged estimates. Symbols summarize bins of 0.5 log₂ fold change by 0.25 −log₁₀(FDR). Symbol size increases with the number of estimates in the bin. The panel totals come from the original estimates. [Step 4 Volcano reference](https://github.com/SaryaEldeniz/bio253-je2-proteomics/blob/a43d574/Sarya_George/R/figures/step04_plots.R)
+The panels show the STYH interaction effect and −log₁₀(phosphosite FDR) on common axes. Orange marks significant negative effects, green marks significant positive effects and dark blue marks estimates below the combined thresholds. Arrows mark the significant hits labelled `observed` in the source DEA. There are 1, 1 and 4 such hits in panel order. Points summarize bins of 0.5 log₂ fold change by 0.25 −log₁₀(FDR). The counts below each panel come from the original estimates.
 
 ## Reproduce
 

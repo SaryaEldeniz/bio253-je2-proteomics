@@ -1,0 +1,58 @@
+module,term_id,protein,locus_tag,uniprot_acc,product,leading_edge_in
+Purine metabolism,map00230,B7H15_00135,B7H15_00135,Q2G253,"multifunctional 2',3'-cyclic-nucleotide 2'-phosphodiesterase/5'-nucleotidase/3'-nucleotidase","stk/anc, stp/stk"
+Purine metabolism,map00230,B7H15_00805,B7H15_00805,Q2G1L5,bifunctional metallophosphatase/5'-nucleotidase,stk/anc
+Purine metabolism,map00230,B7H15_04035,B7H15_04035,Q2G086,5'(3')-deoxyribonucleotidase,"stk/anc, stp/stk"
+Purine metabolism,map00230,B7H15_04455,B7H15_04455,Q2G010,thermonuclease,stp/stk
+Purine metabolism,map00230,B7H15_05185,B7H15_05185,Q2G204,GTP pyrophosphokinase,stp/stk
+Purine metabolism,map00230,B7H15_05985,B7H15_05985,Q2FZC5,non-canonical purine NTP pyrophosphatase,"stk/anc, stp/stk"
+Purine metabolism,map00230,B7H15_07765,B7H15_07765,Q2FYG2,DNA-binding protein HU,stp/stk
+Purine metabolism,map00230,B7H15_13940,B7H15_13940,Q2G2L7,GTP pyrophosphokinase,"stk/anc, stp/stk"
+Purine metabolism,map00230,B7H15_14555,B7H15_14555,Q2FV02,anaerobic ribonucleoside-triphosphate reductase,stk/anc
+Purine metabolism,map00230,B7H15_14945,B7H15_14945,Q2FUT0,DNA-directed RNA polymerase subunit delta,"stk/anc, stp/stk"
+Purine metabolism,map00230,adk,B7H15_12380,Q2FW27,adenylate kinase,stp/stk
+Purine metabolism,map00230,guaB,B7H15_02145,Q2G0Y7,IMP dehydrogenase,stp/stk
+Purine metabolism,map00230,isaA,B7H15_14290,Q2FV52,transglycosylase IsaA,"stk/anc, stp/stk"
+Purine metabolism,map00230,prs,B7H15_02655,Q2G0S2,ribose-phosphate pyrophosphokinase,stk/anc
+Purine metabolism,map00230,purA,B7H15_00095,Q2G1S3,adenylosuccinate synthetase,stk/anc
+Purine metabolism,map00230,purC,B7H15_05525,Q2FZJ3,phosphoribosylaminoimidazolesuccinocarboxamide synthase,"stk/anc, stp/stk"
+Purine metabolism,map00230,purD,B7H15_05565,Q2FZI5,phosphoribosylamine--glycine ligase,"stk/anc, stp/stk"
+Purine metabolism,map00230,purF,B7H15_05545,Q2FZI9,amidophosphoribosyltransferase,"stk/anc, stp/stk"
+Purine metabolism,map00230,purH,B7H15_05560,Q2FZI6,bifunctional phosphoribosylaminoimidazolecarboxamide formyltransferase/inosine monophosphate cyclohydrolase,"stk/anc, stp/stk"
+Purine metabolism,map00230,purK,B7H15_05520,Q2FZJ4,5-(carboxyamino)imidazole ribonucleotide synthase,"stk/anc, stp/stk"
+Purine metabolism,map00230,purL,B7H15_05540,Q2FZJ0,phosphoribosylformylglycinamidine synthase subunit PurL,"stk/anc, stp/stk"
+Purine metabolism,map00230,purM,B7H15_05550,Q2FZI8,phosphoribosylformylglycinamidine cyclo-ligase,"stk/anc, stp/stk"
+Purine metabolism,map00230,purN,B7H15_05555,Q2FZI7,phosphoribosylglycinamide formyltransferase,stk/anc
+Purine metabolism,map00230,purQ,B7H15_05535,Q2FZJ1,phosphoribosylformylglycinamidine synthase subunit PurQ,"stk/anc, stp/stk"
+Purine metabolism,map00230,purS,B7H15_05530,Q2FZJ2,phosphoribosylformylglycinamidine synthase,"stk/anc, stp/stk"
+Purine metabolism,map00230,pyk,B7H15_09250,Q2FXM9,pyruvate kinase,stp/stk
+Purine metabolism,map00230,sceD,B7H15_11645,Q2FWF8,transglycosylase SceD,stp/stk
+Purine metabolism,map00230,xpt,B7H15_02135,Q2G0Y9,xanthine phosphoribosyltransferase,"stk/anc, stp/stk"
+Oxidative phosphorylation,map00190,B7H15_05630,B7H15_05630,Q2FZH3,cytochrome ubiquinol oxidase subunit I,stk/anc
+Oxidative phosphorylation,map00190,B7H15_05635,B7H15_05635,Q2FZH2,cytochrome D ubiquinol oxidase subunit II,stk/anc
+Oxidative phosphorylation,map00190,B7H15_06670,B7H15_06670,Q2FZ16,peptidase M16,stk/anc
+Oxidative phosphorylation,map00190,B7H15_06675,B7H15_06675,Q2FZ15,peptidase M16,stk/anc
+Oxidative phosphorylation,map00190,atpA,B7H15_11695,Q2FWE8,ATP synthase subunit alpha,stk/anc
+Oxidative phosphorylation,map00190,atpC,B7H15_11680,Q2FWF1,ATP synthase epsilon chain,stk/anc
+Oxidative phosphorylation,map00190,atpD,B7H15_11685,Q2FWF0,ATP synthase subunit beta,stk/anc
+Oxidative phosphorylation,map00190,atpG,B7H15_11690,Q2FWE9,ATP synthase subunit gamma,stk/anc
+Oxidative phosphorylation,map00190,atpH,B7H15_11700,Q2FWE7,ATP synthase subunit delta,stk/anc
+Oxidative phosphorylation,map00190,qoxA,B7H15_05490,Q2FZJ9,quinol oxidase subunit 2,stk/anc
+Oxidative phosphorylation,map00190,qoxB,B7H15_05485,Q2FZK0,cytochrome ubiquinol oxidase subunit I,stk/anc
+Oxidative phosphorylation,map00190,rbfA,B7H15_06625,Q2G2Q4,ribosome-binding factor A,stk/anc
+Nitrogen metabolism,map00910,B7H15_02470,B7H15_02470,Q2G0U2,glutamate synthase large subunit,stp/anc
+Nitrogen metabolism,map00910,B7H15_13270,B7H15_13270,Q2FVM4,respiratory nitrate reductase subunit gamma,stp/anc
+Nitrogen metabolism,map00910,B7H15_13280,B7H15_13280,Q2FVM2,nitrate reductase subunit beta,stp/anc
+Nitrogen metabolism,map00910,B7H15_13285,B7H15_13285,Q2FVM1,nitrate reductase subunit alpha,stp/anc
+Nitrogen metabolism,map00910,B7H15_13295,B7H15_13295,Q2FVL9,nitrite reductase (NAD(P)H) small subunit,stp/anc
+Aminoacyl-tRNA biosynthesis,map00970,alaS,B7H15_08850,Q2FXV9,alanine--tRNA ligase,stp/stk
+Aminoacyl-tRNA biosynthesis,map00970,asnC,B7H15_07670,Q2FYH6,asparagine--tRNA ligase,stp/stk
+Aminoacyl-tRNA biosynthesis,map00970,aspS,B7H15_08920,Q2FXU5,aspartate--tRNA ligase,stp/stk
+Aminoacyl-tRNA biosynthesis,map00970,cysS,B7H15_02900,Q2G2M6,cysteine--tRNA ligase,stp/stk
+Aminoacyl-tRNA biosynthesis,map00970,glyQS,B7H15_08590,Q2FY08,glycine--tRNA ligase,stp/stk
+Aminoacyl-tRNA biosynthesis,map00970,hisS,B7H15_08925,Q2FXU4,histidine--tRNA ligase,stp/stk
+Aminoacyl-tRNA biosynthesis,map00970,ileS,B7H15_06220,Q2FZ82,isoleucine--tRNA ligase,stp/stk
+Aminoacyl-tRNA biosynthesis,map00970,leuS,B7H15_09590,Q2FXH2,leucine--tRNA ligase,stp/stk
+Aminoacyl-tRNA biosynthesis,map00970,metG,B7H15_02600,Q2G1R9,methionine--tRNA ligase,stp/stk
+Aminoacyl-tRNA biosynthesis,map00970,proS,B7H15_06585,Q2G1Z4,proline--tRNA ligase,stp/stk
+Aminoacyl-tRNA biosynthesis,map00970,tyrS,B7H15_09420,Q2FXJ5,tyrosine--tRNA ligase,stp/stk
+Aminoacyl-tRNA biosynthesis,map00970,valS,B7H15_09060,Q2FXR8,valine--tRNA ligase,stp/stk

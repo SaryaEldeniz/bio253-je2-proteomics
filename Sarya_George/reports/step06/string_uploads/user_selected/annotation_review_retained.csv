@@ -1,0 +1,8 @@
+selection_order,uniprot_acc,protein_key,locus_tag,display_name,product,modules,annotation_review,annotation_notes,upload_role
+37,Q2G010,lcl_CP020619.1_prot_ARG45343.1_866,B7H15_04455,B7H15_04455,thermonuclease,Purine metabolism,TRUE,Thermonuclease: supplied purine membership needs review,User selected from sample plots
+38,Q2FYK7,lcl_CP020619.1_prot_ARG45927.1_1476,B7H15_07520,B7H15_07520,fatty acid-binding protein DegV,Purine metabolism,TRUE,DegV fatty-acid-binding protein: biochemical basis for purine membership needs review,User selected from sample plots
+39,Q2FYG2,lcl_CP020619.1_prot_ARG45971.1_1524,B7H15_07765,B7H15_07765,DNA-binding protein HU,Purine metabolism,TRUE,DNA-binding HU: supplied purine membership needs review,User selected from sample plots
+40,Q2FUT0,lcl_CP020619.1_prot_ARG47266.1_2907,B7H15_14945,B7H15_14945,DNA-directed RNA polymerase subunit delta,Purine metabolism,TRUE,RNA polymerase delta: supplied purine membership needs review,User selected from sample plots
+41,Q2FV52,lcl_CP020619.1_prot_ARG47142.1_2776,B7H15_14290,isaA,transglycosylase IsaA,Purine metabolism,TRUE,Transglycosylase IsaA: supplied purine membership needs review,User selected from sample plots
+42,Q2FXM9,lcl_CP020619.1_prot_ARG46254.1_1820,B7H15_09250,pyk,pyruvate kinase,Purine metabolism,TRUE,Pyruvate kinase: supplied purine membership needs review,User selected from sample plots
+43,Q2FWF8,lcl_CP020619.1_prot_ARG46658.1_2256,B7H15_11645,sceD,transglycosylase SceD,Purine metabolism,TRUE,Transglycosylase SceD: supplied purine membership needs review,User selected from sample plots

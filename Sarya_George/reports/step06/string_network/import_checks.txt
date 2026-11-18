@@ -1,0 +1,7 @@
+All 49 requested IDs uniquely matched through exact alias tokens; all in taxon93061.
+204 edges at >=0.4; 104 at >=0.7.
+10 isolates at >=0.4; 14 at >=0.7.
+Annotation description/URL columns corrected: TRUE
+Functional annotation rows are memberships, not ORA/GSEA results; no new enrichment FDR is present.
+Reference FASTA sequences are not JE2 phosphosite-coordinate sequences.
+PSI-MI XML was archived as supporting evidence, not treated as a STRING version declaration.

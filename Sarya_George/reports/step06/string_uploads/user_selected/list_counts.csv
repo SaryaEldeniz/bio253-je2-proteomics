@@ -1,0 +1,5 @@
+module,file_stem,selected,with_anchors,retained_annotation_flags
+Purine metabolism,purine,24,26,7
+Oxidative phosphorylation,oxidative_phosphorylation,5,7,0
+Nitrogen metabolism,nitrogen,3,5,0
+Aminoacyl-tRNA biosynthesis,aminoacyl_tRNA,15,17,0

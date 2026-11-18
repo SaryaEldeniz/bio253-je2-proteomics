@@ -1,0 +1,4 @@
+contrast	priority	question	contrast_type	contrast_label	positive_direction	negative_direction	formula	contrast_code
+interaction_stk_vs_anc_at_TSB_vs_SN	core	Does the kinase mutant differ in its PASN response?	interaction	stk vs anc: PASN response difference	SN-TSB change more positive in anc	SN-TSB change more positive in stk	(anc_SN + stk_TSB) - (anc_TSB + stk_SN)	stk_anc
+interaction_stp_vs_anc_at_TSB_vs_SN	core	Does the phosphatase mutant differ in its PASN response?	interaction	stp vs anc: PASN response difference	SN-TSB change more positive in anc	SN-TSB change more positive in stp	(anc_SN + stp_TSB) - (anc_TSB + stp_SN)	stp_anc
+interaction_stp_vs_stk_at_TSB_vs_SN	follow_up	Do the two mutants differ in their PASN response?	interaction	stp vs stk: PASN response difference	SN-TSB change more positive in stk	SN-TSB change more positive in stp	(stk_SN + stp_TSB) - (stk_TSB + stp_SN)	stp_stk

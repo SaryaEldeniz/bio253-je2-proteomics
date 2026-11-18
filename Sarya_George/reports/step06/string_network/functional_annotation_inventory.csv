@@ -1,0 +1,12 @@
+category,node_term_rows,unique_terms,annotated_nodes
+COMPARTMENTS,183,43,46
+GO Component,253,52,48
+GO Function,942,166,49
+GO Process,1220,302,48
+InterPro,307,234,49
+KEGG,92,20,34
+Pfam,69,49,40
+Reactome,14,11,4
+SMART,18,18,16
+STRING clusters,332,114,49
+UniProt Keywords,295,73,48

@@ -1,0 +1,48 @@
+uniprot_acc,selection_order,protein_key,term_id,module,file_stem,locus_tag,display_name,product,ortholog_quality,eligible_uniprot_annotation,n_JE2_good_total_DEA,in_total_DEA,annotation_note,annotation_review,in_interaction_data
+Q2G253,1,lcl_CP020619.1_prot_ARG44565.1_25,map00230,Purine metabolism,purine,B7H15_00135,B7H15_00135,"multifunctional 2',3'-cyclic-nucleotide 2'-phosphodiesterase/5'-nucleotidase/3'-nucleotidase",good,TRUE,1,TRUE,NA,FALSE,TRUE
+Q2G1L5,2,lcl_CP020619.1_prot_ARG44682.1_159,map00230,Purine metabolism,purine,B7H15_00805,B7H15_00805,bifunctional metallophosphatase/5'-nucleotidase,good,TRUE,1,TRUE,NA,FALSE,TRUE
+Q2G149,3,lcl_CP020619.1_prot_ARG44865.1_357,map00230,Purine metabolism,purine,B7H15_01795,B7H15_01795,hypothetical protein,good,TRUE,1,TRUE,NA,FALSE,TRUE
+Q2FZX5,4,lcl_CP020619.1_prot_ARG45401.1_928,map00230,Purine metabolism,purine,B7H15_04765,B7H15_04765,bifunctional metallophosphatase/5'-nucleotidase,good,TRUE,1,TRUE,NA,FALSE,TRUE
+Q2FZC5,5,lcl_CP020619.1_prot_ARG45635.1_1170,map00230,Purine metabolism,purine,B7H15_05985,B7H15_05985,non-canonical purine NTP pyrophosphatase,good,TRUE,1,TRUE,NA,FALSE,TRUE
+Q2FVX0,6,lcl_CP020619.1_prot_ARG46843.1_2452,map00230,Purine metabolism,purine,B7H15_12670,B7H15_12670,purine nucleosidase,good,TRUE,1,TRUE,NA,FALSE,TRUE
+Q2FW27,7,lcl_CP020619.1_prot_ARG46788.1_2394,map00230,Purine metabolism,purine,B7H15_12380,adk,adenylate kinase,good,TRUE,1,TRUE,NA,FALSE,TRUE
+Q2FXU0,8,lcl_CP020619.1_prot_ARG46197.1_1759,map00230,Purine metabolism,purine,B7H15_08945,apt,adenine phosphoribosyltransferase,good,TRUE,1,TRUE,NA,FALSE,TRUE
+Q2G1U0,9,lcl_CP020619.1_prot_ARG45692.1_1232,map00230,Purine metabolism,purine,B7H15_06300,gmk,guanylate kinase,good,TRUE,1,TRUE,NA,FALSE,TRUE
+Q2FYU4,10,lcl_CP020619.1_prot_ARG45833.1_1378,map00230,Purine metabolism,purine,B7H15_07030,guaC,guanosine monophosphate reductase,good,TRUE,1,TRUE,NA,FALSE,TRUE
+Q2FXP3,11,lcl_CP020619.1_prot_ARG46243.1_1807,map00230,Purine metabolism,purine,B7H15_09185,nrdR,transcriptional regulator NrdR,good,TRUE,1,TRUE,NA,FALSE,TRUE
+Q2G0S2,12,lcl_CP020619.1_prot_ARG45023.1_524,map00230,Purine metabolism,purine,B7H15_02655,prs,ribose-phosphate pyrophosphokinase,good,TRUE,1,TRUE,NA,FALSE,TRUE
+Q2G2K5,13,lcl_CP020619.1_prot_ARG46848.1_2458,map00230,Purine metabolism,purine,B7H15_12700,ureC,urease subunit alpha,good,TRUE,1,TRUE,NA,FALSE,TRUE
+Q2FWE8,14,lcl_CP020619.1_prot_ARG46668.1_2266,map00190,Oxidative phosphorylation,oxidative_phosphorylation,B7H15_11695,atpA,ATP synthase subunit alpha,good,TRUE,1,TRUE,NA,FALSE,TRUE
+Q2FWF0,15,lcl_CP020619.1_prot_ARG46666.1_2264,map00190,Oxidative phosphorylation,oxidative_phosphorylation,B7H15_11685,atpD,ATP synthase subunit beta,good,TRUE,1,TRUE,NA,FALSE,TRUE
+Q2G2F8,16,lcl_CP020619.1_prot_ARG46670.1_2268,map00190,Oxidative phosphorylation,oxidative_phosphorylation,B7H15_11705,atpF,ATP synthase subunit B,good,TRUE,1,TRUE,NA,FALSE,TRUE
+Q2FWE9,17,lcl_CP020619.1_prot_ARG46667.1_2265,map00190,Oxidative phosphorylation,oxidative_phosphorylation,B7H15_11690,atpG,ATP synthase subunit gamma,good,TRUE,1,TRUE,NA,FALSE,TRUE
+Q2FWE7,18,lcl_CP020619.1_prot_ARG46669.1_2267,map00190,Oxidative phosphorylation,oxidative_phosphorylation,B7H15_11700,atpH,ATP synthase subunit delta,good,TRUE,1,TRUE,NA,FALSE,TRUE
+Q2FVL9,19,lcl_CP020619.1_prot_ARG46960.1_2577,map00910,Nitrogen metabolism,nitrogen,B7H15_13295,B7H15_13295,nitrite reductase (NAD(P)H) small subunit,good,TRUE,1,TRUE,NA,FALSE,TRUE
+Q2FZX9,20,lcl_CP020619.1_prot_ARG45397.1_924,map00910,Nitrogen metabolism,nitrogen,B7H15_04745,NMO,nitronate monooxygenase,good,TRUE,1,TRUE,NA,FALSE,TRUE
+Q2G0U2,21,lcl_CP020619.1_prot_ARG44991.1_492,map00910,Nitrogen metabolism,nitrogen,B7H15_02470,B7H15_02470,glutamate synthase large subunit,good,TRUE,1,TRUE,NA,FALSE,TRUE
+Q2FXV9,22,lcl_CP020619.1_prot_ARG46180.1_1741,map00970,Aminoacyl-tRNA biosynthesis,aminoacyl_tRNA,B7H15_08850,alaS,alanine--tRNA ligase,good,TRUE,1,TRUE,NA,FALSE,TRUE
+Q2G0F8,23,lcl_CP020619.1_prot_ARG45141.1_652,map00970,Aminoacyl-tRNA biosynthesis,aminoacyl_tRNA,B7H15_03375,argS,arginine--tRNA ligase,good,TRUE,1,TRUE,NA,FALSE,TRUE
+Q2FYH6,24,lcl_CP020619.1_prot_ARG45955.1_1505,map00970,Aminoacyl-tRNA biosynthesis,aminoacyl_tRNA,B7H15_07670,asnC,asparagine--tRNA ligase,good,TRUE,1,TRUE,NA,FALSE,TRUE
+Q2FXU5,25,lcl_CP020619.1_prot_ARG46192.1_1754,map00970,Aminoacyl-tRNA biosynthesis,aminoacyl_tRNA,B7H15_08920,aspS,aspartate--tRNA ligase,good,TRUE,1,TRUE,NA,FALSE,TRUE
+Q2G2M6,26,lcl_CP020619.1_prot_ARG45054.1_557,map00970,Aminoacyl-tRNA biosynthesis,aminoacyl_tRNA,B7H15_02900,cysS,cysteine--tRNA ligase,good,TRUE,1,TRUE,NA,FALSE,TRUE
+Q2FWZ0,27,lcl_CP020619.1_prot_ARG46466.1_2051,map00970,Aminoacyl-tRNA biosynthesis,aminoacyl_tRNA,B7H15_10595,gatB,aspartyl/glutamyl-tRNA(Asn/Gln) amidotransferase subunit B,good,TRUE,1,TRUE,NA,FALSE,TRUE
+Q2FY08,28,lcl_CP020619.1_prot_ARG46131.1_1689,map00970,Aminoacyl-tRNA biosynthesis,aminoacyl_tRNA,B7H15_08590,glyQS,glycine--tRNA ligase,good,TRUE,1,TRUE,NA,FALSE,TRUE
+Q2FXU4,29,lcl_CP020619.1_prot_ARG46193.1_1755,map00970,Aminoacyl-tRNA biosynthesis,aminoacyl_tRNA,B7H15_08925,hisS,histidine--tRNA ligase,good,TRUE,1,TRUE,NA,FALSE,TRUE
+Q2FZ82,30,lcl_CP020619.1_prot_ARG45677.1_1216,map00970,Aminoacyl-tRNA biosynthesis,aminoacyl_tRNA,B7H15_06220,ileS,isoleucine--tRNA ligase,good,TRUE,1,TRUE,NA,FALSE,TRUE
+Q2G0Q3,31,lcl_CP020619.1_prot_ARG45042.1_543,map00970,Aminoacyl-tRNA biosynthesis,aminoacyl_tRNA,B7H15_02750,lysS,lysine--tRNA ligase,good,TRUE,1,TRUE,NA,FALSE,TRUE
+Q2G1R9,32,lcl_CP020619.1_prot_ARG45012.1_513,map00970,Aminoacyl-tRNA biosynthesis,aminoacyl_tRNA,B7H15_02600,metG,methionine--tRNA ligase,good,TRUE,1,TRUE,NA,FALSE,TRUE
+Q2G1Z4,33,lcl_CP020619.1_prot_ARG45748.1_1289,map00970,Aminoacyl-tRNA biosynthesis,aminoacyl_tRNA,B7H15_06585,proS,proline--tRNA ligase,good,TRUE,1,TRUE,NA,FALSE,TRUE
+P95689,34,lcl_CP020619.1_prot_ARG44550.1_10,map00970,Aminoacyl-tRNA biosynthesis,aminoacyl_tRNA,B7H15_00050,serS,serine--tRNA ligase,good,TRUE,1,TRUE,NA,FALSE,TRUE
+Q2FXJ5,35,lcl_CP020619.1_prot_ARG46287.1_1854,map00970,Aminoacyl-tRNA biosynthesis,aminoacyl_tRNA,B7H15_09420,tyrS,tyrosine--tRNA ligase,good,TRUE,1,TRUE,NA,FALSE,TRUE
+Q2FXR8,36,lcl_CP020619.1_prot_ARG46219.1_1782,map00970,Aminoacyl-tRNA biosynthesis,aminoacyl_tRNA,B7H15_09060,valS,valine--tRNA ligase,good,TRUE,1,TRUE,NA,FALSE,TRUE
+Q2G010,37,lcl_CP020619.1_prot_ARG45343.1_866,map00230,Purine metabolism,purine,B7H15_04455,B7H15_04455,thermonuclease,good,TRUE,1,TRUE,Thermonuclease: supplied purine membership needs review,TRUE,TRUE
+Q2FYK7,38,lcl_CP020619.1_prot_ARG45927.1_1476,map00230,Purine metabolism,purine,B7H15_07520,B7H15_07520,fatty acid-binding protein DegV,good,TRUE,1,TRUE,DegV fatty-acid-binding protein: biochemical basis for purine membership needs review,TRUE,TRUE
+Q2FYG2,39,lcl_CP020619.1_prot_ARG45971.1_1524,map00230,Purine metabolism,purine,B7H15_07765,B7H15_07765,DNA-binding protein HU,good,TRUE,1,TRUE,DNA-binding HU: supplied purine membership needs review,TRUE,TRUE
+Q2FUT0,40,lcl_CP020619.1_prot_ARG47266.1_2907,map00230,Purine metabolism,purine,B7H15_14945,B7H15_14945,DNA-directed RNA polymerase subunit delta,good,TRUE,1,TRUE,RNA polymerase delta: supplied purine membership needs review,TRUE,TRUE
+Q2FV52,41,lcl_CP020619.1_prot_ARG47142.1_2776,map00230,Purine metabolism,purine,B7H15_14290,isaA,transglycosylase IsaA,good,TRUE,1,TRUE,Transglycosylase IsaA: supplied purine membership needs review,TRUE,TRUE
+Q2FXM9,42,lcl_CP020619.1_prot_ARG46254.1_1820,map00230,Purine metabolism,purine,B7H15_09250,pyk,pyruvate kinase,good,TRUE,1,TRUE,Pyruvate kinase: supplied purine membership needs review,TRUE,TRUE
+Q2FWF8,43,lcl_CP020619.1_prot_ARG46658.1_2256,map00230,Purine metabolism,purine,B7H15_11645,sceD,transglycosylase SceD,good,TRUE,1,TRUE,Transglycosylase SceD: supplied purine membership needs review,TRUE,TRUE
+Q2G2S0,44,lcl_CP020619.1_prot_ARG46475.1_2060,map00230,Purine metabolism,purine,B7H15_10640,purB,adenylosuccinate lyase,good,TRUE,1,TRUE,NA,FALSE,TRUE
+Q2FYG7,45,lcl_CP020619.1_prot_ARG45967.1_1519,map00230,Purine metabolism,purine,B7H15_07740,ndk,nucleoside-diphosphate kinase,good,TRUE,1,TRUE,NA,FALSE,TRUE
+Q2G086,46,lcl_CP020619.1_prot_ARG45268.1_784,map00230,Purine metabolism,purine,B7H15_04035,B7H15_04035,5'(3')-deoxyribonucleotidase,good,TRUE,1,TRUE,NA,FALSE,TRUE
+Q2FZI9,47,lcl_CP020619.1_prot_ARG45549.1_1082,map00230,Purine metabolism,purine,B7H15_05545,purF,amidophosphoribosyltransferase,good,TRUE,1,TRUE,NA,FALSE,TRUE

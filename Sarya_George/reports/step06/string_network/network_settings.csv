@@ -1,0 +1,19 @@
+key,value
+STRING_version,12.5 (student declaration)
+species,93061
+network_type,functional
+main_threshold,0.4
+sensitivity_threshold,0.7
+expansion_partners_per_seed,5
+max_added_nodes,12
+export_annotation_headers_swapped,TRUE
+seed_export_network_type_UI,Full STRING network
+seed_export_edge_display,Evidence
+seed_export_evidence_sources,All shown sources enabled including evidence transfer
+seed_export_first_shell,none / query proteins only
+seed_export_second_shell,none
+seed_export_layout,Force-directed
+seed_export_clustering,Leiden
+seed_export_clustering_resolution,0.7
+seed_export_use_clusters_in_layout,FALSE
+seed_export_cluster_edge_display,faded lines

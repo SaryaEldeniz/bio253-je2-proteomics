@@ -1,0 +1,20 @@
+node_a,node_b,combined_score,neighborhood,fusion,cooccurrence,coexpression,experimental,database,textmining,edge_origin,name_a,name_b,high_confidence,evidence_note
+93061.SAOUHSC_01107,93061.SAOUHSC_01187,0.408,0.376,0,0,0.091,0,0,0,Student export,B7H15_05985,Stk1,FALSE,Other computational evidence; functional context only
+93061.SAOUHSC_00472,93061.SAOUHSC_01186,0.606,0,0,0,0,0.472,0.27,0.06,Student export,prs,Stp1,FALSE,Nonzero experimental channel; not direct-substrate proof
+93061.SAOUHSC_01186,93061.SAOUHSC_02490,0.427,0,0,0,0.046,0.424,0,0,Student export,Stp1,adk,FALSE,Nonzero experimental channel; not direct-substrate proof
+93061.SAOUHSC_01186,93061.SAOUHSC_02116,0.464,0.087,0,0,0.438,0,0,0,Student export,Stp1,gatB,FALSE,Other computational evidence; functional context only
+93061.SAOUHSC_01186,93061.SAOUHSC_01485,0.796,0,0,0,0,0.796,0,0,Student export,Stp1,ndk,TRUE,Nonzero experimental channel; not direct-substrate proof
+93061.SAOUHSC_01186,93061.SAOUHSC_01187,0.998,0.856,0,0.769,0.602,0.794,0,0.515,Student export,Stp1,Stk1,TRUE,Nonzero experimental channel; not direct-substrate proof
+93061.SAOUHSC_00461,93061.SAOUHSC_01187,0.467,0.429,0,0,0.106,0,0,0,Student export,metG,Stk1,FALSE,Other computational evidence; functional context only
+93061.SAOUHSC_01176,93061.SAOUHSC_01187,0.497,0.377,0,0.227,0,0,0,0,Student export,gmk,Stk1,FALSE,Other computational evidence; functional context only
+93061.SAOUHSC_00206,93061.SAOUHSC_01186,0.442,0,0,0,0.047,0.439,0,0,STRING12.5 one-round API,ldh1,Stp1,FALSE,Nonzero experimental channel; not direct-substrate proof
+93061.SAOUHSC_00471,93061.SAOUHSC_01187,0.513,0,0,0,0,0,0,0.513,STRING12.5 one-round API,glmU,Stk1,FALSE,Text-mining contributes; functional context only
+93061.SAOUHSC_00528,93061.SAOUHSC_01186,0.424,0,0,0,0,0.424,0,0,STRING12.5 one-round API,rpsG,Stp1,FALSE,Nonzero experimental channel; not direct-substrate proof
+93061.SAOUHSC_01093,93061.SAOUHSC_01187,0.571,0.264,0,0,0.442,0,0,0,STRING12.5 one-round API,pheT,Stk1,FALSE,Other computational evidence; functional context only
+93061.SAOUHSC_01183,93061.SAOUHSC_01187,0.863,0.856,0,0,0.089,0,0,0,STRING12.5 one-round API,fmt,Stk1,TRUE,Other computational evidence; functional context only
+93061.SAOUHSC_01183,93061.SAOUHSC_01186,0.986,0.856,0,0,0.907,0.096,0,0,STRING12.5 one-round API,fmt,Stp1,TRUE,Nonzero experimental channel; not direct-substrate proof
+93061.SAOUHSC_01184,93061.SAOUHSC_01187,0.908,0.864,0,0.166,0.231,0,0,0.073,STRING12.5 one-round API,B7H15_06340,Stk1,TRUE,Text-mining contributes; functional context only
+93061.SAOUHSC_01184,93061.SAOUHSC_01186,0.978,0.856,0,0,0.848,0,0,0.095,STRING12.5 one-round API,B7H15_06340,Stp1,TRUE,Text-mining contributes; functional context only
+93061.SAOUHSC_01186,93061.SAOUHSC_02922,0.442,0,0,0,0.047,0.439,0,0,STRING12.5 one-round API,Stp1,ldh2,FALSE,Nonzero experimental channel; not direct-substrate proof
+93061.SAOUHSC_01186,93061.SAOUHSC_02117,0.452,0.068,0,0,0.437,0,0,0,STRING12.5 one-round API,Stp1,gatA,FALSE,Other computational evidence; functional context only
+93061.SAOUHSC_01187,93061.SAOUHSC_01887,0.503,0.429,0,0,0.07,0,0,0.14,STRING12.5 one-round API,Stk1,ribBA,FALSE,Text-mining contributes; functional context only

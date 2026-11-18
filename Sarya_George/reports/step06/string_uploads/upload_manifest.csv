@@ -1,0 +1,68 @@
+protein_key,locus_tag,display_name,uniprot_acc,product,upload_role
+lcl_CP020619.1_prot_ARG44565.1_25,B7H15_00135,B7H15_00135,Q2G253,"multifunctional 2',3'-cyclic-nucleotide 2'-phosphodiesterase/5'-nucleotidase/3'-nucleotidase",Contrast-selected module protein
+lcl_CP020619.1_prot_ARG45268.1_784,B7H15_04035,B7H15_04035,Q2G086,5'(3')-deoxyribonucleotidase,Contrast-selected module protein
+lcl_CP020619.1_prot_ARG47192.1_2829,B7H15_14555,B7H15_14555,Q2FV02,anaerobic ribonucleoside-triphosphate reductase,Contrast-selected module protein
+lcl_CP020619.1_prot_ARG45277.1_793,B7H15_04080,nrdI,Q2G079,protein NrdI,Contrast-selected module protein
+lcl_CP020619.1_prot_ARG45545.1_1078,B7H15_05525,purC,Q2FZJ3,phosphoribosylaminoimidazolesuccinocarboxamide synthase,Contrast-selected module protein
+lcl_CP020619.1_prot_ARG45549.1_1082,B7H15_05545,purF,Q2FZI9,amidophosphoribosyltransferase,Contrast-selected module protein
+lcl_CP020619.1_prot_ARG45552.1_1085,B7H15_05560,purH,Q2FZI6,bifunctional phosphoribosylaminoimidazolecarboxamide formyltransferase/inosine monophosphate cyclohydrolase,Contrast-selected module protein
+lcl_CP020619.1_prot_ARG45550.1_1083,B7H15_05550,purM,Q2FZI8,phosphoribosylformylglycinamidine cyclo-ligase,Contrast-selected module protein
+lcl_CP020619.1_prot_ARG45546.1_1079,B7H15_05530,purS,Q2FZJ2,phosphoribosylformylglycinamidine synthase,Contrast-selected module protein
+lcl_CP020619.1_prot_ARG44682.1_159,B7H15_00805,B7H15_00805,Q2G1L5,bifunctional metallophosphatase/5'-nucleotidase,Contrast-selected module protein
+lcl_CP020619.1_prot_ARG44865.1_357,B7H15_01795,B7H15_01795,Q2G149,hypothetical protein,Contrast-selected module protein
+lcl_CP020619.1_prot_ARG45018.1_519,B7H15_02630,B7H15_02630,Q2G0S7,pur operon repressor,Contrast-selected module protein
+lcl_CP020619.1_prot_ARG45279.1_795,B7H15_04090,B7H15_04090,Q2G077,class 1b ribonucleoside-diphosphate reductase subunit beta,Contrast-selected module protein
+lcl_CP020619.1_prot_ARG45401.1_928,B7H15_04765,B7H15_04765,Q2FZX5,bifunctional metallophosphatase/5'-nucleotidase,Contrast-selected module protein
+lcl_CP020619.1_prot_ARG45635.1_1170,B7H15_05985,B7H15_05985,Q2FZC5,non-canonical purine NTP pyrophosphatase,Contrast-selected module protein
+lcl_CP020619.1_prot_ARG46843.1_2452,B7H15_12670,B7H15_12670,Q2FVX0,purine nucleosidase,Contrast-selected module protein
+lcl_CP020619.1_prot_ARG47079.1_2706,B7H15_13940,B7H15_13940,Q2G2L7,GTP pyrophosphokinase,Contrast-selected module protein
+lcl_CP020619.1_prot_ARG46788.1_2394,B7H15_12380,adk,Q2FW27,adenylate kinase,Contrast-selected module protein
+lcl_CP020619.1_prot_ARG46197.1_1759,B7H15_08945,apt,Q2FXU0,adenine phosphoribosyltransferase,Contrast-selected module protein
+lcl_CP020619.1_prot_ARG45692.1_1232,B7H15_06300,gmk,Q2G1U0,guanylate kinase,Contrast-selected module protein
+lcl_CP020619.1_prot_ARG44931.1_427,B7H15_02145,guaB,Q2G0Y7,IMP dehydrogenase,Contrast-selected module protein
+lcl_CP020619.1_prot_ARG45833.1_1378,B7H15_07030,guaC,Q2FYU4,guanosine monophosphate reductase,Contrast-selected module protein
+lcl_CP020619.1_prot_ARG45967.1_1519,B7H15_07740,ndk,Q2FYG7,nucleoside-diphosphate kinase,Contrast-selected module protein
+lcl_CP020619.1_prot_ARG46243.1_1807,B7H15_09185,nrdR,Q2FXP3,transcriptional regulator NrdR,Contrast-selected module protein
+lcl_CP020619.1_prot_ARG45023.1_524,B7H15_02655,prs,Q2G0S2,ribose-phosphate pyrophosphokinase,Contrast-selected module protein
+lcl_CP020619.1_prot_ARG44559.1_19,B7H15_00095,purA,Q2G1S3,adenylosuccinate synthetase,Contrast-selected module protein
+lcl_CP020619.1_prot_ARG46475.1_2060,B7H15_10640,purB,Q2G2S0,adenylosuccinate lyase,Contrast-selected module protein
+lcl_CP020619.1_prot_ARG45553.1_1086,B7H15_05565,purD,Q2FZI5,phosphoribosylamine--glycine ligase,Contrast-selected module protein
+lcl_CP020619.1_prot_ARG45544.1_1077,B7H15_05520,purK,Q2FZJ4,5-(carboxyamino)imidazole ribonucleotide synthase,Contrast-selected module protein
+lcl_CP020619.1_prot_ARG45548.1_1081,B7H15_05540,purL,Q2FZJ0,phosphoribosylformylglycinamidine synthase subunit PurL,Contrast-selected module protein
+lcl_CP020619.1_prot_ARG45551.1_1084,B7H15_05555,purN,Q2FZI7,phosphoribosylglycinamide formyltransferase,Contrast-selected module protein
+lcl_CP020619.1_prot_ARG45547.1_1080,B7H15_05535,purQ,Q2FZJ1,phosphoribosylformylglycinamidine synthase subunit PurQ,Contrast-selected module protein
+lcl_CP020619.1_prot_ARG46848.1_2458,B7H15_12700,ureC,Q2G2K5,urease subunit alpha,Contrast-selected module protein
+lcl_CP020619.1_prot_ARG45565.1_1099,B7H15_05630,B7H15_05630,Q2FZH3,cytochrome ubiquinol oxidase subunit I,Contrast-selected module protein
+lcl_CP020619.1_prot_ARG46668.1_2266,B7H15_11695,atpA,Q2FWE8,ATP synthase subunit alpha,Contrast-selected module protein
+lcl_CP020619.1_prot_ARG46666.1_2264,B7H15_11685,atpD,Q2FWF0,ATP synthase subunit beta,Contrast-selected module protein
+lcl_CP020619.1_prot_ARG46670.1_2268,B7H15_11705,atpF,Q2G2F8,ATP synthase subunit B,Contrast-selected module protein
+lcl_CP020619.1_prot_ARG46667.1_2265,B7H15_11690,atpG,Q2FWE9,ATP synthase subunit gamma,Contrast-selected module protein
+lcl_CP020619.1_prot_ARG46669.1_2267,B7H15_11700,atpH,Q2FWE7,ATP synthase subunit delta,Contrast-selected module protein
+lcl_CP020619.1_prot_ARG45540.1_1071,B7H15_05490,qoxA,Q2FZJ9,quinol oxidase subunit 2,Contrast-selected module protein
+lcl_CP020619.1_prot_ARG45539.1_1070,B7H15_05485,qoxB,Q2FZK0,cytochrome ubiquinol oxidase subunit I,Contrast-selected module protein
+lcl_CP020619.1_prot_ARG46955.1_2572,B7H15_13270,B7H15_13270,Q2FVM4,respiratory nitrate reductase subunit gamma,Contrast-selected module protein
+lcl_CP020619.1_prot_ARG46960.1_2577,B7H15_13295,B7H15_13295,Q2FVL9,nitrite reductase (NAD(P)H) small subunit,Contrast-selected module protein
+lcl_CP020619.1_prot_ARG45397.1_924,B7H15_04745,NMO,Q2FZX9,nitronate monooxygenase,Contrast-selected module protein
+lcl_CP020619.1_prot_ARG44991.1_492,B7H15_02470,B7H15_02470,Q2G0U2,glutamate synthase large subunit,Contrast-selected module protein
+lcl_CP020619.1_prot_ARG45435.1_963,B7H15_04940,B7H15_04940,Q2FZU5,NAD-specific glutamate dehydrogenase,Contrast-selected module protein
+lcl_CP020619.1_prot_ARG46957.1_2574,B7H15_13280,B7H15_13280,Q2FVM2,nitrate reductase subunit beta,Contrast-selected module protein
+lcl_CP020619.1_prot_ARG46958.1_2575,B7H15_13285,B7H15_13285,Q2FVM1,nitrate reductase subunit alpha,Contrast-selected module protein
+lcl_CP020619.1_prot_ARG46180.1_1741,B7H15_08850,alaS,Q2FXV9,alanine--tRNA ligase,Contrast-selected module protein
+lcl_CP020619.1_prot_ARG45141.1_652,B7H15_03375,argS,Q2G0F8,arginine--tRNA ligase,Contrast-selected module protein
+lcl_CP020619.1_prot_ARG45955.1_1505,B7H15_07670,asnC,Q2FYH6,asparagine--tRNA ligase,Contrast-selected module protein
+lcl_CP020619.1_prot_ARG46192.1_1754,B7H15_08920,aspS,Q2FXU5,aspartate--tRNA ligase,Contrast-selected module protein
+lcl_CP020619.1_prot_ARG45054.1_557,B7H15_02900,cysS,Q2G2M6,cysteine--tRNA ligase,Contrast-selected module protein
+lcl_CP020619.1_prot_ARG46466.1_2051,B7H15_10595,gatB,Q2FWZ0,aspartyl/glutamyl-tRNA(Asn/Gln) amidotransferase subunit B,Contrast-selected module protein
+lcl_CP020619.1_prot_ARG46131.1_1689,B7H15_08590,glyQS,Q2FY08,glycine--tRNA ligase,Contrast-selected module protein
+lcl_CP020619.1_prot_ARG46193.1_1755,B7H15_08925,hisS,Q2FXU4,histidine--tRNA ligase,Contrast-selected module protein
+lcl_CP020619.1_prot_ARG45677.1_1216,B7H15_06220,ileS,Q2FZ82,isoleucine--tRNA ligase,Contrast-selected module protein
+lcl_CP020619.1_prot_ARG46320.1_1888,B7H15_09590,leuS,Q2FXH2,leucine--tRNA ligase,Contrast-selected module protein
+lcl_CP020619.1_prot_ARG45042.1_543,B7H15_02750,lysS,Q2G0Q3,lysine--tRNA ligase,Contrast-selected module protein
+lcl_CP020619.1_prot_ARG45012.1_513,B7H15_02600,metG,Q2G1R9,methionine--tRNA ligase,Contrast-selected module protein
+lcl_CP020619.1_prot_ARG45748.1_1289,B7H15_06585,proS,Q2G1Z4,proline--tRNA ligase,Contrast-selected module protein
+lcl_CP020619.1_prot_ARG44550.1_10,B7H15_00050,serS,P95689,serine--tRNA ligase,Contrast-selected module protein
+lcl_CP020619.1_prot_ARG46239.1_1803,B7H15_09165,thrS,Q2FXP7,threonine--tRNA ligase,Contrast-selected module protein
+lcl_CP020619.1_prot_ARG46287.1_1854,B7H15_09420,tyrS,Q2FXJ5,tyrosine--tRNA ligase,Contrast-selected module protein
+lcl_CP020619.1_prot_ARG46219.1_1782,B7H15_09060,valS,Q2FXR8,valine--tRNA ligase,Contrast-selected module protein
+lcl_CP020619.1_prot_ARG45703.1_1243,B7H15_06355,Stk1,Q2FZ64,serine/threonine protein kinase,Biological anchor: included regardless of interaction significance
+lcl_CP020619.1_prot_ARG45702.1_1242,B7H15_06350,Stp1,Q2FZ65,protein phosphatase,Biological anchor: included regardless of interaction significance

@@ -20,6 +20,7 @@ respond to PASN, and where do Stk1/Stp1 and their candidate targets sit?**
 | `scripts/04_analysis/` | Assemble comparison tables and reconcile August/October counts. |
 | `scripts/05_enrichment/` | ORA/GSEA runs, sensitivity analyses and the generated results guide. |
 | `scripts/05_figures/` | Regenerate figures from saved analysis tables. |
+| `scripts/06_network/` | Contrast-based protein selection, user-selected UniProt lists, STRING import/expansion, three-ring network figures and protein review. |
 | `scripts/90_exploratory_archive/` | Earlier exploratory R scripts, explicitly separated from final analysis. |
 | `tests/` | Focused synthetic checks and the original helper tests. |
 | `docs/`, `reports/`, `notebook/` | Instructions, aggregate findings and dated progress. |
@@ -27,7 +28,7 @@ respond to PASN, and where do Stk1/Stp1 and their candidate targets sit?**
 
 The existing `notebook/1_CheckDesign.R` and original notebook documents are retained.
 `docs/code_provenance.tsv` maps existing code files to their organized locations.
-`docs/R_code_index.tsv` lists every R file and its top-level functions.
+`docs/R_code_index.tsv` indexes the published R files and their top-level functions.
 
 ## Open and configure
 
@@ -129,6 +130,40 @@ does not add the extra >=2/3 restriction of `observed_replicated`. Enrichment
 FDRs are recalculated for this background; source protein-level effects/FDRs
 are preserved. The original effective-set size filter (10-500) and study FDR<0.1
 remain unchanged. Sample-evidence plots now display TSB and SN only.
+
+## Four-module protein tables and Step 6 networks
+
+The [four-module leading-edge tables](reports/step05/observed_only/four_module_drivers/README.md)
+list the statistical contributors to the selected KEGG GSEA results; leading-edge
+membership does not establish causal pathway regulation.
+
+The [Step 6 preparation guide](reports/step06/README.md) selects proteins from
+their original protein contrasts and measurement support within the four pathway
+topics, without using NES or leading-edge membership as selection criteria.
+The [user-selected lists](reports/step06/string_uploads/user_selected/README.md)
+preserve the 47 manually chosen proteins, or 49 with Stk1/Stp1 anchors.
+
+The [completed STRING workflow](reports/step06/string_network/README.md) covers
+the exported 49-node functional network, one-round partner expansion, the 61-node
+overview, three contrast rings, module/detail views and evidence-based protein
+review. Main STRING confidence is >=0.4; >=0.7 is supplementary. Leiden resolution
+0.7 in the original website is a distinct community-detection setting.
+Figures are under `figures/step06/`, with PNG/PDF/SVG network exports. The scripts
+below use the configured local inputs and cache API responses; raw exports stay
+git-ignored.
+
+```r
+source("scripts/05_enrichment/05_extract_module_drivers.R")
+source("scripts/06_network/06_prepare_candidates.R")
+source("scripts/06_network/06_plot_candidates.R")
+source("scripts/06_network/06_write_guide.R")
+source("scripts/06_network/06_export_user_selection.R")
+source("scripts/06_network/06_import_string_exports.R")
+source("scripts/06_network/06_expand_string_network.R")
+source("scripts/06_network/06_review_network_proteins.R")
+source("scripts/06_network/06_plot_string_networks.R")
+source("scripts/06_network/06_write_network_guide.R")
+```
 
 ## Checks and provenance
 

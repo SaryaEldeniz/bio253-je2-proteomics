@@ -1,0 +1,58 @@
+module	term_id	protein	locus_tag	uniprot_acc	product	annotation_review	stk/anc	stp/stk	stp/anc	label
+Purine metabolism	map00230	B7H15_00135	B7H15_00135	Q2G253	multifunctional 2',3'-cyclic-nucleotide 2'-phosphodiesterase/5'-nucleotidase/3'-nucleotidase	FALSE	+0.51	-1.30*	b	B7H15_00135 (nucleotidase)
+Purine metabolism	map00230	B7H15_00805	B7H15_00805	Q2G1L5	bifunctional metallophosphatase/5'-nucleotidase	FALSE	+0.49	b	b	B7H15_00805 (metallophosphatase / nucleotidase)
+Purine metabolism	map00230	B7H15_04035	B7H15_04035	Q2G086	5'(3')-deoxyribonucleotidase	FALSE	+1.15*	-0.82	b	B7H15_04035 (deoxyribonucleotidase)
+Purine metabolism	map00230	B7H15_04455	B7H15_04455	Q2G010	thermonuclease	TRUE	b	-1.06*	b	B7H15_04455 (thermonuclease)b
+Purine metabolism	map00230	B7H15_05185	B7H15_05185	Q2G204	GTP pyrophosphokinase	FALSE	b	-0.30	b	B7H15_05185 (GTP pyrophosphokinase)
+Purine metabolism	map00230	B7H15_05985	B7H15_05985	Q2FZC5	non-canonical purine NTP pyrophosphatase	FALSE	+0.35	-0.46	b	B7H15_05985 (purine NTP pyrophosphatase)
+Purine metabolism	map00230	B7H15_07765	B7H15_07765	Q2FYG2	DNA-binding protein HU	TRUE	b	-0.66	b	B7H15_07765 (HU)b
+Purine metabolism	map00230	B7H15_13940	B7H15_13940	Q2G2L7	GTP pyrophosphokinase	FALSE	+0.40	-0.61	b	B7H15_13940 (GTP pyrophosphokinase)
+Purine metabolism	map00230	B7H15_14555	B7H15_14555	Q2FV02	anaerobic ribonucleoside-triphosphate reductase	FALSE	+1.01*	b	b	B7H15_14555 (ribonucleotide reductase)
+Purine metabolism	map00230	B7H15_14945	B7H15_14945	Q2FUT0	DNA-directed RNA polymerase subunit delta	TRUE	+1.90*	-2.04*	b	B7H15_14945 (RNA polymerase delta)b
+Purine metabolism	map00230	adk	B7H15_12380	Q2FW27	adenylate kinase	FALSE	b	-0.68	b	adk
+Purine metabolism	map00230	guaB	B7H15_02145	Q2G0Y7	IMP dehydrogenase	FALSE	b	-0.20	b	guaB
+Purine metabolism	map00230	isaA	B7H15_14290	Q2FV52	transglycosylase IsaA	TRUE	+1.06*	-0.77	b	isaAb
+Purine metabolism	map00230	prs	B7H15_02655	Q2G0S2	ribose-phosphate pyrophosphokinase	FALSE	+0.26	b	b	prs
+Purine metabolism	map00230	purA	B7H15_00095	Q2G1S3	adenylosuccinate synthetase	FALSE	+0.26	b	b	purA
+Purine metabolism	map00230	purC	B7H15_05525	Q2FZJ3	phosphoribosylaminoimidazolesuccinocarboxamide synthase	FALSE	+1.04*	-0.62	b	purC
+Purine metabolism	map00230	purD	B7H15_05565	Q2FZI5	phosphoribosylamine--glycine ligase	FALSE	+0.90	-0.53	b	purD
+Purine metabolism	map00230	purF	B7H15_05545	Q2FZI9	amidophosphoribosyltransferase	FALSE	+1.31*	-0.77	b	purF
+Purine metabolism	map00230	purH	B7H15_05560	Q2FZI6	bifunctional phosphoribosylaminoimidazolecarboxamide formyltransferase/inosine monophosphate cyclohydrolase	FALSE	+0.75	-1.12*	b	purH
+Purine metabolism	map00230	purK	B7H15_05520	Q2FZJ4	5-(carboxyamino)imidazole ribonucleotide synthase	FALSE	+0.58	-0.41	b	purK
+Purine metabolism	map00230	purL	B7H15_05540	Q2FZJ0	phosphoribosylformylglycinamidine synthase subunit PurL	FALSE	+0.71	-0.26	b	purL
+Purine metabolism	map00230	purM	B7H15_05550	Q2FZI8	phosphoribosylformylglycinamidine cyclo-ligase	FALSE	+1.26*	-0.73	b	purM
+Purine metabolism	map00230	purN	B7H15_05555	Q2FZI7	phosphoribosylglycinamide formyltransferase	FALSE	+0.76	b	b	purN
+Purine metabolism	map00230	purQ	B7H15_05535	Q2FZJ1	phosphoribosylformylglycinamidine synthase subunit PurQ	FALSE	+0.61	-0.46	b	purQ
+Purine metabolism	map00230	purS	B7H15_05530	Q2FZJ2	phosphoribosylformylglycinamidine synthase	FALSE	+1.22*	-0.62	b	purS
+Purine metabolism	map00230	pyk	B7H15_09250	Q2FXM9	pyruvate kinase	TRUE	b	-0.21	b	pykb
+Purine metabolism	map00230	sceD	B7H15_11645	Q2FWF8	transglycosylase SceD	TRUE	b	-1.55*	b	sceDb
+Purine metabolism	map00230	xpt	B7H15_02135	Q2G0Y9	xanthine phosphoribosyltransferase	FALSE	+0.24	-0.22	b	xpt
+Oxidative phosphorylation	map00190	B7H15_05630	B7H15_05630	Q2FZH3	cytochrome ubiquinol oxidase subunit I	FALSE	-0.80	b	b	B7H15_05630 (ubiquinol oxidase I)
+Oxidative phosphorylation	map00190	B7H15_05635	B7H15_05635	Q2FZH2	cytochrome D ubiquinol oxidase subunit II	FALSE	-0.54	b	b	B7H15_05635 (ubiquinol oxidase II)
+Oxidative phosphorylation	map00190	B7H15_06670	B7H15_06670	Q2FZ16	peptidase M16	TRUE	-0.16	b	b	B7H15_06670 (peptidase M16)b
+Oxidative phosphorylation	map00190	B7H15_06675	B7H15_06675	Q2FZ15	peptidase M16	TRUE	-0.38	b	b	B7H15_06675 (peptidase M16)b
+Oxidative phosphorylation	map00190	atpA	B7H15_11695	Q2FWE8	ATP synthase subunit alpha	FALSE	-0.19	b	b	atpA
+Oxidative phosphorylation	map00190	atpC	B7H15_11680	Q2FWF1	ATP synthase epsilon chain	FALSE	-0.36	b	b	atpC
+Oxidative phosphorylation	map00190	atpD	B7H15_11685	Q2FWF0	ATP synthase subunit beta	FALSE	-0.41	b	b	atpD
+Oxidative phosphorylation	map00190	atpG	B7H15_11690	Q2FWE9	ATP synthase subunit gamma	FALSE	-0.32	b	b	atpG
+Oxidative phosphorylation	map00190	atpH	B7H15_11700	Q2FWE7	ATP synthase subunit delta	FALSE	-0.42	b	b	atpH
+Oxidative phosphorylation	map00190	qoxA	B7H15_05490	Q2FZJ9	quinol oxidase subunit 2	FALSE	-0.31	b	b	qoxA
+Oxidative phosphorylation	map00190	qoxB	B7H15_05485	Q2FZK0	cytochrome ubiquinol oxidase subunit I	FALSE	-0.36	b	b	qoxB
+Oxidative phosphorylation	map00190	rbfA	B7H15_06625	Q2G2Q4	ribosome-binding factor A	TRUE	-0.58	b	b	rbfAb
+Nitrogen metabolism	map00910	B7H15_02470	B7H15_02470	Q2G0U2	glutamate synthase large subunit	FALSE	b	b	+0.54	B7H15_02470 (glutamate synthase)
+Nitrogen metabolism	map00910	B7H15_13270	B7H15_13270	Q2FVM4	respiratory nitrate reductase subunit gamma	FALSE	b	b	+1.50*	B7H15_13270 (nitrate reductase gamma)
+Nitrogen metabolism	map00910	B7H15_13280	B7H15_13280	Q2FVM2	nitrate reductase subunit beta	FALSE	b	b	+0.58	B7H15_13280 (nitrate reductase beta)
+Nitrogen metabolism	map00910	B7H15_13285	B7H15_13285	Q2FVM1	nitrate reductase subunit alpha	FALSE	b	b	+0.91	B7H15_13285 (nitrate reductase alpha)
+Nitrogen metabolism	map00910	B7H15_13295	B7H15_13295	Q2FVL9	nitrite reductase (NAD(P)H) small subunit	FALSE	b	b	+1.32*	B7H15_13295 (nitrite reductase small subunit)
+Aminoacyl-tRNA biosynthesis	map00970	alaS	B7H15_08850	Q2FXV9	alanine--tRNA ligase	FALSE	b	+0.21	b	alaS
+Aminoacyl-tRNA biosynthesis	map00970	asnC	B7H15_07670	Q2FYH6	asparagine--tRNA ligase	FALSE	b	+0.20	b	asnC (asparagineb
+Aminoacyl-tRNA biosynthesis	map00970	aspS	B7H15_08920	Q2FXU5	aspartate--tRNA ligase	FALSE	b	+0.30	b	aspS
+Aminoacyl-tRNA biosynthesis	map00970	cysS	B7H15_02900	Q2G2M6	cysteine--tRNA ligase	FALSE	b	+0.30	b	cysS
+Aminoacyl-tRNA biosynthesis	map00970	glyQS	B7H15_08590	Q2FY08	glycine--tRNA ligase	FALSE	b	+0.23	b	glyQS
+Aminoacyl-tRNA biosynthesis	map00970	hisS	B7H15_08925	Q2FXU4	histidine--tRNA ligase	FALSE	b	+0.18	b	hisS
+Aminoacyl-tRNA biosynthesis	map00970	ileS	B7H15_06220	Q2FZ82	isoleucine--tRNA ligase	FALSE	b	+0.49	b	ileS
+Aminoacyl-tRNA biosynthesis	map00970	leuS	B7H15_09590	Q2FXH2	leucine--tRNA ligase	FALSE	b	+0.39	b	leuS
+Aminoacyl-tRNA biosynthesis	map00970	metG	B7H15_02600	Q2G1R9	methionine--tRNA ligase	FALSE	b	+0.32	b	metG
+Aminoacyl-tRNA biosynthesis	map00970	proS	B7H15_06585	Q2G1Z4	proline--tRNA ligase	FALSE	b	+0.31	b	proS
+Aminoacyl-tRNA biosynthesis	map00970	tyrS	B7H15_09420	Q2FXJ5	tyrosine--tRNA ligase	FALSE	b	+0.20	b	tyrS
+Aminoacyl-tRNA biosynthesis	map00970	valS	B7H15_09060	Q2FXR8	valine--tRNA ligase	FALSE	b	+0.41	b	valS

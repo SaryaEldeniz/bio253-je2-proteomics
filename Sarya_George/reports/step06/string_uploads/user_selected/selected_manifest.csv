@@ -1,0 +1,48 @@
+selection_order,uniprot_acc,protein_key,locus_tag,display_name,product,modules,annotation_review,annotation_notes,upload_role
+1,Q2G253,lcl_CP020619.1_prot_ARG44565.1_25,B7H15_00135,B7H15_00135,"multifunctional 2',3'-cyclic-nucleotide 2'-phosphodiesterase/5'-nucleotidase/3'-nucleotidase",Purine metabolism,FALSE,,User selected from sample plots
+2,Q2G1L5,lcl_CP020619.1_prot_ARG44682.1_159,B7H15_00805,B7H15_00805,bifunctional metallophosphatase/5'-nucleotidase,Purine metabolism,FALSE,,User selected from sample plots
+3,Q2G149,lcl_CP020619.1_prot_ARG44865.1_357,B7H15_01795,B7H15_01795,hypothetical protein,Purine metabolism,FALSE,,User selected from sample plots
+4,Q2FZX5,lcl_CP020619.1_prot_ARG45401.1_928,B7H15_04765,B7H15_04765,bifunctional metallophosphatase/5'-nucleotidase,Purine metabolism,FALSE,,User selected from sample plots
+5,Q2FZC5,lcl_CP020619.1_prot_ARG45635.1_1170,B7H15_05985,B7H15_05985,non-canonical purine NTP pyrophosphatase,Purine metabolism,FALSE,,User selected from sample plots
+6,Q2FVX0,lcl_CP020619.1_prot_ARG46843.1_2452,B7H15_12670,B7H15_12670,purine nucleosidase,Purine metabolism,FALSE,,User selected from sample plots
+7,Q2FW27,lcl_CP020619.1_prot_ARG46788.1_2394,B7H15_12380,adk,adenylate kinase,Purine metabolism,FALSE,,User selected from sample plots
+8,Q2FXU0,lcl_CP020619.1_prot_ARG46197.1_1759,B7H15_08945,apt,adenine phosphoribosyltransferase,Purine metabolism,FALSE,,User selected from sample plots
+9,Q2G1U0,lcl_CP020619.1_prot_ARG45692.1_1232,B7H15_06300,gmk,guanylate kinase,Purine metabolism,FALSE,,User selected from sample plots
+10,Q2FYU4,lcl_CP020619.1_prot_ARG45833.1_1378,B7H15_07030,guaC,guanosine monophosphate reductase,Purine metabolism,FALSE,,User selected from sample plots
+11,Q2FXP3,lcl_CP020619.1_prot_ARG46243.1_1807,B7H15_09185,nrdR,transcriptional regulator NrdR,Purine metabolism,FALSE,,User selected from sample plots
+12,Q2G0S2,lcl_CP020619.1_prot_ARG45023.1_524,B7H15_02655,prs,ribose-phosphate pyrophosphokinase,Purine metabolism,FALSE,,User selected from sample plots
+13,Q2G2K5,lcl_CP020619.1_prot_ARG46848.1_2458,B7H15_12700,ureC,urease subunit alpha,Purine metabolism,FALSE,,User selected from sample plots
+14,Q2FWE8,lcl_CP020619.1_prot_ARG46668.1_2266,B7H15_11695,atpA,ATP synthase subunit alpha,Oxidative phosphorylation,FALSE,,User selected from sample plots
+15,Q2FWF0,lcl_CP020619.1_prot_ARG46666.1_2264,B7H15_11685,atpD,ATP synthase subunit beta,Oxidative phosphorylation,FALSE,,User selected from sample plots
+16,Q2G2F8,lcl_CP020619.1_prot_ARG46670.1_2268,B7H15_11705,atpF,ATP synthase subunit B,Oxidative phosphorylation,FALSE,,User selected from sample plots
+17,Q2FWE9,lcl_CP020619.1_prot_ARG46667.1_2265,B7H15_11690,atpG,ATP synthase subunit gamma,Oxidative phosphorylation,FALSE,,User selected from sample plots
+18,Q2FWE7,lcl_CP020619.1_prot_ARG46669.1_2267,B7H15_11700,atpH,ATP synthase subunit delta,Oxidative phosphorylation,FALSE,,User selected from sample plots
+19,Q2FVL9,lcl_CP020619.1_prot_ARG46960.1_2577,B7H15_13295,B7H15_13295,nitrite reductase (NAD(P)H) small subunit,Nitrogen metabolism,FALSE,,User selected from sample plots
+20,Q2FZX9,lcl_CP020619.1_prot_ARG45397.1_924,B7H15_04745,NMO,nitronate monooxygenase,Nitrogen metabolism,FALSE,,User selected from sample plots
+21,Q2G0U2,lcl_CP020619.1_prot_ARG44991.1_492,B7H15_02470,B7H15_02470,glutamate synthase large subunit,Nitrogen metabolism,FALSE,,User selected from sample plots
+22,Q2FXV9,lcl_CP020619.1_prot_ARG46180.1_1741,B7H15_08850,alaS,alanine--tRNA ligase,Aminoacyl-tRNA biosynthesis,FALSE,,User selected from sample plots
+23,Q2G0F8,lcl_CP020619.1_prot_ARG45141.1_652,B7H15_03375,argS,arginine--tRNA ligase,Aminoacyl-tRNA biosynthesis,FALSE,,User selected from sample plots
+24,Q2FYH6,lcl_CP020619.1_prot_ARG45955.1_1505,B7H15_07670,asnC,asparagine--tRNA ligase,Aminoacyl-tRNA biosynthesis,FALSE,,User selected from sample plots
+25,Q2FXU5,lcl_CP020619.1_prot_ARG46192.1_1754,B7H15_08920,aspS,aspartate--tRNA ligase,Aminoacyl-tRNA biosynthesis,FALSE,,User selected from sample plots
+26,Q2G2M6,lcl_CP020619.1_prot_ARG45054.1_557,B7H15_02900,cysS,cysteine--tRNA ligase,Aminoacyl-tRNA biosynthesis,FALSE,,User selected from sample plots
+27,Q2FWZ0,lcl_CP020619.1_prot_ARG46466.1_2051,B7H15_10595,gatB,aspartyl/glutamyl-tRNA(Asn/Gln) amidotransferase subunit B,Aminoacyl-tRNA biosynthesis,FALSE,,User selected from sample plots
+28,Q2FY08,lcl_CP020619.1_prot_ARG46131.1_1689,B7H15_08590,glyQS,glycine--tRNA ligase,Aminoacyl-tRNA biosynthesis,FALSE,,User selected from sample plots
+29,Q2FXU4,lcl_CP020619.1_prot_ARG46193.1_1755,B7H15_08925,hisS,histidine--tRNA ligase,Aminoacyl-tRNA biosynthesis,FALSE,,User selected from sample plots
+30,Q2FZ82,lcl_CP020619.1_prot_ARG45677.1_1216,B7H15_06220,ileS,isoleucine--tRNA ligase,Aminoacyl-tRNA biosynthesis,FALSE,,User selected from sample plots
+31,Q2G0Q3,lcl_CP020619.1_prot_ARG45042.1_543,B7H15_02750,lysS,lysine--tRNA ligase,Aminoacyl-tRNA biosynthesis,FALSE,,User selected from sample plots
+32,Q2G1R9,lcl_CP020619.1_prot_ARG45012.1_513,B7H15_02600,metG,methionine--tRNA ligase,Aminoacyl-tRNA biosynthesis,FALSE,,User selected from sample plots
+33,Q2G1Z4,lcl_CP020619.1_prot_ARG45748.1_1289,B7H15_06585,proS,proline--tRNA ligase,Aminoacyl-tRNA biosynthesis,FALSE,,User selected from sample plots
+34,P95689,lcl_CP020619.1_prot_ARG44550.1_10,B7H15_00050,serS,serine--tRNA ligase,Aminoacyl-tRNA biosynthesis,FALSE,,User selected from sample plots
+35,Q2FXJ5,lcl_CP020619.1_prot_ARG46287.1_1854,B7H15_09420,tyrS,tyrosine--tRNA ligase,Aminoacyl-tRNA biosynthesis,FALSE,,User selected from sample plots
+36,Q2FXR8,lcl_CP020619.1_prot_ARG46219.1_1782,B7H15_09060,valS,valine--tRNA ligase,Aminoacyl-tRNA biosynthesis,FALSE,,User selected from sample plots
+37,Q2G010,lcl_CP020619.1_prot_ARG45343.1_866,B7H15_04455,B7H15_04455,thermonuclease,Purine metabolism,TRUE,Thermonuclease: supplied purine membership needs review,User selected from sample plots
+38,Q2FYK7,lcl_CP020619.1_prot_ARG45927.1_1476,B7H15_07520,B7H15_07520,fatty acid-binding protein DegV,Purine metabolism,TRUE,DegV fatty-acid-binding protein: biochemical basis for purine membership needs review,User selected from sample plots
+39,Q2FYG2,lcl_CP020619.1_prot_ARG45971.1_1524,B7H15_07765,B7H15_07765,DNA-binding protein HU,Purine metabolism,TRUE,DNA-binding HU: supplied purine membership needs review,User selected from sample plots
+40,Q2FUT0,lcl_CP020619.1_prot_ARG47266.1_2907,B7H15_14945,B7H15_14945,DNA-directed RNA polymerase subunit delta,Purine metabolism,TRUE,RNA polymerase delta: supplied purine membership needs review,User selected from sample plots
+41,Q2FV52,lcl_CP020619.1_prot_ARG47142.1_2776,B7H15_14290,isaA,transglycosylase IsaA,Purine metabolism,TRUE,Transglycosylase IsaA: supplied purine membership needs review,User selected from sample plots
+42,Q2FXM9,lcl_CP020619.1_prot_ARG46254.1_1820,B7H15_09250,pyk,pyruvate kinase,Purine metabolism,TRUE,Pyruvate kinase: supplied purine membership needs review,User selected from sample plots
+43,Q2FWF8,lcl_CP020619.1_prot_ARG46658.1_2256,B7H15_11645,sceD,transglycosylase SceD,Purine metabolism,TRUE,Transglycosylase SceD: supplied purine membership needs review,User selected from sample plots
+44,Q2G2S0,lcl_CP020619.1_prot_ARG46475.1_2060,B7H15_10640,purB,adenylosuccinate lyase,Purine metabolism,FALSE,,User selected from sample plots
+45,Q2FYG7,lcl_CP020619.1_prot_ARG45967.1_1519,B7H15_07740,ndk,nucleoside-diphosphate kinase,Purine metabolism,FALSE,,User selected from sample plots
+46,Q2G086,lcl_CP020619.1_prot_ARG45268.1_784,B7H15_04035,B7H15_04035,5'(3')-deoxyribonucleotidase,Purine metabolism,FALSE,,User selected from sample plots
+47,Q2FZI9,lcl_CP020619.1_prot_ARG45549.1_1082,B7H15_05545,purF,amidophosphoribosyltransferase,Purine metabolism,FALSE,,User selected from sample plots

@@ -1,0 +1,9 @@
+Selection uses protein contrasts only; no NES/GSEA inputs are read.
+FDR<0.1; source observed; >=2/3 detections in relevant groups; eligible CDS; unique annotation-eligible UniProt.
+Tier A also requires |interaction effect|>1; Tier B retains smaller supported effects.
+FDR values are supplied per-contrast results, not a new correction across the three selected contrasts.
+The three interactions are linearly dependent; multi-contrast support is not independent replication.
+Annotation flags hold a module/protein pair for review, not a proof of an incorrect assignment.
+Stk1 and Stp1 are biological anchors, not automatically significant candidates.
+No STRING calls or expansion performed. User will export version 12.5 after reviewing mappings.
+Checks passed: unique joins/IDs, source-observed selections, detection recount, reconstructed effects, contrast closure.

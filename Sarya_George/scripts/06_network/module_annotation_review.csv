@@ -1,0 +1,30 @@
+term_id,locus_tag,annotation_note
+map00230,B7H15_14290,Transglycosylase IsaA: supplied purine membership needs review
+map00230,B7H15_11645,Transglycosylase SceD: supplied purine membership needs review
+map00230,B7H15_09250,Pyruvate kinase: supplied purine membership needs review
+map00230,B7H15_04455,Thermonuclease: supplied purine membership needs review
+map00230,B7H15_07765,DNA-binding HU: supplied purine membership needs review
+map00230,B7H15_14945,RNA polymerase delta: supplied purine membership needs review
+map00190,B7H15_06625,Ribosome-binding factor A: supplied oxidative phosphorylation membership needs review
+map00190,B7H15_06670,Peptidase M16: supplied oxidative phosphorylation membership needs review
+map00190,B7H15_06675,Peptidase M16: supplied oxidative phosphorylation membership needs review
+map00230,B7H15_07520,DegV fatty-acid-binding protein: biochemical basis for purine membership needs review
+map00190,B7H15_02375,DabA probable inorganic-carbon-transporter subunit or JE2 hypothetical: reconcile oxidative phosphorylation membership
+map00230,B7H15_01995,YchF ribosome-binding ATPase: biochemical basis for purine membership needs review
+map00230,B7H15_02705,TilS tRNA lysidine synthetase: reconcile RNA modification and purine pathway assignment
+map00230,B7H15_03050,TadA tRNA adenosine deaminase: reconcile RNA modification and purine pathway assignment
+map00230,B7H15_03620,Hypothetical or DUF2179 protein: insufficient functional detail for pathway assignment
+map00230,B7H15_03915,HlyC-CorC family transporter: biochemical basis for purine membership needs review
+map00230,B7H15_04195,DegV fatty-acid-binding protein: biochemical basis for purine membership needs review
+map00230,B7H15_05200,Magnesium transporter MgtE: biochemical basis for purine membership needs review
+map00230,B7H15_05215,AI-2E family transporter: biochemical basis for purine membership needs review
+map00230,B7H15_07165,AI-2E family transporter: biochemical basis for purine membership needs review
+map00230,B7H15_06960,Thermonuclease: inspect broad nucleotide degradation membership
+map00230,B7H15_09790,Calcium-binding protein: biochemical basis for purine membership needs review
+map00230,B7H15_12330,TruA tRNA pseudouridine synthase: reconcile RNA modification and purine pathway assignment
+map00230,B7H15_13850,PgcA phosphoglucomutase: biochemical basis for purine membership needs review
+map00190,B7H15_02370,DabB reference carbon transporter conflicts with JE2 NADH-quinone oxidoreductase annotation
+map00190,B7H15_04875,Generic pyridine-nucleotide-disulfide oxidoreductase: respiratory pathway role unresolved
+map00910,B7H15_12230,Hypothetical or DUF3885 protein: functional basis for nitrogen assignment unresolved
+map00970,B7H15_02990,FusA elongation factor: reconcile translation and tRNA charging assignment
+map00970,B7H15_09500,Generic tRNA-binding protein: biochemical basis for aminoacyl-tRNA assignment unresolved

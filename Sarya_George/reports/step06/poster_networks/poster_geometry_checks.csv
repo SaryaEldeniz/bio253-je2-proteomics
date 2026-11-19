@@ -1,0 +1,4 @@
+set,annotation_mode,n_nodes,n_edges,width_inches,height_inches,minimum_centre_distance,outer_node_diameter,footer_fraction,pinned_anchors,anchors_inside_any_outline,minimum_anchor_boundary_margin
+STRING_49_poster_halos,live,49,204,16,9.862083662194156,1.7199999999999998,1.42,0.11153829532158598,TRUE,0,1.1485679987502844
+STRING_67_poster_halos,live,67,390,16,10.519444655762646,1.7199999999999998,1.42,0.10456825773567906,TRUE,0,0.5899999999999999
+STRING_75_poster_halos,live,75,412,16,11.103697223278813,1.7199999999999998,1.42,0.09906610184703693,TRUE,0,0.5900000000000003

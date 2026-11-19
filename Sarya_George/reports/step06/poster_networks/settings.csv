@@ -1,0 +1,10 @@
+key,value
+STRING_version,12.5
+species,93061
+network_type,functional
+required_score,400
+add_nodes,0
+input_sets,exact49; exact67; exact75
+shared_inputs,42 (49 vs 67)
+automatic_partner_expansion,none
+central_anchors,Stk1; Stp1

@@ -43,15 +43,25 @@ scripts/05_figures/09_render_central_residue_logo.R	64	draw_central_logo
 scripts/05_figures/09_render_residue_summary.R	84	draw_residue_counts
 scripts/05_figures/09_render_residue_venn.R	98	count_exclusive_hits; draw_residue_venn
 scripts/05_figures/step09_phosphosite_figures/extract_proteins.R	71	exclusive_hits
+scripts/06_network/06_check_poster_outputs.R	104	(entry script / no top-level functions)
+scripts/06_network/06_compare_phosphosite_overlap.R	189	(entry script / no top-level functions)
+scripts/06_network/06_compare_poster_annotations.R	51	(entry script / no top-level functions)
 scripts/06_network/06_expand_string_network.R	157	edge_key; degree
 scripts/06_network/06_export_user_selection.R	87	(entry script / no top-level functions)
+scripts/06_network/06_fetch_poster_networks.R	164	call; module_code
+scripts/06_network/06_fetch_string_reference_images.R	44	(entry script / no top-level functions)
 scripts/06_network/06_import_string_exports.R	89	read_export; calc_degree
 scripts/06_network/06_plot_candidates.R	116	save_plot; plot_sample_page; make_pages
+scripts/06_network/06_plot_poster_networks.R	289	effect_colour; circle_points; ring_points; pack_group; prepare_positions; make_outlines; poster_plot; boundary_safety; draw_compact_legend; save_poster
 scripts/06_network/06_plot_string_networks.R	274	effect_colours; component_ids; force_component; layout_all; annulus; circle; draw_legend; network_plot; save_network
 scripts/06_network/06_prepare_candidates.R	207	(entry script / no top-level functions)
+scripts/06_network/06_prepare_complete75.R	24	(entry script / no top-level functions)
 scripts/06_network/06_review_network_proteins.R	88	(entry script / no top-level functions)
+scripts/06_network/06_write_complete75_guide.R	62	(entry script / no top-level functions)
 scripts/06_network/06_write_guide.R	116	(entry script / no top-level functions)
 scripts/06_network/06_write_network_guide.R	85	(entry script / no top-level functions)
+scripts/06_network/06_write_phosphosite_overlap_report.R	78	fmt
+scripts/06_network/06_write_poster_guide.R	68	(entry script / no top-level functions)
 scripts/90_exploratory_archive/G_inspect.R	31	(entry script / no top-level functions)
 scripts/90_exploratory_archive/I_biological_summary.R	33	(entry script / no top-level functions)
 scripts/90_exploratory_archive/I_marker_interactions.R	15	(entry script / no top-level functions)

@@ -1,0 +1,186 @@
+set_id,uniprot_acc,protein_key,locus_tag,display_name,product,term_id,module,annotation_review,annotation_note,string_id
+49,Q2G253,lcl_CP020619.1_prot_ARG44565.1_25,B7H15_00135,B7H15_00135,"multifunctional 2',3'-cyclic-nucleotide 2'-phosphodiesterase/5'-nucleotidase/3'-nucleotidase",map00230,Purine metabolism,FALSE,NA,93061.SAOUHSC_00025
+49,Q2G1L5,lcl_CP020619.1_prot_ARG44682.1_159,B7H15_00805,B7H15_00805,bifunctional metallophosphatase/5'-nucleotidase,map00230,Purine metabolism,FALSE,NA,93061.SAOUHSC_00107
+49,Q2G149,lcl_CP020619.1_prot_ARG44865.1_357,B7H15_01795,B7H15_01795,hypothetical protein,map00230,Purine metabolism,FALSE,NA,93061.SAOUHSC_00306
+49,Q2FZX5,lcl_CP020619.1_prot_ARG45401.1_928,B7H15_04765,B7H15_04765,bifunctional metallophosphatase/5'-nucleotidase,map00230,Purine metabolism,FALSE,NA,93061.SAOUHSC_00860
+49,Q2FZC5,lcl_CP020619.1_prot_ARG45635.1_1170,B7H15_05985,B7H15_05985,non-canonical purine NTP pyrophosphatase,map00230,Purine metabolism,FALSE,NA,93061.SAOUHSC_01107
+49,Q2FVX0,lcl_CP020619.1_prot_ARG46843.1_2452,B7H15_12670,B7H15_12670,purine nucleosidase,map00230,Purine metabolism,FALSE,NA,93061.SAOUHSC_02553
+49,Q2FW27,lcl_CP020619.1_prot_ARG46788.1_2394,B7H15_12380,adk,adenylate kinase,map00230,Purine metabolism,FALSE,NA,93061.SAOUHSC_02490
+49,Q2FXU0,lcl_CP020619.1_prot_ARG46197.1_1759,B7H15_08945,apt,adenine phosphoribosyltransferase,map00230,Purine metabolism,FALSE,NA,93061.SAOUHSC_01743
+49,Q2G1U0,lcl_CP020619.1_prot_ARG45692.1_1232,B7H15_06300,gmk,guanylate kinase,map00230,Purine metabolism,FALSE,NA,93061.SAOUHSC_01176
+49,Q2FYU4,lcl_CP020619.1_prot_ARG45833.1_1378,B7H15_07030,guaC,guanosine monophosphate reductase,map00230,Purine metabolism,FALSE,NA,93061.SAOUHSC_01330
+49,Q2FXP3,lcl_CP020619.1_prot_ARG46243.1_1807,B7H15_09185,nrdR,transcriptional regulator NrdR,map00230,Purine metabolism,FALSE,NA,93061.SAOUHSC_01793
+49,Q2G0S2,lcl_CP020619.1_prot_ARG45023.1_524,B7H15_02655,prs,ribose-phosphate pyrophosphokinase,map00230,Purine metabolism,FALSE,NA,93061.SAOUHSC_00472
+49,Q2G2K5,lcl_CP020619.1_prot_ARG46848.1_2458,B7H15_12700,ureC,urease subunit alpha,map00230,Purine metabolism,FALSE,NA,93061.SAOUHSC_02561
+49,Q2FWE8,lcl_CP020619.1_prot_ARG46668.1_2266,B7H15_11695,atpA,ATP synthase subunit alpha,map00190,Oxidative phosphorylation,FALSE,NA,93061.SAOUHSC_02345
+49,Q2FWF0,lcl_CP020619.1_prot_ARG46666.1_2264,B7H15_11685,atpD,ATP synthase subunit beta,map00190,Oxidative phosphorylation,FALSE,NA,93061.SAOUHSC_02341
+49,Q2G2F8,lcl_CP020619.1_prot_ARG46670.1_2268,B7H15_11705,atpF,ATP synthase subunit B,map00190,Oxidative phosphorylation,FALSE,NA,93061.SAOUHSC_02347
+49,Q2FWE9,lcl_CP020619.1_prot_ARG46667.1_2265,B7H15_11690,atpG,ATP synthase subunit gamma,map00190,Oxidative phosphorylation,FALSE,NA,93061.SAOUHSC_02343
+49,Q2FWE7,lcl_CP020619.1_prot_ARG46669.1_2267,B7H15_11700,atpH,ATP synthase subunit delta,map00190,Oxidative phosphorylation,FALSE,NA,93061.SAOUHSC_02346
+49,Q2FVL9,lcl_CP020619.1_prot_ARG46960.1_2577,B7H15_13295,B7H15_13295,nitrite reductase (NAD(P)H) small subunit,map00910,Nitrogen metabolism,FALSE,NA,93061.SAOUHSC_02683
+49,Q2FZX9,lcl_CP020619.1_prot_ARG45397.1_924,B7H15_04745,NMO,nitronate monooxygenase,map00910,Nitrogen metabolism,FALSE,NA,93061.SAOUHSC_00855
+49,Q2G0U2,lcl_CP020619.1_prot_ARG44991.1_492,B7H15_02470,B7H15_02470,glutamate synthase large subunit,map00910,Nitrogen metabolism,FALSE,NA,93061.SAOUHSC_00435
+49,Q2FXV9,lcl_CP020619.1_prot_ARG46180.1_1741,B7H15_08850,alaS,alanine--tRNA ligase,map00970,Aminoacyl-tRNA biosynthesis,FALSE,NA,93061.SAOUHSC_01722
+49,Q2G0F8,lcl_CP020619.1_prot_ARG45141.1_652,B7H15_03375,argS,arginine--tRNA ligase,map00970,Aminoacyl-tRNA biosynthesis,FALSE,NA,93061.SAOUHSC_00611
+49,Q2FYH6,lcl_CP020619.1_prot_ARG45955.1_1505,B7H15_07670,asnC,asparagine--tRNA ligase,map00970,Aminoacyl-tRNA biosynthesis,FALSE,NA,93061.SAOUHSC_01471
+49,Q2FXU5,lcl_CP020619.1_prot_ARG46192.1_1754,B7H15_08920,aspS,aspartate--tRNA ligase,map00970,Aminoacyl-tRNA biosynthesis,FALSE,NA,93061.SAOUHSC_01737
+49,Q2G2M6,lcl_CP020619.1_prot_ARG45054.1_557,B7H15_02900,cysS,cysteine--tRNA ligase,map00970,Aminoacyl-tRNA biosynthesis,FALSE,NA,93061.SAOUHSC_00511
+49,Q2FWZ0,lcl_CP020619.1_prot_ARG46466.1_2051,B7H15_10595,gatB,aspartyl/glutamyl-tRNA(Asn/Gln) amidotransferase subunit B,map00970,Aminoacyl-tRNA biosynthesis,FALSE,NA,93061.SAOUHSC_02116
+49,Q2FY08,lcl_CP020619.1_prot_ARG46131.1_1689,B7H15_08590,glyQS,glycine--tRNA ligase,map00970,Aminoacyl-tRNA biosynthesis,FALSE,NA,93061.SAOUHSC_01666
+49,Q2FXU4,lcl_CP020619.1_prot_ARG46193.1_1755,B7H15_08925,hisS,histidine--tRNA ligase,map00970,Aminoacyl-tRNA biosynthesis,FALSE,NA,93061.SAOUHSC_01738
+49,Q2FZ82,lcl_CP020619.1_prot_ARG45677.1_1216,B7H15_06220,ileS,isoleucine--tRNA ligase,map00970,Aminoacyl-tRNA biosynthesis,FALSE,NA,93061.SAOUHSC_01159
+49,Q2G0Q3,lcl_CP020619.1_prot_ARG45042.1_543,B7H15_02750,lysS,lysine--tRNA ligase,map00970,Aminoacyl-tRNA biosynthesis,FALSE,NA,93061.SAOUHSC_00493
+49,Q2G1R9,lcl_CP020619.1_prot_ARG45012.1_513,B7H15_02600,metG,methionine--tRNA ligase,map00970,Aminoacyl-tRNA biosynthesis,FALSE,NA,93061.SAOUHSC_00461
+49,Q2G1Z4,lcl_CP020619.1_prot_ARG45748.1_1289,B7H15_06585,proS,proline--tRNA ligase,map00970,Aminoacyl-tRNA biosynthesis,FALSE,NA,93061.SAOUHSC_01240
+49,P95689,lcl_CP020619.1_prot_ARG44550.1_10,B7H15_00050,serS,serine--tRNA ligase,map00970,Aminoacyl-tRNA biosynthesis,FALSE,NA,93061.SAOUHSC_00009
+49,Q2FXJ5,lcl_CP020619.1_prot_ARG46287.1_1854,B7H15_09420,tyrS,tyrosine--tRNA ligase,map00970,Aminoacyl-tRNA biosynthesis,FALSE,NA,93061.SAOUHSC_01839
+49,Q2FXR8,lcl_CP020619.1_prot_ARG46219.1_1782,B7H15_09060,valS,valine--tRNA ligase,map00970,Aminoacyl-tRNA biosynthesis,FALSE,NA,93061.SAOUHSC_01767
+49,Q2G010,lcl_CP020619.1_prot_ARG45343.1_866,B7H15_04455,B7H15_04455,thermonuclease,map00230,Purine metabolism,TRUE,Thermonuclease: supplied purine membership needs review,93061.SAOUHSC_00818
+49,Q2FYK7,lcl_CP020619.1_prot_ARG45927.1_1476,B7H15_07520,B7H15_07520,fatty acid-binding protein DegV,map00230,Purine metabolism,TRUE,DegV fatty-acid-binding protein: biochemical basis for purine membership needs review,93061.SAOUHSC_01433
+49,Q2FYG2,lcl_CP020619.1_prot_ARG45971.1_1524,B7H15_07765,B7H15_07765,DNA-binding protein HU,map00230,Purine metabolism,TRUE,DNA-binding HU: supplied purine membership needs review,93061.SAOUHSC_01490
+49,Q2FUT0,lcl_CP020619.1_prot_ARG47266.1_2907,B7H15_14945,B7H15_14945,DNA-directed RNA polymerase subunit delta,map00230,Purine metabolism,TRUE,RNA polymerase delta: supplied purine membership needs review,93061.SAOUHSC_03021
+49,Q2FV52,lcl_CP020619.1_prot_ARG47142.1_2776,B7H15_14290,isaA,transglycosylase IsaA,map00230,Purine metabolism,TRUE,Transglycosylase IsaA: supplied purine membership needs review,93061.SAOUHSC_02887
+49,Q2FXM9,lcl_CP020619.1_prot_ARG46254.1_1820,B7H15_09250,pyk,pyruvate kinase,map00230,Purine metabolism,TRUE,Pyruvate kinase: supplied purine membership needs review,93061.SAOUHSC_01806
+49,Q2FWF8,lcl_CP020619.1_prot_ARG46658.1_2256,B7H15_11645,sceD,transglycosylase SceD,map00230,Purine metabolism,TRUE,Transglycosylase SceD: supplied purine membership needs review,93061.SAOUHSC_02333
+49,Q2G2S0,lcl_CP020619.1_prot_ARG46475.1_2060,B7H15_10640,purB,adenylosuccinate lyase,map00230,Purine metabolism,FALSE,NA,93061.SAOUHSC_02126
+49,Q2FYG7,lcl_CP020619.1_prot_ARG45967.1_1519,B7H15_07740,ndk,nucleoside-diphosphate kinase,map00230,Purine metabolism,FALSE,NA,93061.SAOUHSC_01485
+49,Q2G086,lcl_CP020619.1_prot_ARG45268.1_784,B7H15_04035,B7H15_04035,5'(3')-deoxyribonucleotidase,map00230,Purine metabolism,FALSE,NA,93061.SAOUHSC_00734
+49,Q2FZI9,lcl_CP020619.1_prot_ARG45549.1_1082,B7H15_05545,purF,amidophosphoribosyltransferase,map00230,Purine metabolism,FALSE,NA,93061.SAOUHSC_01014
+67,Q2G253,lcl_CP020619.1_prot_ARG44565.1_25,B7H15_00135,B7H15_00135,"multifunctional 2',3'-cyclic-nucleotide 2'-phosphodiesterase/5'-nucleotidase/3'-nucleotidase",map00230,Purine metabolism,FALSE,NA,93061.SAOUHSC_00025
+67,Q2G1L5,lcl_CP020619.1_prot_ARG44682.1_159,B7H15_00805,B7H15_00805,bifunctional metallophosphatase/5'-nucleotidase,map00230,Purine metabolism,FALSE,NA,93061.SAOUHSC_00107
+67,Q2G149,lcl_CP020619.1_prot_ARG44865.1_357,B7H15_01795,B7H15_01795,hypothetical protein,map00230,Purine metabolism,FALSE,NA,93061.SAOUHSC_00306
+67,Q2FZX5,lcl_CP020619.1_prot_ARG45401.1_928,B7H15_04765,B7H15_04765,bifunctional metallophosphatase/5'-nucleotidase,map00230,Purine metabolism,FALSE,NA,93061.SAOUHSC_00860
+67,Q2FZC5,lcl_CP020619.1_prot_ARG45635.1_1170,B7H15_05985,B7H15_05985,non-canonical purine NTP pyrophosphatase,map00230,Purine metabolism,FALSE,NA,93061.SAOUHSC_01107
+67,Q2FVX0,lcl_CP020619.1_prot_ARG46843.1_2452,B7H15_12670,B7H15_12670,purine nucleosidase,map00230,Purine metabolism,FALSE,NA,93061.SAOUHSC_02553
+67,Q2FW27,lcl_CP020619.1_prot_ARG46788.1_2394,B7H15_12380,adk,adenylate kinase,map00230,Purine metabolism,FALSE,NA,93061.SAOUHSC_02490
+67,Q2FXU0,lcl_CP020619.1_prot_ARG46197.1_1759,B7H15_08945,apt,adenine phosphoribosyltransferase,map00230,Purine metabolism,FALSE,NA,93061.SAOUHSC_01743
+67,Q2G1U0,lcl_CP020619.1_prot_ARG45692.1_1232,B7H15_06300,gmk,guanylate kinase,map00230,Purine metabolism,FALSE,NA,93061.SAOUHSC_01176
+67,Q2FYU4,lcl_CP020619.1_prot_ARG45833.1_1378,B7H15_07030,guaC,guanosine monophosphate reductase,map00230,Purine metabolism,FALSE,NA,93061.SAOUHSC_01330
+67,Q2FXP3,lcl_CP020619.1_prot_ARG46243.1_1807,B7H15_09185,nrdR,transcriptional regulator NrdR,map00230,Purine metabolism,FALSE,NA,93061.SAOUHSC_01793
+67,Q2G0S2,lcl_CP020619.1_prot_ARG45023.1_524,B7H15_02655,prs,ribose-phosphate pyrophosphokinase,map00230,Purine metabolism,FALSE,NA,93061.SAOUHSC_00472
+67,Q2G2K5,lcl_CP020619.1_prot_ARG46848.1_2458,B7H15_12700,ureC,urease subunit alpha,map00230,Purine metabolism,FALSE,NA,93061.SAOUHSC_02561
+67,Q2FWE8,lcl_CP020619.1_prot_ARG46668.1_2266,B7H15_11695,atpA,ATP synthase subunit alpha,map00190,Oxidative phosphorylation,FALSE,NA,93061.SAOUHSC_02345
+67,Q2FWF0,lcl_CP020619.1_prot_ARG46666.1_2264,B7H15_11685,atpD,ATP synthase subunit beta,map00190,Oxidative phosphorylation,FALSE,NA,93061.SAOUHSC_02341
+67,Q2G2F8,lcl_CP020619.1_prot_ARG46670.1_2268,B7H15_11705,atpF,ATP synthase subunit B,map00190,Oxidative phosphorylation,FALSE,NA,93061.SAOUHSC_02347
+67,Q2FWE9,lcl_CP020619.1_prot_ARG46667.1_2265,B7H15_11690,atpG,ATP synthase subunit gamma,map00190,Oxidative phosphorylation,FALSE,NA,93061.SAOUHSC_02343
+67,Q2FWE7,lcl_CP020619.1_prot_ARG46669.1_2267,B7H15_11700,atpH,ATP synthase subunit delta,map00190,Oxidative phosphorylation,FALSE,NA,93061.SAOUHSC_02346
+67,Q2FVL9,lcl_CP020619.1_prot_ARG46960.1_2577,B7H15_13295,B7H15_13295,nitrite reductase (NAD(P)H) small subunit,map00910,Nitrogen metabolism,FALSE,NA,93061.SAOUHSC_02683
+67,Q2FZX9,lcl_CP020619.1_prot_ARG45397.1_924,B7H15_04745,NMO,nitronate monooxygenase,map00910,Nitrogen metabolism,FALSE,NA,93061.SAOUHSC_00855
+67,Q2G0U2,lcl_CP020619.1_prot_ARG44991.1_492,B7H15_02470,B7H15_02470,glutamate synthase large subunit,map00910,Nitrogen metabolism,FALSE,NA,93061.SAOUHSC_00435
+67,Q2FXV9,lcl_CP020619.1_prot_ARG46180.1_1741,B7H15_08850,alaS,alanine--tRNA ligase,map00970,Aminoacyl-tRNA biosynthesis,FALSE,NA,93061.SAOUHSC_01722
+67,Q2G0F8,lcl_CP020619.1_prot_ARG45141.1_652,B7H15_03375,argS,arginine--tRNA ligase,map00970,Aminoacyl-tRNA biosynthesis,FALSE,NA,93061.SAOUHSC_00611
+67,Q2FYH6,lcl_CP020619.1_prot_ARG45955.1_1505,B7H15_07670,asnC,asparagine--tRNA ligase,map00970,Aminoacyl-tRNA biosynthesis,FALSE,NA,93061.SAOUHSC_01471
+67,Q2FXU5,lcl_CP020619.1_prot_ARG46192.1_1754,B7H15_08920,aspS,aspartate--tRNA ligase,map00970,Aminoacyl-tRNA biosynthesis,FALSE,NA,93061.SAOUHSC_01737
+67,Q2G2M6,lcl_CP020619.1_prot_ARG45054.1_557,B7H15_02900,cysS,cysteine--tRNA ligase,map00970,Aminoacyl-tRNA biosynthesis,FALSE,NA,93061.SAOUHSC_00511
+67,Q2FWZ0,lcl_CP020619.1_prot_ARG46466.1_2051,B7H15_10595,gatB,aspartyl/glutamyl-tRNA(Asn/Gln) amidotransferase subunit B,map00970,Aminoacyl-tRNA biosynthesis,FALSE,NA,93061.SAOUHSC_02116
+67,Q2FY08,lcl_CP020619.1_prot_ARG46131.1_1689,B7H15_08590,glyQS,glycine--tRNA ligase,map00970,Aminoacyl-tRNA biosynthesis,FALSE,NA,93061.SAOUHSC_01666
+67,Q2FXU4,lcl_CP020619.1_prot_ARG46193.1_1755,B7H15_08925,hisS,histidine--tRNA ligase,map00970,Aminoacyl-tRNA biosynthesis,FALSE,NA,93061.SAOUHSC_01738
+67,Q2FZ82,lcl_CP020619.1_prot_ARG45677.1_1216,B7H15_06220,ileS,isoleucine--tRNA ligase,map00970,Aminoacyl-tRNA biosynthesis,FALSE,NA,93061.SAOUHSC_01159
+67,Q2G0Q3,lcl_CP020619.1_prot_ARG45042.1_543,B7H15_02750,lysS,lysine--tRNA ligase,map00970,Aminoacyl-tRNA biosynthesis,FALSE,NA,93061.SAOUHSC_00493
+67,Q2G1R9,lcl_CP020619.1_prot_ARG45012.1_513,B7H15_02600,metG,methionine--tRNA ligase,map00970,Aminoacyl-tRNA biosynthesis,FALSE,NA,93061.SAOUHSC_00461
+67,Q2G1Z4,lcl_CP020619.1_prot_ARG45748.1_1289,B7H15_06585,proS,proline--tRNA ligase,map00970,Aminoacyl-tRNA biosynthesis,FALSE,NA,93061.SAOUHSC_01240
+67,P95689,lcl_CP020619.1_prot_ARG44550.1_10,B7H15_00050,serS,serine--tRNA ligase,map00970,Aminoacyl-tRNA biosynthesis,FALSE,NA,93061.SAOUHSC_00009
+67,Q2FXJ5,lcl_CP020619.1_prot_ARG46287.1_1854,B7H15_09420,tyrS,tyrosine--tRNA ligase,map00970,Aminoacyl-tRNA biosynthesis,FALSE,NA,93061.SAOUHSC_01839
+67,Q2FXR8,lcl_CP020619.1_prot_ARG46219.1_1782,B7H15_09060,valS,valine--tRNA ligase,map00970,Aminoacyl-tRNA biosynthesis,FALSE,NA,93061.SAOUHSC_01767
+67,Q2G2S0,lcl_CP020619.1_prot_ARG46475.1_2060,B7H15_10640,purB,adenylosuccinate lyase,map00230,Purine metabolism,FALSE,NA,93061.SAOUHSC_02126
+67,Q2FYG7,lcl_CP020619.1_prot_ARG45967.1_1519,B7H15_07740,ndk,nucleoside-diphosphate kinase,map00230,Purine metabolism,FALSE,NA,93061.SAOUHSC_01485
+67,Q2G086,lcl_CP020619.1_prot_ARG45268.1_784,B7H15_04035,B7H15_04035,5'(3')-deoxyribonucleotidase,map00230,Purine metabolism,FALSE,NA,93061.SAOUHSC_00734
+67,Q2FZI9,lcl_CP020619.1_prot_ARG45549.1_1082,B7H15_05545,purF,amidophosphoribosyltransferase,map00230,Purine metabolism,FALSE,NA,93061.SAOUHSC_01014
+67,Q2FV02,lcl_CP020619.1_prot_ARG47192.1_2829,B7H15_14555,B7H15_14555,anaerobic ribonucleoside-triphosphate reductase,map00230,Purine metabolism,FALSE,NA,93061.SAOUHSC_02942
+67,Q2G079,lcl_CP020619.1_prot_ARG45277.1_793,B7H15_04080,nrdI,protein NrdI,map00230,Purine metabolism,FALSE,NA,93061.SAOUHSC_00741
+67,Q2FZJ3,lcl_CP020619.1_prot_ARG45545.1_1078,B7H15_05525,purC,phosphoribosylaminoimidazolesuccinocarboxamide synthase,map00230,Purine metabolism,FALSE,NA,93061.SAOUHSC_01010
+67,Q2FZI6,lcl_CP020619.1_prot_ARG45552.1_1085,B7H15_05560,purH,bifunctional phosphoribosylaminoimidazolecarboxamide formyltransferase/inosine monophosphate cyclohydrolase,map00230,Purine metabolism,FALSE,NA,93061.SAOUHSC_01017
+67,Q2FZI8,lcl_CP020619.1_prot_ARG45550.1_1083,B7H15_05550,purM,phosphoribosylformylglycinamidine cyclo-ligase,map00230,Purine metabolism,FALSE,NA,93061.SAOUHSC_01015
+67,Q2FZJ2,lcl_CP020619.1_prot_ARG45546.1_1079,B7H15_05530,purS,phosphoribosylformylglycinamidine synthase,map00230,Purine metabolism,FALSE,NA,93061.SAOUHSC_01011
+67,Q2G0S7,lcl_CP020619.1_prot_ARG45018.1_519,B7H15_02630,B7H15_02630,pur operon repressor,map00230,Purine metabolism,FALSE,NA,93061.SAOUHSC_00467
+67,Q2G077,lcl_CP020619.1_prot_ARG45279.1_795,B7H15_04090,B7H15_04090,class 1b ribonucleoside-diphosphate reductase subunit beta,map00230,Purine metabolism,FALSE,NA,93061.SAOUHSC_00743
+67,Q2G2L7,lcl_CP020619.1_prot_ARG47079.1_2706,B7H15_13940,B7H15_13940,GTP pyrophosphokinase,map00230,Purine metabolism,FALSE,NA,93061.SAOUHSC_02811
+67,Q2G0Y7,lcl_CP020619.1_prot_ARG44931.1_427,B7H15_02145,guaB,IMP dehydrogenase,map00230,Purine metabolism,FALSE,NA,93061.SAOUHSC_00374
+67,Q2G1S3,lcl_CP020619.1_prot_ARG44559.1_19,B7H15_00095,purA,adenylosuccinate synthetase,map00230,Purine metabolism,FALSE,NA,93061.SAOUHSC_00019
+67,Q2FZI5,lcl_CP020619.1_prot_ARG45553.1_1086,B7H15_05565,purD,phosphoribosylamine--glycine ligase,map00230,Purine metabolism,FALSE,NA,93061.SAOUHSC_01018
+67,Q2FZJ4,lcl_CP020619.1_prot_ARG45544.1_1077,B7H15_05520,purK,5-(carboxyamino)imidazole ribonucleotide synthase,map00230,Purine metabolism,FALSE,NA,93061.SAOUHSC_01009
+67,Q2FZJ0,lcl_CP020619.1_prot_ARG45548.1_1081,B7H15_05540,purL,phosphoribosylformylglycinamidine synthase subunit PurL,map00230,Purine metabolism,FALSE,NA,93061.SAOUHSC_01013
+67,Q2FZI7,lcl_CP020619.1_prot_ARG45551.1_1084,B7H15_05555,purN,phosphoribosylglycinamide formyltransferase,map00230,Purine metabolism,FALSE,NA,93061.SAOUHSC_01016
+67,Q2FZJ1,lcl_CP020619.1_prot_ARG45547.1_1080,B7H15_05535,purQ,phosphoribosylformylglycinamidine synthase subunit PurQ,map00230,Purine metabolism,FALSE,NA,93061.SAOUHSC_01012
+67,Q2FZH3,lcl_CP020619.1_prot_ARG45565.1_1099,B7H15_05630,B7H15_05630,cytochrome ubiquinol oxidase subunit I,map00190,Oxidative phosphorylation,FALSE,NA,93061.SAOUHSC_01031
+67,Q2FZJ9,lcl_CP020619.1_prot_ARG45540.1_1071,B7H15_05490,qoxA,quinol oxidase subunit 2,map00190,Oxidative phosphorylation,FALSE,NA,93061.SAOUHSC_01002
+67,Q2FZK0,lcl_CP020619.1_prot_ARG45539.1_1070,B7H15_05485,qoxB,cytochrome ubiquinol oxidase subunit I,map00190,Oxidative phosphorylation,FALSE,NA,93061.SAOUHSC_01001
+67,Q2FVM4,lcl_CP020619.1_prot_ARG46955.1_2572,B7H15_13270,B7H15_13270,respiratory nitrate reductase subunit gamma,map00910,Nitrogen metabolism,FALSE,NA,93061.SAOUHSC_02678
+67,Q2FZU5,lcl_CP020619.1_prot_ARG45435.1_963,B7H15_04940,B7H15_04940,NAD-specific glutamate dehydrogenase,map00910,Nitrogen metabolism,FALSE,NA,93061.SAOUHSC_00895
+67,Q2FVM2,lcl_CP020619.1_prot_ARG46957.1_2574,B7H15_13280,B7H15_13280,nitrate reductase subunit beta,map00910,Nitrogen metabolism,FALSE,NA,93061.SAOUHSC_02680
+67,Q2FVM1,lcl_CP020619.1_prot_ARG46958.1_2575,B7H15_13285,B7H15_13285,nitrate reductase subunit alpha,map00910,Nitrogen metabolism,FALSE,NA,93061.SAOUHSC_02681
+67,Q2FXH2,lcl_CP020619.1_prot_ARG46320.1_1888,B7H15_09590,leuS,leucine--tRNA ligase,map00970,Aminoacyl-tRNA biosynthesis,FALSE,NA,93061.SAOUHSC_01875
+67,Q2FXP7,lcl_CP020619.1_prot_ARG46239.1_1803,B7H15_09165,thrS,threonine--tRNA ligase,map00970,Aminoacyl-tRNA biosynthesis,FALSE,NA,93061.SAOUHSC_01788
+75,Q2G253,lcl_CP020619.1_prot_ARG44565.1_25,B7H15_00135,B7H15_00135,"multifunctional 2',3'-cyclic-nucleotide 2'-phosphodiesterase/5'-nucleotidase/3'-nucleotidase",map00230,Purine metabolism,FALSE,NA,93061.SAOUHSC_00025
+75,Q2G1L5,lcl_CP020619.1_prot_ARG44682.1_159,B7H15_00805,B7H15_00805,bifunctional metallophosphatase/5'-nucleotidase,map00230,Purine metabolism,FALSE,NA,93061.SAOUHSC_00107
+75,Q2G149,lcl_CP020619.1_prot_ARG44865.1_357,B7H15_01795,B7H15_01795,hypothetical protein,map00230,Purine metabolism,FALSE,NA,93061.SAOUHSC_00306
+75,Q2FZX5,lcl_CP020619.1_prot_ARG45401.1_928,B7H15_04765,B7H15_04765,bifunctional metallophosphatase/5'-nucleotidase,map00230,Purine metabolism,FALSE,NA,93061.SAOUHSC_00860
+75,Q2FZC5,lcl_CP020619.1_prot_ARG45635.1_1170,B7H15_05985,B7H15_05985,non-canonical purine NTP pyrophosphatase,map00230,Purine metabolism,FALSE,NA,93061.SAOUHSC_01107
+75,Q2FVX0,lcl_CP020619.1_prot_ARG46843.1_2452,B7H15_12670,B7H15_12670,purine nucleosidase,map00230,Purine metabolism,FALSE,NA,93061.SAOUHSC_02553
+75,Q2FW27,lcl_CP020619.1_prot_ARG46788.1_2394,B7H15_12380,adk,adenylate kinase,map00230,Purine metabolism,FALSE,NA,93061.SAOUHSC_02490
+75,Q2FXU0,lcl_CP020619.1_prot_ARG46197.1_1759,B7H15_08945,apt,adenine phosphoribosyltransferase,map00230,Purine metabolism,FALSE,NA,93061.SAOUHSC_01743
+75,Q2G1U0,lcl_CP020619.1_prot_ARG45692.1_1232,B7H15_06300,gmk,guanylate kinase,map00230,Purine metabolism,FALSE,NA,93061.SAOUHSC_01176
+75,Q2FYU4,lcl_CP020619.1_prot_ARG45833.1_1378,B7H15_07030,guaC,guanosine monophosphate reductase,map00230,Purine metabolism,FALSE,NA,93061.SAOUHSC_01330
+75,Q2FXP3,lcl_CP020619.1_prot_ARG46243.1_1807,B7H15_09185,nrdR,transcriptional regulator NrdR,map00230,Purine metabolism,FALSE,NA,93061.SAOUHSC_01793
+75,Q2G0S2,lcl_CP020619.1_prot_ARG45023.1_524,B7H15_02655,prs,ribose-phosphate pyrophosphokinase,map00230,Purine metabolism,FALSE,NA,93061.SAOUHSC_00472
+75,Q2G2K5,lcl_CP020619.1_prot_ARG46848.1_2458,B7H15_12700,ureC,urease subunit alpha,map00230,Purine metabolism,FALSE,NA,93061.SAOUHSC_02561
+75,Q2FWE8,lcl_CP020619.1_prot_ARG46668.1_2266,B7H15_11695,atpA,ATP synthase subunit alpha,map00190,Oxidative phosphorylation,FALSE,NA,93061.SAOUHSC_02345
+75,Q2FWF0,lcl_CP020619.1_prot_ARG46666.1_2264,B7H15_11685,atpD,ATP synthase subunit beta,map00190,Oxidative phosphorylation,FALSE,NA,93061.SAOUHSC_02341
+75,Q2G2F8,lcl_CP020619.1_prot_ARG46670.1_2268,B7H15_11705,atpF,ATP synthase subunit B,map00190,Oxidative phosphorylation,FALSE,NA,93061.SAOUHSC_02347
+75,Q2FWE9,lcl_CP020619.1_prot_ARG46667.1_2265,B7H15_11690,atpG,ATP synthase subunit gamma,map00190,Oxidative phosphorylation,FALSE,NA,93061.SAOUHSC_02343
+75,Q2FWE7,lcl_CP020619.1_prot_ARG46669.1_2267,B7H15_11700,atpH,ATP synthase subunit delta,map00190,Oxidative phosphorylation,FALSE,NA,93061.SAOUHSC_02346
+75,Q2FVL9,lcl_CP020619.1_prot_ARG46960.1_2577,B7H15_13295,B7H15_13295,nitrite reductase (NAD(P)H) small subunit,map00910,Nitrogen metabolism,FALSE,NA,93061.SAOUHSC_02683
+75,Q2FZX9,lcl_CP020619.1_prot_ARG45397.1_924,B7H15_04745,NMO,nitronate monooxygenase,map00910,Nitrogen metabolism,FALSE,NA,93061.SAOUHSC_00855
+75,Q2G0U2,lcl_CP020619.1_prot_ARG44991.1_492,B7H15_02470,B7H15_02470,glutamate synthase large subunit,map00910,Nitrogen metabolism,FALSE,NA,93061.SAOUHSC_00435
+75,Q2FXV9,lcl_CP020619.1_prot_ARG46180.1_1741,B7H15_08850,alaS,alanine--tRNA ligase,map00970,Aminoacyl-tRNA biosynthesis,FALSE,NA,93061.SAOUHSC_01722
+75,Q2G0F8,lcl_CP020619.1_prot_ARG45141.1_652,B7H15_03375,argS,arginine--tRNA ligase,map00970,Aminoacyl-tRNA biosynthesis,FALSE,NA,93061.SAOUHSC_00611
+75,Q2FYH6,lcl_CP020619.1_prot_ARG45955.1_1505,B7H15_07670,asnC,asparagine--tRNA ligase,map00970,Aminoacyl-tRNA biosynthesis,FALSE,NA,93061.SAOUHSC_01471
+75,Q2FXU5,lcl_CP020619.1_prot_ARG46192.1_1754,B7H15_08920,aspS,aspartate--tRNA ligase,map00970,Aminoacyl-tRNA biosynthesis,FALSE,NA,93061.SAOUHSC_01737
+75,Q2G2M6,lcl_CP020619.1_prot_ARG45054.1_557,B7H15_02900,cysS,cysteine--tRNA ligase,map00970,Aminoacyl-tRNA biosynthesis,FALSE,NA,93061.SAOUHSC_00511
+75,Q2FWZ0,lcl_CP020619.1_prot_ARG46466.1_2051,B7H15_10595,gatB,aspartyl/glutamyl-tRNA(Asn/Gln) amidotransferase subunit B,map00970,Aminoacyl-tRNA biosynthesis,FALSE,NA,93061.SAOUHSC_02116
+75,Q2FY08,lcl_CP020619.1_prot_ARG46131.1_1689,B7H15_08590,glyQS,glycine--tRNA ligase,map00970,Aminoacyl-tRNA biosynthesis,FALSE,NA,93061.SAOUHSC_01666
+75,Q2FXU4,lcl_CP020619.1_prot_ARG46193.1_1755,B7H15_08925,hisS,histidine--tRNA ligase,map00970,Aminoacyl-tRNA biosynthesis,FALSE,NA,93061.SAOUHSC_01738
+75,Q2FZ82,lcl_CP020619.1_prot_ARG45677.1_1216,B7H15_06220,ileS,isoleucine--tRNA ligase,map00970,Aminoacyl-tRNA biosynthesis,FALSE,NA,93061.SAOUHSC_01159
+75,Q2G0Q3,lcl_CP020619.1_prot_ARG45042.1_543,B7H15_02750,lysS,lysine--tRNA ligase,map00970,Aminoacyl-tRNA biosynthesis,FALSE,NA,93061.SAOUHSC_00493
+75,Q2G1R9,lcl_CP020619.1_prot_ARG45012.1_513,B7H15_02600,metG,methionine--tRNA ligase,map00970,Aminoacyl-tRNA biosynthesis,FALSE,NA,93061.SAOUHSC_00461
+75,Q2G1Z4,lcl_CP020619.1_prot_ARG45748.1_1289,B7H15_06585,proS,proline--tRNA ligase,map00970,Aminoacyl-tRNA biosynthesis,FALSE,NA,93061.SAOUHSC_01240
+75,P95689,lcl_CP020619.1_prot_ARG44550.1_10,B7H15_00050,serS,serine--tRNA ligase,map00970,Aminoacyl-tRNA biosynthesis,FALSE,NA,93061.SAOUHSC_00009
+75,Q2FXJ5,lcl_CP020619.1_prot_ARG46287.1_1854,B7H15_09420,tyrS,tyrosine--tRNA ligase,map00970,Aminoacyl-tRNA biosynthesis,FALSE,NA,93061.SAOUHSC_01839
+75,Q2FXR8,lcl_CP020619.1_prot_ARG46219.1_1782,B7H15_09060,valS,valine--tRNA ligase,map00970,Aminoacyl-tRNA biosynthesis,FALSE,NA,93061.SAOUHSC_01767
+75,Q2G010,lcl_CP020619.1_prot_ARG45343.1_866,B7H15_04455,B7H15_04455,thermonuclease,map00230,Purine metabolism,TRUE,Thermonuclease: supplied purine membership needs review,93061.SAOUHSC_00818
+75,Q2FYK7,lcl_CP020619.1_prot_ARG45927.1_1476,B7H15_07520,B7H15_07520,fatty acid-binding protein DegV,map00230,Purine metabolism,TRUE,DegV fatty-acid-binding protein: biochemical basis for purine membership needs review,93061.SAOUHSC_01433
+75,Q2FYG2,lcl_CP020619.1_prot_ARG45971.1_1524,B7H15_07765,B7H15_07765,DNA-binding protein HU,map00230,Purine metabolism,TRUE,DNA-binding HU: supplied purine membership needs review,93061.SAOUHSC_01490
+75,Q2FUT0,lcl_CP020619.1_prot_ARG47266.1_2907,B7H15_14945,B7H15_14945,DNA-directed RNA polymerase subunit delta,map00230,Purine metabolism,TRUE,RNA polymerase delta: supplied purine membership needs review,93061.SAOUHSC_03021
+75,Q2FV52,lcl_CP020619.1_prot_ARG47142.1_2776,B7H15_14290,isaA,transglycosylase IsaA,map00230,Purine metabolism,TRUE,Transglycosylase IsaA: supplied purine membership needs review,93061.SAOUHSC_02887
+75,Q2FXM9,lcl_CP020619.1_prot_ARG46254.1_1820,B7H15_09250,pyk,pyruvate kinase,map00230,Purine metabolism,TRUE,Pyruvate kinase: supplied purine membership needs review,93061.SAOUHSC_01806
+75,Q2FWF8,lcl_CP020619.1_prot_ARG46658.1_2256,B7H15_11645,sceD,transglycosylase SceD,map00230,Purine metabolism,TRUE,Transglycosylase SceD: supplied purine membership needs review,93061.SAOUHSC_02333
+75,Q2G2S0,lcl_CP020619.1_prot_ARG46475.1_2060,B7H15_10640,purB,adenylosuccinate lyase,map00230,Purine metabolism,FALSE,NA,93061.SAOUHSC_02126
+75,Q2FYG7,lcl_CP020619.1_prot_ARG45967.1_1519,B7H15_07740,ndk,nucleoside-diphosphate kinase,map00230,Purine metabolism,FALSE,NA,93061.SAOUHSC_01485
+75,Q2G086,lcl_CP020619.1_prot_ARG45268.1_784,B7H15_04035,B7H15_04035,5'(3')-deoxyribonucleotidase,map00230,Purine metabolism,FALSE,NA,93061.SAOUHSC_00734
+75,Q2FZI9,lcl_CP020619.1_prot_ARG45549.1_1082,B7H15_05545,purF,amidophosphoribosyltransferase,map00230,Purine metabolism,FALSE,NA,93061.SAOUHSC_01014
+75,Q2FV02,lcl_CP020619.1_prot_ARG47192.1_2829,B7H15_14555,B7H15_14555,anaerobic ribonucleoside-triphosphate reductase,map00230,Purine metabolism,FALSE,NA,93061.SAOUHSC_02942
+75,Q2G079,lcl_CP020619.1_prot_ARG45277.1_793,B7H15_04080,nrdI,protein NrdI,map00230,Purine metabolism,FALSE,NA,93061.SAOUHSC_00741
+75,Q2FZJ3,lcl_CP020619.1_prot_ARG45545.1_1078,B7H15_05525,purC,phosphoribosylaminoimidazolesuccinocarboxamide synthase,map00230,Purine metabolism,FALSE,NA,93061.SAOUHSC_01010
+75,Q2FZI6,lcl_CP020619.1_prot_ARG45552.1_1085,B7H15_05560,purH,bifunctional phosphoribosylaminoimidazolecarboxamide formyltransferase/inosine monophosphate cyclohydrolase,map00230,Purine metabolism,FALSE,NA,93061.SAOUHSC_01017
+75,Q2FZI8,lcl_CP020619.1_prot_ARG45550.1_1083,B7H15_05550,purM,phosphoribosylformylglycinamidine cyclo-ligase,map00230,Purine metabolism,FALSE,NA,93061.SAOUHSC_01015
+75,Q2FZJ2,lcl_CP020619.1_prot_ARG45546.1_1079,B7H15_05530,purS,phosphoribosylformylglycinamidine synthase,map00230,Purine metabolism,FALSE,NA,93061.SAOUHSC_01011
+75,Q2G0S7,lcl_CP020619.1_prot_ARG45018.1_519,B7H15_02630,B7H15_02630,pur operon repressor,map00230,Purine metabolism,FALSE,NA,93061.SAOUHSC_00467
+75,Q2G077,lcl_CP020619.1_prot_ARG45279.1_795,B7H15_04090,B7H15_04090,class 1b ribonucleoside-diphosphate reductase subunit beta,map00230,Purine metabolism,FALSE,NA,93061.SAOUHSC_00743
+75,Q2G2L7,lcl_CP020619.1_prot_ARG47079.1_2706,B7H15_13940,B7H15_13940,GTP pyrophosphokinase,map00230,Purine metabolism,FALSE,NA,93061.SAOUHSC_02811
+75,Q2G0Y7,lcl_CP020619.1_prot_ARG44931.1_427,B7H15_02145,guaB,IMP dehydrogenase,map00230,Purine metabolism,FALSE,NA,93061.SAOUHSC_00374
+75,Q2G1S3,lcl_CP020619.1_prot_ARG44559.1_19,B7H15_00095,purA,adenylosuccinate synthetase,map00230,Purine metabolism,FALSE,NA,93061.SAOUHSC_00019
+75,Q2FZI5,lcl_CP020619.1_prot_ARG45553.1_1086,B7H15_05565,purD,phosphoribosylamine--glycine ligase,map00230,Purine metabolism,FALSE,NA,93061.SAOUHSC_01018
+75,Q2FZJ4,lcl_CP020619.1_prot_ARG45544.1_1077,B7H15_05520,purK,5-(carboxyamino)imidazole ribonucleotide synthase,map00230,Purine metabolism,FALSE,NA,93061.SAOUHSC_01009
+75,Q2FZJ0,lcl_CP020619.1_prot_ARG45548.1_1081,B7H15_05540,purL,phosphoribosylformylglycinamidine synthase subunit PurL,map00230,Purine metabolism,FALSE,NA,93061.SAOUHSC_01013
+75,Q2FZI7,lcl_CP020619.1_prot_ARG45551.1_1084,B7H15_05555,purN,phosphoribosylglycinamide formyltransferase,map00230,Purine metabolism,FALSE,NA,93061.SAOUHSC_01016
+75,Q2FZJ1,lcl_CP020619.1_prot_ARG45547.1_1080,B7H15_05535,purQ,phosphoribosylformylglycinamidine synthase subunit PurQ,map00230,Purine metabolism,FALSE,NA,93061.SAOUHSC_01012
+75,Q2FZH3,lcl_CP020619.1_prot_ARG45565.1_1099,B7H15_05630,B7H15_05630,cytochrome ubiquinol oxidase subunit I,map00190,Oxidative phosphorylation,FALSE,NA,93061.SAOUHSC_01031
+75,Q2FZJ9,lcl_CP020619.1_prot_ARG45540.1_1071,B7H15_05490,qoxA,quinol oxidase subunit 2,map00190,Oxidative phosphorylation,FALSE,NA,93061.SAOUHSC_01002
+75,Q2FZK0,lcl_CP020619.1_prot_ARG45539.1_1070,B7H15_05485,qoxB,cytochrome ubiquinol oxidase subunit I,map00190,Oxidative phosphorylation,FALSE,NA,93061.SAOUHSC_01001
+75,Q2FVM4,lcl_CP020619.1_prot_ARG46955.1_2572,B7H15_13270,B7H15_13270,respiratory nitrate reductase subunit gamma,map00910,Nitrogen metabolism,FALSE,NA,93061.SAOUHSC_02678
+75,Q2FZU5,lcl_CP020619.1_prot_ARG45435.1_963,B7H15_04940,B7H15_04940,NAD-specific glutamate dehydrogenase,map00910,Nitrogen metabolism,FALSE,NA,93061.SAOUHSC_00895
+75,Q2FVM2,lcl_CP020619.1_prot_ARG46957.1_2574,B7H15_13280,B7H15_13280,nitrate reductase subunit beta,map00910,Nitrogen metabolism,FALSE,NA,93061.SAOUHSC_02680
+75,Q2FVM1,lcl_CP020619.1_prot_ARG46958.1_2575,B7H15_13285,B7H15_13285,nitrate reductase subunit alpha,map00910,Nitrogen metabolism,FALSE,NA,93061.SAOUHSC_02681
+75,Q2FXH2,lcl_CP020619.1_prot_ARG46320.1_1888,B7H15_09590,leuS,leucine--tRNA ligase,map00970,Aminoacyl-tRNA biosynthesis,FALSE,NA,93061.SAOUHSC_01875
+75,Q2FXP7,lcl_CP020619.1_prot_ARG46239.1_1803,B7H15_09165,thrS,threonine--tRNA ligase,map00970,Aminoacyl-tRNA biosynthesis,FALSE,NA,93061.SAOUHSC_01788
+75,Q2G0W1,lcl_CP020619.1_prot_ARG44972.1_473,B7H15_02375,dabA,hypothetical protein,map00190,Oxidative phosphorylation,TRUE,DabA probable inorganic-carbon-transporter subunit or JE2 hypothetical: reconcile oxidative phosphorylation membership,93061.SAOUHSC_00413

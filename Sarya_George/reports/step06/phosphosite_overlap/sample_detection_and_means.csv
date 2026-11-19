@@ -1,0 +1,37 @@
+protein,measurement,site_label,genotype,medium,n_observed,mean_log2
+IsaA,Phosphosite,S194,anc,SN,2,15.560053686288795
+IsaA,Phosphosite,S194,anc,TSB,2,16.008436430077705
+IsaA,Phosphosite,S194,stk,SN,3,17.09939361257006
+IsaA,Phosphosite,S194,stk,TSB,3,19.04863529982647
+IsaA,Phosphosite,S194,stp,SN,3,16.836132036200098
+IsaA,Phosphosite,S194,stp,TSB,3,17.741656993562064
+IsaA,Total protein,parent,anc,SN,3,21.112712062955758
+IsaA,Total protein,parent,anc,TSB,3,21.148453475075794
+IsaA,Total protein,parent,stk,SN,3,22.325799286079864
+IsaA,Total protein,parent,stk,TSB,3,23.415629065151187
+IsaA,Total protein,parent,stp,SN,3,21.805235975698707
+IsaA,Total protein,parent,stp,TSB,3,22.119728358871324
+Pyk,Phosphosite,T537,anc,SN,3,25.66806335281642
+Pyk,Phosphosite,T537,anc,TSB,3,24.458824908071517
+Pyk,Phosphosite,T537,stk,SN,3,25.48926310542385
+Pyk,Phosphosite,T537,stk,TSB,3,24.705891240127954
+Pyk,Phosphosite,T537,stp,SN,3,26.757354974055286
+Pyk,Phosphosite,T537,stp,TSB,3,26.34366928417879
+Pyk,Total protein,parent,anc,SN,3,19.906242045002337
+Pyk,Total protein,parent,anc,TSB,3,19.456006964854577
+Pyk,Total protein,parent,stk,SN,3,19.871132865614026
+Pyk,Total protein,parent,stk,TSB,3,19.514429578679493
+Pyk,Total protein,parent,stp,SN,3,20.163264117060415
+Pyk,Total protein,parent,stp,TSB,3,19.597965775794975
+QoxB,Phosphosite,T552,anc,SN,3,17.614095642393668
+QoxB,Phosphosite,T552,anc,TSB,3,14.738858160057584
+QoxB,Phosphosite,T552,stk,SN,3,17.603076352572533
+QoxB,Phosphosite,T552,stk,TSB,3,15.62171537777794
+QoxB,Phosphosite,T552,stp,SN,2,17.538653592696747
+QoxB,Phosphosite,T552,stp,TSB,3,16.432921374184918
+QoxB,Total protein,parent,anc,SN,3,17.933043616946932
+QoxB,Total protein,parent,anc,TSB,3,17.410160453896648
+QoxB,Total protein,parent,stk,SN,3,18.121930356243205
+QoxB,Total protein,parent,stk,TSB,3,17.240872654276128
+QoxB,Total protein,parent,stp,SN,3,18.18694328612267
+QoxB,Total protein,parent,stp,TSB,3,17.488474181536063

@@ -1,0 +1,13 @@
+set_id,term_id,module,course_members,live_members,shared,course_only,live_only
+49,map00190,Oxidative phosphorylation,5,5,5,0,0
+49,map00230,Purine metabolism,24,10,10,14,0
+49,map00910,Nitrogen metabolism,3,3,3,0,0
+49,map00970,Aminoacyl-tRNA biosynthesis,15,15,15,0,0
+67,map00190,Oxidative phosphorylation,8,8,8,0,0
+67,map00230,Purine metabolism,33,24,24,9,0
+67,map00910,Nitrogen metabolism,7,7,7,0,0
+67,map00970,Aminoacyl-tRNA biosynthesis,17,17,17,0,0
+75,map00190,Oxidative phosphorylation,9,8,8,1,0
+75,map00230,Purine metabolism,40,24,24,16,0
+75,map00910,Nitrogen metabolism,7,7,7,0,0
+75,map00970,Aminoacyl-tRNA biosynthesis,17,17,17,0,0

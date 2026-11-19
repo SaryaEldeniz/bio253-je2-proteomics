@@ -1,0 +1,147 @@
+x,y,region,colour,line
+-2.2800000000000002,-0.5800000000000003,Purine metabolism,#0072B2,solid
+-2.313051948499604,-0.831054473749446,Purine metabolism,#0072B2,solid
+-2.409955358329095,-1.0650000000000004,Purine metabolism,#0072B2,solid
+-2.564106422249049,-1.2658935777509512,Purine metabolism,#0072B2,solid
+-2.7650000000000006,-1.420044641670906,Purine metabolism,#0072B2,solid
+-2.998945526250555,-1.5169480515003966,Purine metabolism,#0072B2,solid
+-3.25,-1.55,Purine metabolism,#0072B2,solid
+-12.75,-1.55,Purine metabolism,#0072B2,solid
+-13.001054473749447,-1.5169480515003961,Purine metabolism,#0072B2,solid
+-13.235000000000001,-1.4200446416709052,Purine metabolism,#0072B2,solid
+-13.435893577750951,-1.2658935777509508,Purine metabolism,#0072B2,solid
+-13.590044641670906,-1.0649999999999997,Purine metabolism,#0072B2,solid
+-13.686948051500396,-0.8310544737494447,Purine metabolism,#0072B2,solid
+-13.72,-0.58,Purine metabolism,#0072B2,solid
+-13.72,4.58,Purine metabolism,#0072B2,solid
+-13.686948051500396,4.831054473749446,Purine metabolism,#0072B2,solid
+-13.590044641670906,5.065,Purine metabolism,#0072B2,solid
+-13.435893577750951,5.265893577750951,Purine metabolism,#0072B2,solid
+-13.235,5.420044641670906,Purine metabolism,#0072B2,solid
+-13.001054473749445,5.516948051500396,Purine metabolism,#0072B2,solid
+-12.75,5.55,Purine metabolism,#0072B2,solid
+-3.25,5.55,Purine metabolism,#0072B2,solid
+-2.9989455262505547,5.516948051500396,Purine metabolism,#0072B2,solid
+-2.7649999999999997,5.420044641670906,Purine metabolism,#0072B2,solid
+-2.564106422249049,5.265893577750951,Purine metabolism,#0072B2,solid
+-2.4099553583290945,5.065,Purine metabolism,#0072B2,solid
+-2.313051948499604,4.831054473749445,Purine metabolism,#0072B2,solid
+-2.2800000000000002,4.58,Purine metabolism,#0072B2,solid
+11.42,-3.8600000000000003,Oxidative phosphorylation,#E69F00,longdash
+11.386948051500395,-4.111054473749446,Oxidative phosphorylation,#E69F00,longdash
+11.290044641670905,-4.345000000000001,Oxidative phosphorylation,#E69F00,longdash
+11.13589357775095,-4.5458935777509515,Oxidative phosphorylation,#E69F00,longdash
+10.934999999999999,-4.700044641670906,Oxidative phosphorylation,#E69F00,longdash
+10.701054473749444,-4.796948051500396,Oxidative phosphorylation,#E69F00,longdash
+10.45,-4.83,Oxidative phosphorylation,#E69F00,longdash
+4.75,-4.83,Oxidative phosphorylation,#E69F00,longdash
+4.498945526250554,-4.7969480515003955,Oxidative phosphorylation,#E69F00,longdash
+4.265,-4.700044641670905,Oxidative phosphorylation,#E69F00,longdash
+4.064106422249049,-4.545893577750951,Oxidative phosphorylation,#E69F00,longdash
+3.9099553583290945,-4.345,Oxidative phosphorylation,#E69F00,longdash
+3.8130519484996035,-4.111054473749444,Oxidative phosphorylation,#E69F00,longdash
+3.7800000000000002,-3.86,Oxidative phosphorylation,#E69F00,longdash
+3.7800000000000002,-2.14,Oxidative phosphorylation,#E69F00,longdash
+3.813051948499604,-1.8889455262505548,Oxidative phosphorylation,#E69F00,longdash
+3.9099553583290945,-1.6549999999999998,Oxidative phosphorylation,#E69F00,longdash
+4.064106422249049,-1.454106422249049,Oxidative phosphorylation,#E69F00,longdash
+4.265000000000001,-1.2999553583290946,Oxidative phosphorylation,#E69F00,longdash
+4.498945526250555,-1.2030519484996038,Oxidative phosphorylation,#E69F00,longdash
+4.75,-1.1700000000000002,Oxidative phosphorylation,#E69F00,longdash
+10.45,-1.1700000000000002,Oxidative phosphorylation,#E69F00,longdash
+10.701054473749444,-1.203051948499604,Oxidative phosphorylation,#E69F00,longdash
+10.934999999999999,-1.2999553583290946,Oxidative phosphorylation,#E69F00,longdash
+11.13589357775095,-1.454106422249049,Oxidative phosphorylation,#E69F00,longdash
+11.290044641670905,-1.6550000000000002,Oxidative phosphorylation,#E69F00,longdash
+11.386948051500395,-1.888945526250555,Oxidative phosphorylation,#E69F00,longdash
+11.42,-2.14,Oxidative phosphorylation,#E69F00,longdash
+3.4699999999999998,-3.9000000000000004,Nitrogen metabolism,#333333,dotdash
+3.436948051500396,-4.151054473749446,Nitrogen metabolism,#333333,dotdash
+3.340044641670905,-4.385000000000001,Nitrogen metabolism,#333333,dotdash
+3.185893577750951,-4.5858935777509515,Nitrogen metabolism,#333333,dotdash
+1.2858935777509508,-6.305893577750951,Nitrogen metabolism,#333333,dotdash
+1.0849999999999993,-6.460044641670906,Nitrogen metabolism,#333333,dotdash
+0.8510544737494447,-6.556948051500396,Nitrogen metabolism,#333333,dotdash
+0.5999999999999998,-6.59,Nitrogen metabolism,#333333,dotdash
+0.34894552625055414,-6.556948051500396,Nitrogen metabolism,#333333,dotdash
+0.11499999999999955,-6.460044641670906,Nitrogen metabolism,#333333,dotdash
+-0.08589357775095152,-6.30589357775095,Nitrogen metabolism,#333333,dotdash
+-1.9858935777509514,-4.585893577750951,Nitrogen metabolism,#333333,dotdash
+-2.1400446416709054,-4.385,Nitrogen metabolism,#333333,dotdash
+-2.2369480515003963,-4.151054473749444,Nitrogen metabolism,#333333,dotdash
+-2.2699999999999996,-3.9,Nitrogen metabolism,#333333,dotdash
+-2.2699999999999996,-2.1799999999999997,Nitrogen metabolism,#333333,dotdash
+-2.236948051500396,-1.9289455262505544,Nitrogen metabolism,#333333,dotdash
+-2.1400446416709054,-1.6949999999999994,Nitrogen metabolism,#333333,dotdash
+-1.985893577750951,-1.4941064222490485,Nitrogen metabolism,#333333,dotdash
+-1.7849999999999997,-1.3399553583290942,Nitrogen metabolism,#333333,dotdash
+-1.5510544737494447,-1.2430519484996034,Nitrogen metabolism,#333333,dotdash
+-1.2999999999999998,-1.2099999999999997,Nitrogen metabolism,#333333,dotdash
+2.5,-1.2099999999999997,Nitrogen metabolism,#333333,dotdash
+2.7510544737494453,-1.2430519484996037,Nitrogen metabolism,#333333,dotdash
+2.9850000000000003,-1.3399553583290942,Nitrogen metabolism,#333333,dotdash
+3.185893577750951,-1.4941064222490485,Nitrogen metabolism,#333333,dotdash
+3.3400446416709055,-1.6949999999999998,Nitrogen metabolism,#333333,dotdash
+3.436948051500396,-1.9289455262505546,Nitrogen metabolism,#333333,dotdash
+3.4699999999999998,-2.1799999999999997,Nitrogen metabolism,#333333,dotdash
+12.07,2.5399999999999996,Aminoacyl-tRNA biosynthesis,#AA3377,dotted
+12.036948051500396,2.2889455262505543,Aminoacyl-tRNA biosynthesis,#AA3377,dotted
+11.940044641670905,2.0549999999999997,Aminoacyl-tRNA biosynthesis,#AA3377,dotted
+11.78589357775095,1.8541064222490489,Aminoacyl-tRNA biosynthesis,#AA3377,dotted
+9.88589357775095,0.13410642224904856,Aminoacyl-tRNA biosynthesis,#AA3377,dotted
+9.684999999999999,-0.020044641670906027,Aminoacyl-tRNA biosynthesis,#AA3377,dotted
+9.451054473749444,-0.11694805150039655,Aminoacyl-tRNA biosynthesis,#AA3377,dotted
+9.2,-0.15000000000000013,Aminoacyl-tRNA biosynthesis,#AA3377,dotted
+5.4,-0.15000000000000013,Aminoacyl-tRNA biosynthesis,#AA3377,dotted
+5.148945526250555,-0.11694805150039622,Aminoacyl-tRNA biosynthesis,#AA3377,dotted
+4.915,-0.02004464167090536,Aminoacyl-tRNA biosynthesis,#AA3377,dotted
+4.714106422249049,0.13410642224904912,Aminoacyl-tRNA biosynthesis,#AA3377,dotted
+2.8141064222490484,1.8541064222490493,Aminoacyl-tRNA biosynthesis,#AA3377,dotted
+2.6599553583290945,2.055,Aminoacyl-tRNA biosynthesis,#AA3377,dotted
+2.5630519484996035,2.288945526250555,Aminoacyl-tRNA biosynthesis,#AA3377,dotted
+2.5300000000000002,2.54,Aminoacyl-tRNA biosynthesis,#AA3377,dotted
+2.5300000000000002,5.98,Aminoacyl-tRNA biosynthesis,#AA3377,dotted
+2.563051948499604,6.231054473749446,Aminoacyl-tRNA biosynthesis,#AA3377,dotted
+2.6599553583290945,6.465000000000001,Aminoacyl-tRNA biosynthesis,#AA3377,dotted
+2.814106422249049,6.665893577750952,Aminoacyl-tRNA biosynthesis,#AA3377,dotted
+3.015,6.820044641670906,Aminoacyl-tRNA biosynthesis,#AA3377,dotted
+3.248945526250555,6.9169480515003965,Aminoacyl-tRNA biosynthesis,#AA3377,dotted
+3.5,6.95,Aminoacyl-tRNA biosynthesis,#AA3377,dotted
+7.3,6.95,Aminoacyl-tRNA biosynthesis,#AA3377,dotted
+9.2,6.95,Aminoacyl-tRNA biosynthesis,#AA3377,dotted
+9.451054473749444,6.9169480515003965,Aminoacyl-tRNA biosynthesis,#AA3377,dotted
+9.684999999999999,6.820044641670906,Aminoacyl-tRNA biosynthesis,#AA3377,dotted
+9.88589357775095,6.665893577750952,Aminoacyl-tRNA biosynthesis,#AA3377,dotted
+11.78589357775095,4.945893577750951,Aminoacyl-tRNA biosynthesis,#AA3377,dotted
+11.940044641670905,4.745,Aminoacyl-tRNA biosynthesis,#AA3377,dotted
+12.036948051500396,4.511054473749445,Aminoacyl-tRNA biosynthesis,#AA3377,dotted
+12.07,4.26,Aminoacyl-tRNA biosynthesis,#AA3377,dotted
+-2.2800000000000002,-4.86,Additional selected proteins,#6B6B6B,dashed
+-2.313051948499604,-5.111054473749446,Additional selected proteins,#6B6B6B,dashed
+-2.409955358329095,-5.345000000000001,Additional selected proteins,#6B6B6B,dashed
+-2.564106422249049,-5.5458935777509515,Additional selected proteins,#6B6B6B,dashed
+-4.464106422249049,-7.265893577750951,Additional selected proteins,#6B6B6B,dashed
+-4.665000000000001,-7.420044641670906,Additional selected proteins,#6B6B6B,dashed
+-4.8989455262505555,-7.516948051500396,Additional selected proteins,#6B6B6B,dashed
+-5.15,-7.55,Additional selected proteins,#6B6B6B,dashed
+-12.75,-7.55,Additional selected proteins,#6B6B6B,dashed
+-13.001054473749447,-7.516948051500396,Additional selected proteins,#6B6B6B,dashed
+-13.235000000000001,-7.420044641670906,Additional selected proteins,#6B6B6B,dashed
+-13.435893577750951,-7.265893577750951,Additional selected proteins,#6B6B6B,dashed
+-13.590044641670906,-7.0649999999999995,Additional selected proteins,#6B6B6B,dashed
+-13.686948051500396,-6.831054473749445,Additional selected proteins,#6B6B6B,dashed
+-13.72,-6.58,Additional selected proteins,#6B6B6B,dashed
+-13.72,-3.1400000000000006,Additional selected proteins,#6B6B6B,dashed
+-13.686948051500396,-2.8889455262505552,Additional selected proteins,#6B6B6B,dashed
+-13.590044641670906,-2.6550000000000002,Additional selected proteins,#6B6B6B,dashed
+-13.435893577750951,-2.4541064222490494,Additional selected proteins,#6B6B6B,dashed
+-13.235,-2.299955358329095,Additional selected proteins,#6B6B6B,dashed
+-13.001054473749445,-2.2030519484996045,Additional selected proteins,#6B6B6B,dashed
+-12.75,-2.170000000000001,Additional selected proteins,#6B6B6B,dashed
+-3.25,-2.170000000000001,Additional selected proteins,#6B6B6B,dashed
+-2.9989455262505547,-2.2030519484996045,Additional selected proteins,#6B6B6B,dashed
+-2.7649999999999997,-2.299955358329095,Additional selected proteins,#6B6B6B,dashed
+-2.564106422249049,-2.4541064222490494,Additional selected proteins,#6B6B6B,dashed
+-2.4099553583290945,-2.6550000000000007,Additional selected proteins,#6B6B6B,dashed
+-2.313051948499604,-2.8889455262505557,Additional selected proteins,#6B6B6B,dashed
+-2.2800000000000002,-3.1400000000000006,Additional selected proteins,#6B6B6B,dashed

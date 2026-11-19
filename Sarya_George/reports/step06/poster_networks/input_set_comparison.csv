@@ -1,0 +1,76 @@
+uniprot_acc,in_49,in_67,in_75,protein_key,locus_tag,display_name,product
+Q2G253,TRUE,TRUE,TRUE,lcl_CP020619.1_prot_ARG44565.1_25,B7H15_00135,B7H15_00135,"multifunctional 2',3'-cyclic-nucleotide 2'-phosphodiesterase/5'-nucleotidase/3'-nucleotidase"
+Q2G1L5,TRUE,TRUE,TRUE,lcl_CP020619.1_prot_ARG44682.1_159,B7H15_00805,B7H15_00805,bifunctional metallophosphatase/5'-nucleotidase
+Q2G149,TRUE,TRUE,TRUE,lcl_CP020619.1_prot_ARG44865.1_357,B7H15_01795,B7H15_01795,hypothetical protein
+Q2FZX5,TRUE,TRUE,TRUE,lcl_CP020619.1_prot_ARG45401.1_928,B7H15_04765,B7H15_04765,bifunctional metallophosphatase/5'-nucleotidase
+Q2FZC5,TRUE,TRUE,TRUE,lcl_CP020619.1_prot_ARG45635.1_1170,B7H15_05985,B7H15_05985,non-canonical purine NTP pyrophosphatase
+Q2FVX0,TRUE,TRUE,TRUE,lcl_CP020619.1_prot_ARG46843.1_2452,B7H15_12670,B7H15_12670,purine nucleosidase
+Q2FW27,TRUE,TRUE,TRUE,lcl_CP020619.1_prot_ARG46788.1_2394,B7H15_12380,adk,adenylate kinase
+Q2FXU0,TRUE,TRUE,TRUE,lcl_CP020619.1_prot_ARG46197.1_1759,B7H15_08945,apt,adenine phosphoribosyltransferase
+Q2G1U0,TRUE,TRUE,TRUE,lcl_CP020619.1_prot_ARG45692.1_1232,B7H15_06300,gmk,guanylate kinase
+Q2FYU4,TRUE,TRUE,TRUE,lcl_CP020619.1_prot_ARG45833.1_1378,B7H15_07030,guaC,guanosine monophosphate reductase
+Q2FXP3,TRUE,TRUE,TRUE,lcl_CP020619.1_prot_ARG46243.1_1807,B7H15_09185,nrdR,transcriptional regulator NrdR
+Q2G0S2,TRUE,TRUE,TRUE,lcl_CP020619.1_prot_ARG45023.1_524,B7H15_02655,prs,ribose-phosphate pyrophosphokinase
+Q2G2K5,TRUE,TRUE,TRUE,lcl_CP020619.1_prot_ARG46848.1_2458,B7H15_12700,ureC,urease subunit alpha
+Q2FWE8,TRUE,TRUE,TRUE,lcl_CP020619.1_prot_ARG46668.1_2266,B7H15_11695,atpA,ATP synthase subunit alpha
+Q2FWF0,TRUE,TRUE,TRUE,lcl_CP020619.1_prot_ARG46666.1_2264,B7H15_11685,atpD,ATP synthase subunit beta
+Q2G2F8,TRUE,TRUE,TRUE,lcl_CP020619.1_prot_ARG46670.1_2268,B7H15_11705,atpF,ATP synthase subunit B
+Q2FWE9,TRUE,TRUE,TRUE,lcl_CP020619.1_prot_ARG46667.1_2265,B7H15_11690,atpG,ATP synthase subunit gamma
+Q2FWE7,TRUE,TRUE,TRUE,lcl_CP020619.1_prot_ARG46669.1_2267,B7H15_11700,atpH,ATP synthase subunit delta
+Q2FVL9,TRUE,TRUE,TRUE,lcl_CP020619.1_prot_ARG46960.1_2577,B7H15_13295,B7H15_13295,nitrite reductase (NAD(P)H) small subunit
+Q2FZX9,TRUE,TRUE,TRUE,lcl_CP020619.1_prot_ARG45397.1_924,B7H15_04745,NMO,nitronate monooxygenase
+Q2G0U2,TRUE,TRUE,TRUE,lcl_CP020619.1_prot_ARG44991.1_492,B7H15_02470,B7H15_02470,glutamate synthase large subunit
+Q2FXV9,TRUE,TRUE,TRUE,lcl_CP020619.1_prot_ARG46180.1_1741,B7H15_08850,alaS,alanine--tRNA ligase
+Q2G0F8,TRUE,TRUE,TRUE,lcl_CP020619.1_prot_ARG45141.1_652,B7H15_03375,argS,arginine--tRNA ligase
+Q2FYH6,TRUE,TRUE,TRUE,lcl_CP020619.1_prot_ARG45955.1_1505,B7H15_07670,asnC,asparagine--tRNA ligase
+Q2FXU5,TRUE,TRUE,TRUE,lcl_CP020619.1_prot_ARG46192.1_1754,B7H15_08920,aspS,aspartate--tRNA ligase
+Q2G2M6,TRUE,TRUE,TRUE,lcl_CP020619.1_prot_ARG45054.1_557,B7H15_02900,cysS,cysteine--tRNA ligase
+Q2FWZ0,TRUE,TRUE,TRUE,lcl_CP020619.1_prot_ARG46466.1_2051,B7H15_10595,gatB,aspartyl/glutamyl-tRNA(Asn/Gln) amidotransferase subunit B
+Q2FY08,TRUE,TRUE,TRUE,lcl_CP020619.1_prot_ARG46131.1_1689,B7H15_08590,glyQS,glycine--tRNA ligase
+Q2FXU4,TRUE,TRUE,TRUE,lcl_CP020619.1_prot_ARG46193.1_1755,B7H15_08925,hisS,histidine--tRNA ligase
+Q2FZ82,TRUE,TRUE,TRUE,lcl_CP020619.1_prot_ARG45677.1_1216,B7H15_06220,ileS,isoleucine--tRNA ligase
+Q2G0Q3,TRUE,TRUE,TRUE,lcl_CP020619.1_prot_ARG45042.1_543,B7H15_02750,lysS,lysine--tRNA ligase
+Q2G1R9,TRUE,TRUE,TRUE,lcl_CP020619.1_prot_ARG45012.1_513,B7H15_02600,metG,methionine--tRNA ligase
+Q2G1Z4,TRUE,TRUE,TRUE,lcl_CP020619.1_prot_ARG45748.1_1289,B7H15_06585,proS,proline--tRNA ligase
+P95689,TRUE,TRUE,TRUE,lcl_CP020619.1_prot_ARG44550.1_10,B7H15_00050,serS,serine--tRNA ligase
+Q2FXJ5,TRUE,TRUE,TRUE,lcl_CP020619.1_prot_ARG46287.1_1854,B7H15_09420,tyrS,tyrosine--tRNA ligase
+Q2FXR8,TRUE,TRUE,TRUE,lcl_CP020619.1_prot_ARG46219.1_1782,B7H15_09060,valS,valine--tRNA ligase
+Q2G010,TRUE,FALSE,TRUE,lcl_CP020619.1_prot_ARG45343.1_866,B7H15_04455,B7H15_04455,thermonuclease
+Q2FYK7,TRUE,FALSE,TRUE,lcl_CP020619.1_prot_ARG45927.1_1476,B7H15_07520,B7H15_07520,fatty acid-binding protein DegV
+Q2FYG2,TRUE,FALSE,TRUE,lcl_CP020619.1_prot_ARG45971.1_1524,B7H15_07765,B7H15_07765,DNA-binding protein HU
+Q2FUT0,TRUE,FALSE,TRUE,lcl_CP020619.1_prot_ARG47266.1_2907,B7H15_14945,B7H15_14945,DNA-directed RNA polymerase subunit delta
+Q2FV52,TRUE,FALSE,TRUE,lcl_CP020619.1_prot_ARG47142.1_2776,B7H15_14290,isaA,transglycosylase IsaA
+Q2FXM9,TRUE,FALSE,TRUE,lcl_CP020619.1_prot_ARG46254.1_1820,B7H15_09250,pyk,pyruvate kinase
+Q2FWF8,TRUE,FALSE,TRUE,lcl_CP020619.1_prot_ARG46658.1_2256,B7H15_11645,sceD,transglycosylase SceD
+Q2G2S0,TRUE,TRUE,TRUE,lcl_CP020619.1_prot_ARG46475.1_2060,B7H15_10640,purB,adenylosuccinate lyase
+Q2FYG7,TRUE,TRUE,TRUE,lcl_CP020619.1_prot_ARG45967.1_1519,B7H15_07740,ndk,nucleoside-diphosphate kinase
+Q2G086,TRUE,TRUE,TRUE,lcl_CP020619.1_prot_ARG45268.1_784,B7H15_04035,B7H15_04035,5'(3')-deoxyribonucleotidase
+Q2FZI9,TRUE,TRUE,TRUE,lcl_CP020619.1_prot_ARG45549.1_1082,B7H15_05545,purF,amidophosphoribosyltransferase
+Q2FZ64,TRUE,TRUE,TRUE,lcl_CP020619.1_prot_ARG45703.1_1243,B7H15_06355,Stk1,serine/threonine protein kinase
+Q2FZ65,TRUE,TRUE,TRUE,lcl_CP020619.1_prot_ARG45702.1_1242,B7H15_06350,Stp1,protein phosphatase
+Q2FV02,FALSE,TRUE,TRUE,lcl_CP020619.1_prot_ARG47192.1_2829,B7H15_14555,B7H15_14555,anaerobic ribonucleoside-triphosphate reductase
+Q2G079,FALSE,TRUE,TRUE,lcl_CP020619.1_prot_ARG45277.1_793,B7H15_04080,nrdI,protein NrdI
+Q2FZJ3,FALSE,TRUE,TRUE,lcl_CP020619.1_prot_ARG45545.1_1078,B7H15_05525,purC,phosphoribosylaminoimidazolesuccinocarboxamide synthase
+Q2FZI6,FALSE,TRUE,TRUE,lcl_CP020619.1_prot_ARG45552.1_1085,B7H15_05560,purH,bifunctional phosphoribosylaminoimidazolecarboxamide formyltransferase/inosine monophosphate cyclohydrolase
+Q2FZI8,FALSE,TRUE,TRUE,lcl_CP020619.1_prot_ARG45550.1_1083,B7H15_05550,purM,phosphoribosylformylglycinamidine cyclo-ligase
+Q2FZJ2,FALSE,TRUE,TRUE,lcl_CP020619.1_prot_ARG45546.1_1079,B7H15_05530,purS,phosphoribosylformylglycinamidine synthase
+Q2G0S7,FALSE,TRUE,TRUE,lcl_CP020619.1_prot_ARG45018.1_519,B7H15_02630,B7H15_02630,pur operon repressor
+Q2G077,FALSE,TRUE,TRUE,lcl_CP020619.1_prot_ARG45279.1_795,B7H15_04090,B7H15_04090,class 1b ribonucleoside-diphosphate reductase subunit beta
+Q2G2L7,FALSE,TRUE,TRUE,lcl_CP020619.1_prot_ARG47079.1_2706,B7H15_13940,B7H15_13940,GTP pyrophosphokinase
+Q2G0Y7,FALSE,TRUE,TRUE,lcl_CP020619.1_prot_ARG44931.1_427,B7H15_02145,guaB,IMP dehydrogenase
+Q2G1S3,FALSE,TRUE,TRUE,lcl_CP020619.1_prot_ARG44559.1_19,B7H15_00095,purA,adenylosuccinate synthetase
+Q2FZI5,FALSE,TRUE,TRUE,lcl_CP020619.1_prot_ARG45553.1_1086,B7H15_05565,purD,phosphoribosylamine--glycine ligase
+Q2FZJ4,FALSE,TRUE,TRUE,lcl_CP020619.1_prot_ARG45544.1_1077,B7H15_05520,purK,5-(carboxyamino)imidazole ribonucleotide synthase
+Q2FZJ0,FALSE,TRUE,TRUE,lcl_CP020619.1_prot_ARG45548.1_1081,B7H15_05540,purL,phosphoribosylformylglycinamidine synthase subunit PurL
+Q2FZI7,FALSE,TRUE,TRUE,lcl_CP020619.1_prot_ARG45551.1_1084,B7H15_05555,purN,phosphoribosylglycinamide formyltransferase
+Q2FZJ1,FALSE,TRUE,TRUE,lcl_CP020619.1_prot_ARG45547.1_1080,B7H15_05535,purQ,phosphoribosylformylglycinamidine synthase subunit PurQ
+Q2FZH3,FALSE,TRUE,TRUE,lcl_CP020619.1_prot_ARG45565.1_1099,B7H15_05630,B7H15_05630,cytochrome ubiquinol oxidase subunit I
+Q2FZJ9,FALSE,TRUE,TRUE,lcl_CP020619.1_prot_ARG45540.1_1071,B7H15_05490,qoxA,quinol oxidase subunit 2
+Q2FZK0,FALSE,TRUE,TRUE,lcl_CP020619.1_prot_ARG45539.1_1070,B7H15_05485,qoxB,cytochrome ubiquinol oxidase subunit I
+Q2FVM4,FALSE,TRUE,TRUE,lcl_CP020619.1_prot_ARG46955.1_2572,B7H15_13270,B7H15_13270,respiratory nitrate reductase subunit gamma
+Q2FZU5,FALSE,TRUE,TRUE,lcl_CP020619.1_prot_ARG45435.1_963,B7H15_04940,B7H15_04940,NAD-specific glutamate dehydrogenase
+Q2FVM2,FALSE,TRUE,TRUE,lcl_CP020619.1_prot_ARG46957.1_2574,B7H15_13280,B7H15_13280,nitrate reductase subunit beta
+Q2FVM1,FALSE,TRUE,TRUE,lcl_CP020619.1_prot_ARG46958.1_2575,B7H15_13285,B7H15_13285,nitrate reductase subunit alpha
+Q2FXH2,FALSE,TRUE,TRUE,lcl_CP020619.1_prot_ARG46320.1_1888,B7H15_09590,leuS,leucine--tRNA ligase
+Q2FXP7,FALSE,TRUE,TRUE,lcl_CP020619.1_prot_ARG46239.1_1803,B7H15_09165,thrS,threonine--tRNA ligase
+Q2G0W1,FALSE,FALSE,TRUE,lcl_CP020619.1_prot_ARG44972.1_473,B7H15_02375,dabA,hypothetical protein

@@ -1,0 +1,4 @@
+protein,site_label,min_exported_localization,max_exported_localization,min_localization_observed,max_localization_observed,best_loc_prob
+IsaA,S194,0,0.8964,0,0.8964,0.8964
+Pyk,T537,0.9279,0.9574,0.9279,0.9574,0.9574
+QoxB,T552,0.4798,0.9496,0.4798,0.9496,0.9496

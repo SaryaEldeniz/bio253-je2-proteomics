@@ -165,6 +165,28 @@ source("scripts/06_network/06_plot_string_networks.R")
 source("scripts/06_network/06_write_network_guide.R")
 ```
 
+### Poster figures from fresh STRING API exports
+
+The [poster-network guide](reports/step06/poster_networks/README.md) compares
+the exact 49- and original 67-protein lists at functional confidence >=0.4,
+with no automatically added nodes. It documents fresh identifier/network/
+annotation exports, central Stk1/Stp1 anchors, compact three-ring figures,
+redundant pathway outline colours/styles, and current STRING KEGG memberships
+versus the course-defined scope. Poster PNG/PDF/SVG files are under
+`figures/step06/poster_networks/`; raw API responses remain local and ignored.
+
+The [complete 75-protein update](reports/step06/poster_networks/complete75_README.md)
+restores all eight candidates previously held by manual annotation notes. It
+matches the full sample-plot inventory and includes an exact audit of those
+notes versus current STRING KEGG annotations. Manual pathway questions do not
+exclude contrast-supported proteins from this exploratory figure.
+
+The [phosphosite overlap investigation](reports/step06/phosphosite_overlap/README.md)
+matches the complete75 against the12 phosphosite-listed proteins and reviews
+IsaA,Pyk and QoxB with primary literature. It separates TSB phosphosite changes
+from total-protein PASN interactions and retains localization/parent-abundance
+limits. Reproduction scripts are in `scripts/06_network/`.
+
 ## Checks and provenance
 
 Run the `tests/check_design.R`, `tests/check_identifiers.R`,

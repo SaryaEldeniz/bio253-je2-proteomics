@@ -1,0 +1,5 @@
+PASS: exact49/exact67/exact75 inputs; 49/67 common42/union74; all eight additions and all 75 sample-plot proteins retained.
+PASS: fresh49 edge set/scores exactly match original204-edge export.
+PASS: original protein effects/FDRs preserved; finite halos are observed and >=2/3 supported.
+PASS: current annotation inputGenes scopes/counts match each input set.
+PASS: poster exports nonempty; node separation exceeds node diameter; anchors pinned and outside pathway outlines.

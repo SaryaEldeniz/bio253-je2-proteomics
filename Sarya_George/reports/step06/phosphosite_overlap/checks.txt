@@ -1,0 +1,5 @@
+Exact-UniProt and JE2-locus matches:49=2,67=1,75=3.
+All14 user-listed site hits reproduce the original observed FDR<0.1 and |effect|>1 exclusive selection.
+Allthree overlapping site coordinates verified against JE2 FASTA.
+Source effects and FDR retained; no new model or overlap-enrichment test.
+No direct Stk1/Stp1 substrate claim follows from protein overlap.

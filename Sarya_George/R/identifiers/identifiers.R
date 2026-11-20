@@ -20,13 +20,13 @@ read_je2_terms <- function() {
 
 read_identifier_map <- function() {
   path <- file.path(REPO_ROOT, "results", "step03", "id_map.tsv")
-  if (!file.exists(path)) stop('First run source("scripts/02_identifiers/03_build_identifier_map.R").')
+  if (!file.exists(path)) stop('First run source("steps/03_identifiers_resources/scripts/03_build_identifier_map.R").')
   read_tsv(path, show_col_types = FALSE)
 }
 
 read_identifier_aliases <- function() {
   path <- file.path(REPO_ROOT, "results", "step03", "lookup_aliases.tsv.gz")
-  if (!file.exists(path)) stop('First run source("scripts/02_identifiers/03_build_identifier_map.R").')
+  if (!file.exists(path)) stop('First run source("steps/03_identifiers_resources/scripts/03_build_identifier_map.R").')
   read_tsv(path, show_col_types = FALSE)
 }
 

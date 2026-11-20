@@ -1,0 +1,31 @@
+# Step 10 — Evidence for the PASN response in JE2
+
+## Hypothesis and evidence
+
+| Hypothesis component | Contrast and result | Assessment | Source |
+| --- | --- | --- | --- |
+| PASN changes central metabolism. | In `TSB_vs_SN_at_anc`, citrate cycle (NES +1.91, study FDR 0.00459) and purine metabolism (NES +1.92, study FDR 0.000348) were enriched toward TSB. | Supported for changes in the abundance of proteins in these pathways. Metabolic flux remains unknown. | [Step 5 KEGG GSEA](https://github.com/SaryaEldeniz/bio253-je2-proteomics/blob/efcb91c438a6b010e0191eeba6b7446c730501fe/Sarya_George/reports/step05/README.md) |
+| Oxidative-stress defense proteins are more abundant in SN. | In the same wild-type contrast, GO:0006979, *response to oxidative stress*, was enriched toward SN (NES −1.69, study FDR 0.0815). | Supports the predicted direction at the Step 5 FDR threshold of 0.10. Oxidative-stress tolerance was outside the measurements summarized here. | [Step 5 primary GSEA](https://github.com/SaryaEldeniz/bio253-je2-proteomics/blob/efcb91c438a6b010e0191eeba6b7446c730501fe/Sarya_George/reports/step05/gsea_primary_significant.tsv) |
+| Virulence-associated proteins are generally less abundant in SN. | The reviewed wild-type functional summaries did not establish a directional result for a defined virulence-associated protein set. | Open. The available category summaries do not settle the prediction or measure virulence. | [Step 5 enrichment summary](https://github.com/SaryaEldeniz/bio253-je2-proteomics/blob/efcb91c438a6b010e0191eeba6b7446c730501fe/Sarya_George/reports/step05/README.md) |
+| PASN responses differ by genotype. | For `stk` vs `anc`, the purine-metabolism response was more positive in `anc` (NES +1.93, study FDR 0.000696). For `stp` vs `anc`, the nitrogen-metabolism response was more positive in `anc` (NES +1.84, study FDR 0.0257). The three STYH interactions yielded 19, 43 and 60 significant site estimates. | Supported at the genotype-comparison level. These effects describe the strains and exposure conditions studied. | [Step 5 interpretation](https://github.com/SaryaEldeniz/bio253-je2-proteomics/blob/efcb91c438a6b010e0191eeba6b7446c730501fe/Sarya_George/reports/step05/interpretation.md) · [Step 7](../../07_phosphosite_results/reports/step07_phospho_parent_comparison.md) |
+| The two mutants show opposing effects. | In the direct comparisons against `anc`, 18 of 20 shared significant STYH sites in TSB and 31 of 32 in SN had the same sign. | The shared hits predominantly change in the same direction within each medium. A general model of opposing effects is unsupported by these overlaps. | [Step 8](../../08_mutant_venn/notebook/2026-11-12_step08.md) |
+| The PASN response may relate to protein synthesis or growth. | Wild-type ribosome (NES −2.16, study FDR 0.0000116) and aminoacyl-tRNA biosynthesis (NES −1.84, study FDR 0.00804) were enriched toward SN. | Supported for abundance changes in translation-associated categories. Protein synthesis and growth rates remain open. | [Step 5 KEGG GSEA](https://github.com/SaryaEldeniz/bio253-je2-proteomics/blob/efcb91c438a6b010e0191eeba6b7446c730501fe/Sarya_George/reports/step05/README.md) |
+
+## Phosphoproteome context
+
+Across the three Step 7 interactions, 16 of 19, 42 of 43 and 52 of 60 significant STYH site estimates had a parent-protein estimate below the combined FDR and effect-size criteria. These categories compare two separately fitted effects. An abundance-adjusted phosphorylation effect remains undetermined. The original models flagged 18 of 19, 42 of 43 and 56 of 60 significant site estimates as LOD-imputed. [Step 7 results](../../07_phosphosite_results/reports/step07_phospho_parent_comparison.md)
+
+Step 8 counted 20 shared significant sites in TSB and 32 in SN across both source estimate types. Of these, 18 and 31, respectively, had the same effect sign relative to `anc`. [Step 8 counts](../../08_mutant_venn/reports/step08_phospho_venn_counts.tsv)
+
+In Step 9, pT had the most significant hits in each of the four direct contrasts when both estimate types were included. All significant pH estimates carried the LOD-imputed flag. [Counts by residue and estimate type](../../09_sequence_logos/reports/step09_phospho_residue_counts.tsv)
+
+For the exclusive `Source observed` hits, the [position-0 logo](../../09_sequence_logos/figures/figure09_central_residue_logo.png) shows the phosphorylated residue frequencies for the same sets as the [residue-specific Venn diagrams](../../09_sequence_logos/figures/figure09_phospho_residue_venn.png).
+
+| Medium | Exclusive to | n | pS | pT | pY |
+| --- | --- | ---: | ---: | ---: | ---: |
+| TSB | `stk` vs `anc` | 3 | 1 | 1 | 1 |
+| TSB | `stp` vs `anc` | 4 | 1 | 3 | 0 |
+| SN | `stk` vs `anc` | 3 | 2 | 1 | 0 |
+| SN | `stp` vs `anc` | 4 | 2 | 2 | 0 |
+
+Here, exclusivity refers to meeting the selection criteria in just one mutant-versus-ancestor contrast in the same medium. With three or four hits per group, the distributions are descriptive. The logo shows the phosphorylated residue at position 0. Sequence context and kinase or phosphatase specificity remain undetermined. [Exclusive-hit counts](../../09_sequence_logos/reports/step09_phospho_residue_venn_counts.tsv)

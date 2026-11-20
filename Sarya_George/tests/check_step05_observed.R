@@ -3,7 +3,7 @@
 source(if(file.exists("Sarya_George.Rproj")) "R/setup.R" else "Sarya_George/R/setup.R")
 
 validate_step05_observed <- function() {
-  report<-file.path(REPO_ROOT,"reports","step05","observed_only")
+  report<-file.path(REPO_ROOT,"steps/05_enrichment/reports/observed_only")
   output<-file.path(REPO_ROOT,"results","step05","observed_only")
   required<-c(file.path(output,c("ora_all.tsv.gz","gsea_all.tsv.gz")),
     file.path(report,c("universe_audit.tsv","gsea_run_log.tsv")))

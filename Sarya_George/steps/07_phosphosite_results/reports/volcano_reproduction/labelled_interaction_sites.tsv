@@ -1,0 +1,10 @@
+contrast	site_id	arrow_label	diff	FDR	estimate_type	selected_hit
+interaction_stk_vs_anc_at_TSB_vs_SN	lcl_CP020619.1_prot_ARG45539.1_1070_T552	QoxB T552	0.8938765075414903	0.999999999999992	observed	FALSE
+interaction_stp_vs_anc_at_TSB_vs_SN	lcl_CP020619.1_prot_ARG45539.1_1070_T552	QoxB T552	1.769505263824248	0.6159808383955191	observed	FALSE
+interaction_stp_vs_stk_at_TSB_vs_SN	lcl_CP020619.1_prot_ARG45539.1_1070_T552	QoxB T552	0.8756287562827574	1	observed	FALSE
+interaction_stk_vs_anc_at_TSB_vs_SN	lcl_CP020619.1_prot_ARG46254.1_1820_T537	Pyk T537	0.4258665794490188	0.999999999999992	observed	FALSE
+interaction_stp_vs_anc_at_TSB_vs_SN	lcl_CP020619.1_prot_ARG46254.1_1820_T537	Pyk T537	0.795552754868411	0.9999999999999908	observed	FALSE
+interaction_stp_vs_stk_at_TSB_vs_SN	lcl_CP020619.1_prot_ARG46254.1_1820_T537	Pyk T537	0.3696861754193922	1	observed	FALSE
+interaction_stk_vs_anc_at_TSB_vs_SN	lcl_CP020619.1_prot_ARG47142.1_2776_S194	IsaA S194	1.500858943467491	0.999999999999992	observed	FALSE
+interaction_stp_vs_anc_at_TSB_vs_SN	lcl_CP020619.1_prot_ARG47142.1_2776_S194	IsaA S194	0.4571422135730454	0.9999999999999908	observed	FALSE
+interaction_stp_vs_stk_at_TSB_vs_SN	lcl_CP020619.1_prot_ARG47142.1_2776_S194	IsaA S194	-1.043716729894446	1	observed	FALSE

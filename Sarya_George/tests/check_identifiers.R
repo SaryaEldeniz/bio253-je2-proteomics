@@ -39,7 +39,7 @@ check_id("Reference-edge labels preserve edge count and many-to-one mappings",
          nrow(labelled) == 2 && all(labelled$n_JE2_matches_A == 2))
 check_id("Unknown public partners remain unmapped rather than called unmeasured",
          is.na(labelled$any_in_total_DEA_B[2]))
-dir.create(file.path(REPO_ROOT, "reports"), recursive = TRUE, showWarnings = FALSE)
+dir.create(file.path(REPO_ROOT, "steps/03_identifiers_resources/reports"), recursive = TRUE, showWarnings = FALSE)
 writeLines(c("# Step 3 identifier code checks", "", paste(length(passed), "checks passed."), "", paste0("- PASS: ", passed)),
-           file.path(REPO_ROOT, "reports", "step03_identifier_code_checks.md"))
+           file.path(REPO_ROOT, "steps/03_identifiers_resources/reports/step03_identifier_code_checks.md"))
 message(length(passed), "/", length(passed), " identifier checks passed.")

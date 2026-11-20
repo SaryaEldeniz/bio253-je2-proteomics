@@ -36,5 +36,5 @@ check_result("An unmeasured group remains NA rather than becoming zero",
              is.na(support$observed_group_contrast[support$feature_id == "missing"]) &&
                support$any_relevant_group_unobserved[support$feature_id == "missing"])
 writeLines(c("# Step 4 code checks", "", paste(length(passed), "checks passed."), "", paste0("- PASS: ", passed)),
-           file.path(REPO_ROOT, "reports", "step04_code_checks.md"))
+           file.path(REPO_ROOT, "steps/04_total_proteome/reports/step04_code_checks.md"))
 message(length(passed), "/", length(passed), " Step 4 code checks passed.")

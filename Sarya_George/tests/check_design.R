@@ -31,7 +31,7 @@ check_code("Medium labels distinguish SNpulse from raw pulseSN spelling",
            identical(as.character(parsed$medium), c("SNpulse", "TSB", "SNpulse")))
 check_code("Reinjection flags follow the acquisition filename",
            identical(parsed$reinjected, c(FALSE, FALSE, TRUE)))
-output_dir <- file.path(REPO_ROOT, "reports")
+output_dir <- file.path(REPO_ROOT, "steps/01_design/reports")
 dir.create(output_dir, recursive = TRUE, showWarnings = FALSE)
 writeLines(c("# Step 1 code checks", "", paste(length(results), "focused checks passed."), "",
              paste0("- PASS: ", results), "",

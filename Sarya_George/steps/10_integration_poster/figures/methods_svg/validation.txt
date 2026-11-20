@@ -1,0 +1,5 @@
+PASS:27 distinct biological-replicate symbols in the nine-group matrix.
+PASS:four valid SVGs with live text,no embedded images/scripts/external assets,and no duplicate IDs.
+PASS:all arrow marker references resolve within each SVG.
+PASS:genotypes/timings/measurement layers checked against original course README and sample sheet.
+PASS:network candidates branch directly from protein contrasts; enrichment is not a candidate-selection criterion.

@@ -1,0 +1,8 @@
+contrast	sites_plotted_all	sites_plotted_observed	hits_all	hits_observed	hits_lod	sites_plotted_je2_observed	hits_je2_observed	all_positive	all_negative	observed_positive	observed_negative	observed_hits_localization_pass	conservative_hits
+interaction_stk_vs_anc_at_TSB_vs_SN	4235	170	19	1	18	157	1	9	10	1	0	1	1
+interaction_stp_vs_anc_at_TSB_vs_SN	4235	170	43	1	42	157	1	33	10	0	1	1	1
+interaction_stp_vs_stk_at_TSB_vs_SN	4235	170	60	4	56	157	3	49	11	2	2	4	2
+stk_vs_anc_at_TSB	4235	170	60	5	55	157	5	12	48	2	3	5	5
+stp_vs_anc_at_TSB	4235	170	76	6	70	157	6	56	20	2	4	6	6
+stk_vs_anc_at_SN	4235	170	45	7	38	157	7	10	35	0	7	7	7
+stp_vs_anc_at_SN	4235	170	63	8	55	157	8	25	38	1	7	8	8

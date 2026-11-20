@@ -119,7 +119,7 @@ read_comparison <- function(contrast, dataset = "total", hits_only = FALSE,
                              conservative_only = FALSE) {
   dataset <- match.arg(dataset, c("total", "phospho_STYH"))
   path <- file.path(REPO_ROOT, "results", "step04", dataset, "annotated_all.tsv.gz")
-  if (!file.exists(path)) stop('First run source("scripts/04_analysis/04_assemble_comparisons.R").')
+  if (!file.exists(path)) stop('First run source("steps/04_total_proteome/scripts/04_assemble_comparisons.R").')
   x <- read_tsv(path, show_col_types = FALSE)
   if (length(contrast) != 1 || !contrast %in% x$contrast) stop("Choose one contrast from step04_contrast_plan().")
   x <- filter(x, .data$contrast == .env$contrast, eligible_cds)

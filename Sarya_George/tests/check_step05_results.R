@@ -14,7 +14,7 @@ roots <- candidates[file.exists(file.path(candidates, "Sarya_George.Rproj"))]
 if (!length(roots)) stop("Cannot locate Sarya_George.Rproj; supply its project folder as the first argument.")
 project <- normalizePath(roots[1], winslash = "/", mustWork = TRUE)
 output <- file.path(project, "results", "step05")
-report <- file.path(project, "reports", "step05")
+report <- file.path(project, "steps/05_enrichment/reports")
 required <- c(file.path(output, c("ora_all.tsv.gz", "gsea_all.tsv.gz")),
               file.path(report, c("comparison_plan.tsv", "universe_and_hit_counts.tsv",
                                   "annotation_coverage.tsv", "gsea_run_log.tsv")))

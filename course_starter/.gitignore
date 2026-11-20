@@ -1,0 +1,34 @@
+# ---- DATA: unpublished -- NEVER commit or push ---------------------------
+# Everything inside data/ is ignored except the README.
+data/*
+!data/README.md
+!data/checksums.md5
+!data/check_data.sh
+!data/check_data.R
+# Just in case someone puts data files elsewhere:
+*.xlsx
+*.xls
+*.parquet
+*.h5ad
+*.rds
+*.RData
+*.rda
+*.tsv.gz
+*.csv.gz
+combined_site*.tsv
+*.fasta
+*.gff
+
+# ---- Quarto caches (rendered reports themselves ARE committed) -----------
+analyses/*_files/
+analyses/.quarto/
+.quarto/
+reports/*_files/
+
+# ---- R / RStudio / OS ------------------------------------------------------
+.Rhistory
+.Rproj.user/
+.Renviron
+renv/library/
+renv/staging/
+.DS_Store

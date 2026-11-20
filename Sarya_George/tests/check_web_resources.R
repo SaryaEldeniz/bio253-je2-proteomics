@@ -47,7 +47,7 @@ check_api("KEGG no-link response returns a typed empty table",
           nrow(.kegg_parse_links("")) == 0L && identical(names(.kegg_parse_links("")), c("source_id", "target_id")))
 check_api("Malformed KEGG responses are not silently parsed",
           expect_rejected(.kegg_parse_links("<html>Service unavailable</html>")))
-output_dir <- file.path(REPO_ROOT, "reports")
+output_dir <- file.path(REPO_ROOT, "steps/03_identifiers_resources/reports")
 dir.create(output_dir, recursive = TRUE, showWarnings = FALSE)
 writeLines(c("# Web-resource client offline checks", "", paste(length(passed), "checks passed."), "",
              paste0("- PASS: ", passed), "", "No live API requests were made by these checks."),

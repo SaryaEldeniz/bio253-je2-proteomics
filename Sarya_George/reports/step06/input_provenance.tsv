@@ -1,6 +1,0 @@
-file	path	md5
-source	results/step04/total/annotated_all.tsv.gz	ff36828f339c5e50835b6117202f4157
-terms	results/step03/terms_cds.tsv.gz	c3ff66cc09bdcb3a80a25ec48e82d1b3
-mapping	results/step03/id_map.tsv	00a27a6643608f43fc18ec0d2af2d258
-abundance	course-data/derived/abundances_total.tsv.gz	c7d8cd3ccd6f24b8571b85ef7b814ed9
-annotation_review	scripts/06_network/module_annotation_review.csv	925b5d253094c1ab56223611437f326c

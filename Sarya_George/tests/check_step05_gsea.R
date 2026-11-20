@@ -40,9 +40,9 @@ check_gsea("No eligible pathways returns an explicit empty result", nrow(empty) 
 method <- attr(a, "gsea_method")
 check_gsea("Method records serial multilevel implementation and size/seed settings",
            method$engine == "fgsea::fgseaMultilevel" && method$backend == "BiocParallel::SerialParam" && method$seed == 42 && method$min_size == 10)
-dir.create(file.path(REPO_ROOT, "reports"), recursive = TRUE, showWarnings = FALSE)
+dir.create(file.path(REPO_ROOT, "steps/05_enrichment/reports"), recursive = TRUE, showWarnings = FALSE)
 writeLines(c("# Step 5 GSEA engine checks", "", paste(length(passed), "checks passed."), "",
              paste0("- PASS: ", passed), "", "Synthetic ranked sets only; no unpublished measurements or network requests.",
              paste0("fgsea version: ", method$fgsea_version)),
-           file.path(REPO_ROOT, "reports", "step05_gsea_code_checks.md"))
+           file.path(REPO_ROOT, "steps/05_enrichment/reports/step05_gsea_code_checks.md"))
 message(length(passed), "/", length(passed), " GSEA engine checks passed.")

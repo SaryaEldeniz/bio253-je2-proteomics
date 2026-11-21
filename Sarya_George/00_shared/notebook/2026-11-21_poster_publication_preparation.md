@@ -1,0 +1,9 @@
+# 2026-11-21: prepare all recent poster work for publication
+
+User request: update the project repository with all recent work and provide a Git Bash command so the user can push.
+
+Publication scope includes the Step 4 SVG/style/mean-bar exports; observed/LOD compact total and phosphosite volcanoes, their standalone panels and full-range companion; the shared legends and separate bold G1/G2 formula/headings; the complete KEGG/representative GO-BP functional summary and evidence tables; the stronger-edge 75-protein STRING network; structure/logo SVG atlases; the methods SVG and editable A0 poster foundation; scripts, checks, guides, archives and notebooks. Current links were added to the project README and QR supplement index. The earlier rendered figures remain in their documented archive locations.
+
+An independent read-only audit checked the changed/new project file inventory, file sizes, credential patterns, all changed/new R script parsing, and relative Markdown links. No raw data, ignored result caches, credentials or build directories were found in the publication scope. Root `tmp/` holds local poster-build/reference material and stays outside the staged files. Raw-data and local-cache ignore rules remain intact.
+
+Read-only GitHub verification and fetch found three newer commits: the compact Venn SVG, icon-led methods illustration, and compact IsaA/Pyk/QoxB structure SVG. Integrated them first by rebasing only this new unpublished local commit onto `origin/main`. The Step 9 guide conflict was resolved by retaining both its compact-Venn instructions and our SVG-atlas instructions. The remote structure and methods guide additions also remain. Refreshed the R-code index after integration. The resulting main branch is one commit ahead of origin, with no pending project changes; only the local root `tmp/` remains untracked. No force push or remote mutation was performed. The user performs the final push from Git Bash.

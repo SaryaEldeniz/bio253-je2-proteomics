@@ -1,0 +1,7 @@
+contrast	estimate_type	source_n	selected	display_omissions	poster_n
+interaction_stk_vs_anc_at_TSB_vs_SN	lod_imputed	4065	18	1	4064
+interaction_stk_vs_anc_at_TSB_vs_SN	observed	170	1	0	170
+interaction_stp_vs_anc_at_TSB_vs_SN	lod_imputed	4065	42	0	4065
+interaction_stp_vs_anc_at_TSB_vs_SN	observed	170	1	0	170
+interaction_stp_vs_stk_at_TSB_vs_SN	lod_imputed	4065	56	0	4065
+interaction_stp_vs_stk_at_TSB_vs_SN	observed	170	4	0	170

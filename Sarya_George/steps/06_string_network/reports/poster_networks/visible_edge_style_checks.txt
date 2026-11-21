@@ -1,0 +1,8 @@
+PASS: all 75 node coordinates, halo values, labels and node metadata identical.
+PASS: pathway outline coordinates and colours identical.
+PASS: every SVG path geometry exactly matches the archived original, including text glyphs and halos.
+PASS: source node, edge and membership input hashes identical; 412 associations retained.
+Edge display only: colour #42566A, linewidth .25-.60 mm, alpha .55-.85.
+The previous widths were .08-.36 mm, alpha .10-.38, colour #697686.
+Confidence mapping still monotonic over .4-1; no new edges or confidence changes.
+PASS: SVG remains vector-only; matching PNG and PDF refreshed.

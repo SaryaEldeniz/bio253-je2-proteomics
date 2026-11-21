@@ -1,0 +1,13 @@
+{
+  "A0_portrait": true,
+  "minimum_native_font_pt": 24.0,
+  "typefaces": [
+    "Arial"
+  ],
+  "single_slide": true,
+  "workflow_SVG_embedded": true,
+  "supplied_logo_bytes_preserved": true,
+  "authors_and_contact_present": true,
+  "sample_matrix_and_layer_diagrams_absent": true,
+  "PDF_A0_dimensions": true
+}

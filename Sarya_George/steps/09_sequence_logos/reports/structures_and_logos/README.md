@@ -11,6 +11,46 @@ phosphosites on 12 proteins.
 | [Compact IsaA, Pyk and QoxB SVG](JE2_IsaA_Pyk_QoxB_3D_Compact.svg) | The three selected structure views with editable arrow labels, UniProt IDs in the boxes, and a vertical pLDDT legend within the IsaA panel. |
 | [Linear protein models](JE2_Phosphosite_Protein_Models.pdf) | JE2 residue coordinates with projected UniProt features, Pfam domains, and labelled phosphosites. |
 
+## SVG versions for poster assembly
+
+The original PDFs are unchanged. Each complete SVG stacks the PDF pages vertically;
+the separate [page SVGs](svg_pages/) are easier to crop and arrange on the poster.
+
+| Atlas | Complete SVG | Individual SVG pages |
+| --- | --- | --- |
+| Sequence logos | [SVG](JE2_Sequence_Logos_Plus_Minus_10_AA.svg) | 2 pages |
+| 3D structures | [SVG](JE2_Phosphosites_3D_Structures.svg) | 6 pages |
+| Linear protein maps | [SVG](JE2_Phosphosite_Protein_Models.svg) | 4 pages |
+
+[Download all SVGs](JE2_structures_and_logos_SVGs.zip). The archive includes all
+three complete atlases, twelve individual pages and the conversion manifest.
+Logo and linear-map artwork remains vector. The 3D PDF already contains rendered
+structure images; these remain embedded raster images inside the SVG, with vector
+labels and page artwork. SVG conversion does not add resolution to those images.
+Text is outlined to preserve the source typography across poster applications.
+
+For the three network-overlap candidates, select these panels:
+
+| Candidate | 3D page/panel | Linear-map page/panel |
+| --- | --- | --- |
+| IsaA S194 | 1, left | 1, top |
+| QoxB T552 | 2, right | 2, top |
+| Pyk T537 | 3, left | 2, middle |
+
+From `Sarya_George.Rproj`, run:
+
+```r
+source("steps/09_sequence_logos/scripts/09_export_structures_logos_svg.R")
+```
+
+The R exporter requires Inkscape 1.4+ and uses its Poppler PDF importer; set
+`INKSCAPE_BIN` if it is installed elsewhere. Its Windows helper starts a hidden
+conversion process, validates the completed SVG and closes only that helper's
+process. No biological analysis, source images or PDF content is recalculated.
+[svg_conversion_manifest.tsv](svg_conversion_manifest.tsv) records page counts,
+vector paths, embedded images and original PDF hashes. Visual QA previews are
+kept locally under `results/step09/svg_exports/`.
+
 CsbD S5 belongs to both `stp` groups and contributes once to the pooled logo.
 The structural and linear figures map the course's JE2 sequences onto the NCTC 8325
 reference sequences. For Q2FX13, JE2 S51 aligns to reference S53.

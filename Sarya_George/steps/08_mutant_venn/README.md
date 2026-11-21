@@ -22,4 +22,6 @@ The original overall Venn includes source-observed and LOD-imputed hits meeting 
 
 The `JE2_observed_only` supplementary volcanoes show the observed JE2 population used for the exclusive-site interpretation. All three named sites are labelled in all four panels, including nonsignificant comparisons. Full annotated estimates remain in the [Step 7 report](../07_phosphosite_results/reports/volcano_reproduction/README.md).
 
+The new [compact poster volcanoes](figures/volcanoes/compact_poster/) add the JE2 LOD-imputed estimates as crosses alongside the observed circles. Combined and individual SVG/PNG/PDF exports retain the three named-site annotations. This display change does not change the observed-only exclusive-site selection or the Venn diagrams. See the [matched volcano guide](../10_integration_poster/reports/compact_volcanoes/README.md) for counts, the shared legend, all figure links and the R reproduction command.
+
 [Next: residues and sequence logos](../09_sequence_logos/README.md) · [Project overview](../../README.md)

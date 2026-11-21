@@ -149,6 +149,11 @@ make_outlines <- function(nodes,membership) {
   list(polys=bind_rows(polys),labels=bind_rows(labels))
 }
 poster_plot <- function(nodes,edges,outlines,set_label) {
+  # The 75-node poster needs visible associations at viewing distance. Retain
+  # the same confidence ordering while raising minimum width and opacity.
+  edge_style <- if(as.character(set_label)=="75") {
+    list(colour="#42566A",width=c(.25,.60),alpha=c(.55,.85))
+  } else list(colour="#697686",width=c(.08,.36),alpha=c(.10,.38))
   centre <- rings <- dots <- list()
   for(i in seq_len(nrow(nodes))) {
     row <- nodes[i,]
@@ -169,9 +174,9 @@ poster_plot <- function(nodes,edges,outlines,set_label) {
   limits_y <- range(c(boundary$y,headings$y))+c(-.20,.35)
   p <- ggplot() +
     geom_polygon(data=boundary,aes(x,y,group=region,fill=colour),alpha=.027,colour=NA) +
-    geom_segment(data=e,aes(x,y,xend=xend,yend=yend,linewidth=combined_score,alpha=combined_score),colour="#697686") +
-    scale_linewidth_continuous(range=c(.08,.36),limits=c(.4,1),guide="none") +
-    scale_alpha_continuous(range=c(.10,.38),limits=c(.4,1),guide="none") +
+    geom_segment(data=e,aes(x,y,xend=xend,yend=yend,linewidth=combined_score,alpha=combined_score),colour=edge_style$colour) +
+    scale_linewidth_continuous(range=edge_style$width,limits=c(.4,1),guide="none") +
+    scale_alpha_continuous(range=edge_style$alpha,limits=c(.4,1),guide="none") +
     geom_polygon(data=boundary,aes(x,y,group=region,colour=colour,linetype=line),fill=NA,linewidth=.65) +
     scale_colour_identity() + scale_linetype_identity() +
     geom_polygon(data=bind_rows(rings),aes(x,y,group=id,fill=fill),colour=NA) +
@@ -282,8 +287,9 @@ old_metrics <- if(file.exists(metric_path)) read_csv(metric_path,show_col_types=
 retained_metrics <- anti_join(old_metrics,select(new_metrics,set,annotation_mode),by=c("set","annotation_mode"))
 write_csv(bind_rows(retained_metrics,new_metrics),metric_path)
 writeLines(c("# Poster network figures","",
+  "The 75-protein figure uses darker poster-visible edges (#42566A): confidence maps monotonically to linewidth 0.25-0.60 mm and opacity 0.55-0.85. Only this edge styling changed; nodes, halos, labels, outlines and 412 associations are retained. Reproduce this version with 06_render_visible_poster_edges.R; it preserves the earlier figure in 90_archive/figures/step06_before_visible_edges and checks input/layout identity.","",
   "Exact 49-, 67- and 75-protein input sets can be shown separately; these are not the former 61-node one-round expansion. The 75-protein set restores all eight previously held proteins to the original 67-protein list. All supplied nodes and edges are retained, including isolates. Stk1/Stp1 are pinned symmetrically at the centre for biological prominence, not inferred hub status.","",
   "Pathway outlines use blue, orange, charcoal and purple, plus distinct line types, labels and P/R/N/T node badges. Node centres are neutral white, with dark anchors. The default uses freshly retrieved STRING KEGG annotation groups, not Leiden clustering. Additional selected proteins outside those four maps appear in a grey enclosure with C badges; this is not a claim that they lack other functions or pathways. Historical course review flags remain in the source metadata and are not automatically applied to fresh KEGG membership. Actual multiple memberships, if present, have multiple badges and participate in overlapping outlines without duplicate nodes.","",
-  "Ring order is inner stk/anc, middle stp/anc, outer stp/stk. Signed original protein interaction effects use a shared ±2 colour scale; grey means unavailable/unsuitable quantitative estimate and white means zero. Black dots mark protein FDR<0.1. Position does not show biological distance, edges are functional associations, and neither establishes direct phosphorylation.","",
+  "Ring order is inner stk/anc, middle stp/anc, outer stp/stk. Signed original protein interaction effects use a shared \u00b12 colour scale; grey means unavailable/unsuitable quantitative estimate and white means zero. Black dots mark protein FDR<0.1. Position does not show biological distance, edges are functional associations, and neither establishes direct phosphorylation.","",
   "PNG is 300 dpi; PDF and SVG preserve vectors. Canvas aspect follows occupied coordinates and a compact single-row footer. Poster coordinates, outline geometry and minimum-distance checks are exported beside source tables. Set JE2_POSTER_SETS=75 to render only the new 75-protein figure; existing figures and geometry rows for other lists are preserved. Without this variable, the script renders each available 49-, 67- and 75-protein input. To reproduce optional original-course grouping, set JE2_POSTER_ANNOTATIONS=course before running; those files receive a _course_scope suffix and do not replace live-group figures."),file.path(output,"README.md"))
 message("Poster networks exported for exact inputs: ",paste(sets,collapse=", "),".")

@@ -33,4 +33,6 @@ source("steps/09_sequence_logos/scripts/09_render_residue_venn_compact.R")
 
 The same script also runs from the repository root with the `Sarya_George/` prefix. See the [export note](notebook/2026-11-21_compact_venn_svg.md).
 
+The [poster SVG exports](reports/structures_and_logos/README.md#svg-versions-for-poster-assembly) include three complete atlases and twelve separate pages. Reproduce conversion with `scripts/09_export_structures_logos_svg.R`; it preserves the original PDFs and does not rerun the phosphosite analyses.
+
 [Next: integrated report and poster material](../10_integration_poster/README.md) · [Project overview](../../README.md)

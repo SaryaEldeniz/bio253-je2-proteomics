@@ -1,0 +1,5 @@
+Existing enrichment results rendered without refitting.
+PASS: all 12 KEGG pathways / 13 significant pairs; all 36 matrix tests retained in table.
+PASS: all 8 GO-BP ORA terms retained; 3 representatives chosen by exact hit overlap and smallest q.
+PASS: ORA fold enrichment independently checked; 1858-protein observed-only universe.
+PASS: SVG vector only, explicit physical size; Arial 24-pt minimum (headings 26/32).

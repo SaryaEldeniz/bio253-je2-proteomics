@@ -10,7 +10,12 @@ This folder assembles the existing interpretation and presentation material. Rea
 | [figures/methods_svg/](figures/methods_svg/README.md) | Editable blue-green methods panels, combined SVG, PNG previews and SVG ZIP. |
 | [figures/slide_summary/](figures/slide_summary/README.md) | Three total-proteome volcano images prepared for the summary slide. |
 | [presentations/](presentations/) | Existing PowerPoint summary slide and PNG preview. |
+| [presentations/poster_a0_foundation/](presentations/poster_a0_foundation/README.md) | Editable A0 portrait foundation, PDF/PNG viewing copies, figure-slot dimensions and editing guide. Background/hypothesis/Methods are filled; Results and later sections are reserved. |
 | [notebook/](notebook/) | Integrated-report, abstract, methods-illustration and presentation notes. |
+
+For A0 poster assembly, see the [proposed figure plan](reports/poster_content_plan.md) and the [curated QR supplementary index](reports/poster_supplement/README.md). These are local preparation files until published to the repository.
+
+The [poster authoring code](scripts/poster_a0/README.md) uses the user's supplied logo and only the Project analysis SVG in Methods, plus an editable text slot. The sample matrix and assay-layer diagram are excluded from this poster at the user's request.
 
 These materials use previously generated analysis outputs. The abstract-preparation script can query public bibliographic metadata; full caches remain local. Methods/slide scripts may require their documented local graphics or presentation tooling.
 

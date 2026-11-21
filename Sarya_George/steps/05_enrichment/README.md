@@ -22,4 +22,6 @@ source("steps/05_enrichment/scripts/05_extract_module_drivers.R")
 
 Observed-only GSEA panels are ordered from highest signed NES to lowest; ORA panels are ordered by fold enrichment. Enrichment/module membership supplies context for [Step 6](../06_string_network/README.md); protein selection uses the contrasts and measurement support rather than NES alone.
 
+The new [poster functional summary](figures/poster_functional_summary/functional_summary_interactions.svg) combines all 12 distinct KEGG pathways significant in any of the three total-proteome interactions (13 pathway–interaction pairs) with three GO-BP ORA representatives. The [interpretation and reproduction guide](reports/poster_functional_summary/README.md) explains the 8/0/0 GO-BP findings, overlap-based representative selection, observed-only background and NES direction. The original full results remain available.
+
 [Next: STRING candidate/network analysis](../06_string_network/README.md) · [Project overview](../../README.md)

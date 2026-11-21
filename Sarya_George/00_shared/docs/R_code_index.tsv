@@ -19,35 +19,26 @@ R/reference/find.R	43	find_protein; protein_label; explain_contrast
 R/reference/phis.R	66	peptide_variants; n_sty_acceptors; co_phospho_sty; all_variants_in; any_variant_in; phosphopeptide_set; lp_class; check_his_tiers
 R/setup.R	30	find_group_root
 R/web_resources/web_resources.R	283	.api_identifiers; .api_species; .api_throttle; .api_request; api_provenance; .api_tsv; .uniprot_summary; uniprot_entry; .string_request; .string_resolve_rows; string_resolve; .string_validate_ids; .string_score; string_network; string_partners; string_functional_annotation; .kegg_identifiers; .kegg_parse_links; kegg_links; kegg_entry
-00_shared/scripts/setup/install_enrichment_packages.R	14	(entry script / no top-level functions)
-00_shared/scripts/setup/install_packages.R	10	(entry script / no top-level functions)
-00_shared/scripts/setup/write_code_index.R	12	(entry script / no top-level functions)
+steps/01_design/notebook/1_CheckDesign.R	21	(entry script / no top-level functions)
 steps/01_design/scripts/00_inventory_inputs.R	14	(entry script / no top-level functions)
+steps/01_design/scripts/01_render_design_summary.R	74	draw_design_summary
+steps/01_design/scripts/01_render_project_workflow.R	42	draw_project_workflow
 steps/01_design/scripts/01_validate_design.R	199	record_check
 steps/03_identifiers_resources/scripts/03_build_identifier_map.R	163	(entry script / no top-level functions)
 steps/03_identifiers_resources/scripts/03_query_web_resources.R	84	(entry script / no top-level functions)
-steps/05_enrichment/scripts/05_check_pathway_resources.R	71	(entry script / no top-level functions)
 steps/04_total_proteome/scripts/04_assemble_comparisons.R	138	(entry script / no top-level functions)
+steps/04_total_proteome/scripts/04_export_poster_figures.R	200	export_step04_poster_figures
 steps/04_total_proteome/scripts/04_reconcile_counts.R	42	(entry script / no top-level functions)
-steps/05_enrichment/scripts/05_extract_module_drivers.R	120	format_effect
-steps/05_enrichment/scripts/05_run_enrichment.R	147	(entry script / no top-level functions)
-steps/05_enrichment/scripts/05_run_observed_enrichment.R	87	(entry script / no top-level functions)
-steps/05_enrichment/scripts/05_write_report.R	128	md_table
-steps/01_design/scripts/01_render_design_summary.R	74	draw_design_summary
-steps/01_design/scripts/01_render_project_workflow.R	42	draw_project_workflow
 steps/04_total_proteome/scripts/04_render_figures.R	52	render_step04_figures
-steps/10_integration_poster/scripts/05_prepare_slide_summary.R	92	(entry script / no top-level functions)
+steps/05_enrichment/scripts/05_check_pathway_resources.R	71	(entry script / no top-level functions)
+steps/05_enrichment/scripts/05_extract_module_drivers.R	120	format_effect
+steps/05_enrichment/scripts/05_poster_functional_summary.R	128	poster_functional_summary
 steps/05_enrichment/scripts/05_render_all_observed.R	70	render_all_observed
 steps/05_enrichment/scripts/05_render_enrichment.R	124	render_step05_enrichment
 steps/05_enrichment/scripts/05_render_module_evidence.R	72	plot_two_media_evidence; save_evidence
-steps/07_phosphosite_results/scripts/06_plot_overlap_phosphosite_tests.R	93	make_label; draw_figure
-steps/07_phosphosite_results/scripts/07_recreate_phospho_volcanoes.R	388	recreate_phospho_volcanoes
-steps/07_phosphosite_results/scripts/07_render_figures.R	38	(entry script / no top-level functions)
-steps/08_mutant_venn/scripts/08_render_venn.R	78	count_overlap; draw_venn
-steps/09_sequence_logos/scripts/09_render_central_residue_logo.R	64	draw_central_logo
-steps/09_sequence_logos/scripts/09_render_residue_summary.R	84	draw_residue_counts
-steps/09_sequence_logos/scripts/09_render_residue_venn.R	98	count_exclusive_hits; draw_residue_venn
-steps/09_sequence_logos/scripts/phosphosite_figures/extract_proteins.R	71	exclusive_hits
+steps/05_enrichment/scripts/05_run_enrichment.R	147	(entry script / no top-level functions)
+steps/05_enrichment/scripts/05_run_observed_enrichment.R	87	(entry script / no top-level functions)
+steps/05_enrichment/scripts/05_write_report.R	128	md_table
 steps/06_string_network/scripts/06_check_poster_outputs.R	104	(entry script / no top-level functions)
 steps/06_string_network/scripts/06_compare_phosphosite_overlap.R	189	(entry script / no top-level functions)
 steps/06_string_network/scripts/06_compare_poster_annotations.R	51	(entry script / no top-level functions)
@@ -57,30 +48,36 @@ steps/06_string_network/scripts/06_fetch_poster_networks.R	164	call; module_code
 steps/06_string_network/scripts/06_fetch_string_reference_images.R	44	(entry script / no top-level functions)
 steps/06_string_network/scripts/06_import_string_exports.R	89	read_export; calc_degree
 steps/06_string_network/scripts/06_plot_candidates.R	116	save_plot; plot_sample_page; make_pages
-steps/06_string_network/scripts/06_plot_poster_networks.R	289	effect_colour; circle_points; ring_points; pack_group; prepare_positions; make_outlines; poster_plot; boundary_safety; draw_compact_legend; save_poster
+steps/06_string_network/scripts/06_plot_poster_networks.R	295	effect_colour; circle_points; ring_points; pack_group; prepare_positions; make_outlines; poster_plot; boundary_safety; draw_compact_legend; save_poster
 steps/06_string_network/scripts/06_plot_string_networks.R	274	effect_colours; component_ids; force_component; layout_all; annulus; circle; draw_legend; network_plot; save_network
 steps/06_string_network/scripts/06_prepare_candidates.R	207	(entry script / no top-level functions)
 steps/06_string_network/scripts/06_prepare_complete75.R	24	(entry script / no top-level functions)
+steps/06_string_network/scripts/06_render_visible_poster_edges.R	49	render_visible_poster_edges
 steps/06_string_network/scripts/06_review_network_proteins.R	88	(entry script / no top-level functions)
 steps/06_string_network/scripts/06_write_complete75_guide.R	62	(entry script / no top-level functions)
 steps/06_string_network/scripts/06_write_guide.R	116	(entry script / no top-level functions)
 steps/06_string_network/scripts/06_write_network_guide.R	85	(entry script / no top-level functions)
 steps/06_string_network/scripts/06_write_phosphosite_overlap_report.R	78	fmt
 steps/06_string_network/scripts/06_write_poster_guide.R	68	(entry script / no top-level functions)
+steps/07_phosphosite_results/scripts/06_plot_overlap_phosphosite_tests.R	93	make_label; draw_figure
+steps/07_phosphosite_results/scripts/07_recreate_phospho_volcanoes.R	392	recreate_phospho_volcanoes
+steps/07_phosphosite_results/scripts/07_render_figures.R	38	(entry script / no top-level functions)
+steps/08_mutant_venn/scripts/08_render_venn.R	78	count_overlap; draw_venn
+steps/09_sequence_logos/scripts/09_export_structures_logos_svg.R	126	export_step09_atlas_svgs
+steps/09_sequence_logos/scripts/09_render_central_residue_logo.R	64	draw_central_logo
+steps/09_sequence_logos/scripts/09_render_residue_summary.R	84	draw_residue_counts
+steps/09_sequence_logos/scripts/09_render_residue_venn.R	98	count_exclusive_hits; draw_residue_venn
+steps/09_sequence_logos/scripts/09_render_residue_venn_compact.R	48	draw_compact_venn
+steps/09_sequence_logos/scripts/phosphosite_figures/extract_proteins.R	71	exclusive_hits
+steps/10_integration_poster/scripts/05_prepare_slide_summary.R	92	(entry script / no top-level functions)
+steps/10_integration_poster/scripts/abstract/prepare_abstract.R	107	count_words; italic_species; read_record; make_ris
 steps/10_integration_poster/scripts/methods_illustrations/01_render_design_analysis_svgs.R	168	esc; txt; rect; circle; path; group; arrow; defs; write_svg; cocci; tube; clock; flask; gene; database_icon; contrast_icon; enrich_icon; venn_logo; network; integrate
 steps/10_integration_poster/scripts/methods_illustrations/02_render_omics_methods_svg.R	155	esc; add; text; path; line; circle; rect; arrow; gstart; gend; draw_cells; draw_tube; draw_peptide; draw_imac; draw_ms; draw_abundance; draw_sites
 steps/10_integration_poster/scripts/methods_illustrations/03_assemble_methods_svgs.R	35	(entry script / no top-level functions)
-90_archive/scripts/G_inspect.R	31	(entry script / no top-level functions)
-90_archive/scripts/I_biological_summary.R	33	(entry script / no top-level functions)
-90_archive/scripts/I_marker_interactions.R	15	(entry script / no top-level functions)
-90_archive/scripts/I_pathway_plot.R	55	(entry script / no top-level functions)
-90_archive/scripts/I_pathway_preview.R	88	run_ora
-90_archive/scripts/inspect_step04.R	15	(entry script / no top-level functions)
-90_archive/scripts/preview_b.R	67	(entry script / no top-level functions)
-90_archive/scripts/verify_course_sources.R	15	(entry script / no top-level functions)
-90_archive/scripts/week2_mapping_coverage.R	38	(entry script / no top-level functions)
-90_archive/scripts/week2_preview.R	38	(entry script / no top-level functions)
-steps/10_integration_poster/scripts/abstract/prepare_abstract.R	107	count_words; italic_species; read_record; make_ris
+steps/10_integration_poster/scripts/methods_illustrations/05_render_visual_analysis_svg.R	90	(entry script / no top-level functions)
+steps/10_integration_poster/scripts/poster_a0/build_project_analysis_svg.R	60	esc; label; box; line; circle
+steps/10_integration_poster/scripts/poster_a0/compact_volcanoes.R	289	compact_poster_volcanoes
+steps/10_integration_poster/scripts/poster_a0/export_volcano_labels.R	110	export_volcano_labels
 tests/check_design.R	40	check_code
 tests/check_identifiers.R	45	check_id
 tests/check_step04.R	40	check_result
@@ -92,5 +89,17 @@ tests/check_web_resources.R	55	check_api; expect_rejected
 tests/run_tests.R	5	(entry script / no top-level functions)
 tests/testthat/test-data.R	49	has_data
 tests/testthat/test-parsing.R	67	(entry script / no top-level functions)
-steps/01_design/notebook/1_CheckDesign.R	21	(entry script / no top-level functions)
+00_shared/scripts/setup/install_enrichment_packages.R	14	(entry script / no top-level functions)
+00_shared/scripts/setup/install_packages.R	10	(entry script / no top-level functions)
+00_shared/scripts/setup/write_code_index.R	12	(entry script / no top-level functions)
+90_archive/scripts/G_inspect.R	31	(entry script / no top-level functions)
+90_archive/scripts/I_biological_summary.R	33	(entry script / no top-level functions)
+90_archive/scripts/I_marker_interactions.R	15	(entry script / no top-level functions)
+90_archive/scripts/I_pathway_plot.R	55	(entry script / no top-level functions)
+90_archive/scripts/I_pathway_preview.R	88	run_ora
+90_archive/scripts/inspect_step04.R	15	(entry script / no top-level functions)
+90_archive/scripts/preview_b.R	67	(entry script / no top-level functions)
+90_archive/scripts/verify_course_sources.R	15	(entry script / no top-level functions)
+90_archive/scripts/week2_mapping_coverage.R	38	(entry script / no top-level functions)
+90_archive/scripts/week2_preview.R	38	(entry script / no top-level functions)
 run_step.R	19	run_project_step

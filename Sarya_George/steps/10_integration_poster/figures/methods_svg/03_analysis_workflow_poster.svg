@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="460" viewBox="0 0 1400 460" role="img" aria-labelledby="title desc">
+<title id="title">Project analysis</title>
+<desc id="desc">Poster adaptation of the existing project-analysis diagram. Identifier mapping feeds parallel total-protein and phosphosite analyses. STRING candidates come directly from protein contrasts, independently of enrichment NES. Venn sets use within-medium mutant comparisons; phosphosite interactions are tested separately. Integration prioritises candidates without claiming direct substrates or phosphorylation occupancy.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#078D92"/></marker></defs>
+<text x="20" y="34" font-family="Arial" font-size="34" font-weight="700" fill="#17394D" text-anchor="start">Project analysis</text>
+<text x="1380" y="34" font-family="Arial" font-size="24" font-weight="400" fill="#52717C" text-anchor="end">TSB vs long-exposure SN</text>
+<rect x="20" y="80" width="245" height="325" rx="16" fill="#EAF0F7"/>
+<rect x="310" y="80" width="310" height="140" rx="16" fill="#EDF7F8"/>
+<rect x="665" y="80" width="300" height="140" rx="16" fill="#EDF7F8"/>
+<rect x="1010" y="80" width="370" height="140" rx="16" fill="#EDF7F8"/>
+<rect x="310" y="245" width="310" height="160" rx="16" fill="#EAF0F7"/>
+<rect x="665" y="245" width="300" height="160" rx="16" fill="#EAF0F7"/>
+<rect x="1010" y="245" width="370" height="160" rx="16" fill="#EAF0F7"/>
+<path d="M265 150L300 150" fill="none" stroke="#078D92" stroke-width="2.5" stroke-linecap="round"/><polygon points="300,150 290,155 290,145" fill="#078D92"/>
+<path d="M265 325L300 325" fill="none" stroke="#078D92" stroke-width="2.5" stroke-linecap="round"/><polygon points="300,325 290,330 290,320" fill="#078D92"/>
+<path d="M620 150L655 150" fill="none" stroke="#078D92" stroke-width="2.5" stroke-linecap="round"/><polygon points="655,150 645,155 645,145" fill="#078D92"/>
+<path d="M620 325L655 325" fill="none" stroke="#078D92" stroke-width="2.5" stroke-linecap="round"/><polygon points="655,325 645,330 645,320" fill="#078D92"/>
+<path d="M965 325L1000 325" fill="none" stroke="#078D92" stroke-width="2.5" stroke-linecap="round"/><polygon points="1000,325 990,330 990,320" fill="#078D92"/>
+<path d="M1195 220L1195 235" fill="none" stroke="#078D92" stroke-width="2.5" stroke-linecap="round"/><polygon points="1195,235 1190,225 1200,225" fill="#078D92"/>
+<path d="M465 80L465 66L1195 66L1195 77" fill="none" stroke="#078D92" stroke-width="2.5" stroke-linecap="round"/><polygon points="1195,77 1190,67 1200,67" fill="#078D92"/>
+<text x="830" y="60" font-family="Arial" font-size="24" font-weight="700" fill="#078D92" text-anchor="middle">Contrast-based selection</text>
+<text x="142" y="116" font-family="Arial" font-size="28" font-weight="700" fill="#17394D" text-anchor="middle">October exports</text>
+<ellipse cx="142" cy="146" rx="34" ry="10" fill="#DDEEF5" stroke="#247BA0" stroke-width="2"/>
+<path d="M108 146L108 188C108 202 176 202 176 188L176 146" fill="#DDEEF5" stroke="#247BA0" stroke-width="2"/>
+<ellipse cx="142" cy="146" rx="34" ry="10" fill="#DDEEF5" stroke="#247BA0" stroke-width="2"/>
+<text x="142" y="242" font-family="Arial" font-size="26" font-weight="700" fill="#247BA0" text-anchor="middle">JE2 to UniProt</text>
+<text x="142" y="282" font-family="Arial" font-size="24" font-weight="400" fill="#52717C" text-anchor="middle">Retain sequences</text>
+<text x="142" y="314" font-family="Arial" font-size="24" font-weight="400" fill="#52717C" text-anchor="middle">+ site positions</text>
+<text x="142" y="372" font-family="Arial" font-size="24" font-weight="700" fill="#247BA0" text-anchor="middle">Identifier mapping</text>
+<text x="330" y="115" font-family="Arial" font-size="28" font-weight="700" fill="#17394D" text-anchor="start">Total proteins</text>
+<text x="330" y="154" font-family="Arial" font-size="24" font-weight="400" fill="#17394D" text-anchor="start">TSB vs SN interactions</text>
+<text x="330" y="188" font-family="Arial" font-size="24" font-weight="400" fill="#17394D" text-anchor="start">Three genotype contrasts</text>
+<text x="685" y="115" font-family="Arial" font-size="28" font-weight="700" fill="#17394D" text-anchor="start">Functional patterns</text>
+<text x="685" y="154" font-family="Arial" font-size="24" font-weight="700" fill="#17394D" text-anchor="start">GO + KEGG</text>
+<text x="685" y="188" font-family="Arial" font-size="24" font-weight="400" fill="#17394D" text-anchor="start">ORA + ranked GSEA</text>
+<text x="1030" y="115" font-family="Arial" font-size="28" font-weight="700" fill="#17394D" text-anchor="start">Association network</text>
+<text x="1030" y="154" font-family="Arial" font-size="24" font-weight="400" fill="#17394D" text-anchor="start">Contrast-selected proteins</text>
+<text x="1030" y="184" font-family="Arial" font-size="24" font-weight="400" fill="#17394D" text-anchor="start">STRING 12.5 / score >=0.4</text>
+<text x="1030" y="211" font-family="Arial" font-size="24" font-weight="400" fill="#17394D" text-anchor="start">Stk1/Stp1 / three halos</text>
+<text x="330" y="280" font-family="Arial" font-size="28" font-weight="700" fill="#17394D" text-anchor="start">Phosphosites</text>
+<text x="330" y="318" font-family="Arial" font-size="24" font-weight="400" fill="#17394D" text-anchor="start">Mutant vs ancestor</text>
+<text x="330" y="349" font-family="Arial" font-size="24" font-weight="400" fill="#17394D" text-anchor="start">within TSB and SN</text>
+<text x="330" y="386" font-family="Arial" font-size="24" font-weight="400" fill="#52717C" text-anchor="start">Separate interaction tests</text>
+<text x="685" y="280" font-family="Arial" font-size="28" font-weight="700" fill="#17394D" text-anchor="start">Overlap + sequence</text>
+<text x="685" y="320" font-family="Arial" font-size="24" font-weight="400" fill="#17394D" text-anchor="start">Venn sets / residues</text>
+<text x="685" y="352" font-family="Arial" font-size="24" font-weight="400" fill="#17394D" text-anchor="start">JE2 sequence logos</text>
+<circle cx="726" cy="382" r="15" fill="#DDEEF5" stroke="#247BA0" stroke-width="2"/>
+<circle cx="747" cy="382" r="15" fill="#BAE2DA" stroke="#078D92" stroke-width="2"/>
+<text x="1030" y="280" font-family="Arial" font-size="28" font-weight="700" fill="#17394D" text-anchor="start">Integrate evidence</text>
+<text x="1030" y="318" font-family="Arial" font-size="24" font-weight="400" fill="#17394D" text-anchor="start">Parent-protein abundance</text>
+<text x="1030" y="349" font-family="Arial" font-size="24" font-weight="400" fill="#17394D" text-anchor="start">+ phosphosite signal</text>
+<text x="1030" y="386" font-family="Arial" font-size="24" font-weight="700" fill="#078D92" text-anchor="start">Prioritise candidates</text>
+<text x="20" y="447" font-family="Arial" font-size="24" font-weight="700" fill="#17394D" text-anchor="start">I = (A_TSB - B_TSB) - (A_SN - B_SN), using log2 signals</text>
+<text x="1380" y="447" font-family="Arial" font-size="24" font-weight="400" fill="#52717C" text-anchor="end">Edges: functional associations</text>
+</svg>

@@ -1,0 +1,15 @@
+figure	original_point_layers_unchanged	numeric_axes_unchanged	observed_points	lod_points	width_mm	height_mm	min_font_pt	source_estimates_unchanged	display_omissions
+four_mutant_comparisons	TRUE	TRUE	628	15772	529.333	190	24	NA	NA
+three_total_interactions	TRUE	TRUE	5970	717	529.333	115	24	NA	NA
+stk_vs_anc_at_TSB	TRUE	TRUE	157	3943	171.111	115	24	NA	NA
+stp_vs_anc_at_TSB	TRUE	TRUE	157	3943	171.111	115	24	NA	NA
+stk_vs_anc_at_SN	TRUE	TRUE	157	3943	171.111	115	24	NA	NA
+stp_vs_anc_at_SN	TRUE	TRUE	157	3943	171.111	115	24	NA	NA
+total_interaction_stk_vs_anc_at_TSB_vs_SN	TRUE	TRUE	1990	239	171.111	115	24	NA	NA
+total_interaction_stp_vs_anc_at_TSB_vs_SN	TRUE	TRUE	1990	239	171.111	115	24	NA	NA
+total_interaction_stp_vs_stk_at_TSB_vs_SN	TRUE	TRUE	1990	239	171.111	115	24	NA	NA
+phospho_three_interactions_poster	FALSE	FALSE	510	12194	529.333	115	24	TRUE	1
+phospho_three_interactions_full_range	TRUE	TRUE	510	12195	529.333	115	24	TRUE	0
+phospho_interaction_stk_vs_anc_at_TSB_vs_SN_poster	FALSE	FALSE	170	4064	171.111	115	24	TRUE	1
+phospho_interaction_stp_vs_anc_at_TSB_vs_SN_poster	TRUE	FALSE	170	4065	171.111	115	24	TRUE	0
+phospho_interaction_stp_vs_stk_at_TSB_vs_SN_poster	TRUE	FALSE	170	4065	171.111	115	24	TRUE	0

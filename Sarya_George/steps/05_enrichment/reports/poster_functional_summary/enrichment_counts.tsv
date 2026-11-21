@@ -1,0 +1,4 @@
+contrast	KEGG_GSEA_significant	GO_BP_ORA_significant
+interaction_stk_vs_anc_at_TSB_vs_SN	7	8
+interaction_stp_vs_anc_at_TSB_vs_SN	3	0
+interaction_stp_vs_stk_at_TSB_vs_SN	3	0

@@ -1,0 +1,106 @@
+[
+  {
+    "height_mm": 66,
+    "kind": "figure-slot",
+    "name": "total-volcano-0",
+    "width_mm": 171.11111111111111,
+    "x_mm": 20,
+    "y_mm": 523
+  },
+  {
+    "height_mm": 66,
+    "kind": "figure-slot",
+    "name": "phospho-volcano-0",
+    "width_mm": 171.11111111111111,
+    "x_mm": 20,
+    "y_mm": 618
+  },
+  {
+    "height_mm": 66,
+    "kind": "figure-slot",
+    "name": "total-volcano-1",
+    "width_mm": 171.11111111111111,
+    "x_mm": 199.11111111111111,
+    "y_mm": 523
+  },
+  {
+    "height_mm": 66,
+    "kind": "figure-slot",
+    "name": "phospho-volcano-1",
+    "width_mm": 171.11111111111111,
+    "x_mm": 199.11111111111111,
+    "y_mm": 618
+  },
+  {
+    "height_mm": 66,
+    "kind": "figure-slot",
+    "name": "total-volcano-2",
+    "width_mm": 171.11111111111111,
+    "x_mm": 378.22222222222223,
+    "y_mm": 523
+  },
+  {
+    "height_mm": 66,
+    "kind": "figure-slot",
+    "name": "phospho-volcano-2",
+    "width_mm": 171.11111111111111,
+    "x_mm": 378.22222222222223,
+    "y_mm": 618
+  },
+  {
+    "height_mm": 161,
+    "kind": "figure-slot",
+    "name": "enrichment",
+    "width_mm": 257.6666666666667,
+    "x_mm": 563.3333333333334,
+    "y_mm": 523
+  },
+  {
+    "height_mm": 244,
+    "kind": "figure-slot",
+    "name": "network",
+    "width_mm": 529.3333333333334,
+    "x_mm": 20,
+    "y_mm": 739
+  },
+  {
+    "height_mm": 88,
+    "kind": "figure-slot",
+    "name": "venn-TSB",
+    "width_mm": 124.83333333333334,
+    "x_mm": 563.3333333333334,
+    "y_mm": 739
+  },
+  {
+    "height_mm": 88,
+    "kind": "figure-slot",
+    "name": "venn-SN",
+    "width_mm": 124.83333333333334,
+    "x_mm": 696.1666666666667,
+    "y_mm": 739
+  },
+  {
+    "height_mm": 114,
+    "kind": "figure-slot",
+    "name": "candidate-0",
+    "width_mm": 81.8888888888889,
+    "x_mm": 563.3333333333334,
+    "y_mm": 869
+  },
+  {
+    "height_mm": 114,
+    "kind": "figure-slot",
+    "name": "candidate-1",
+    "width_mm": 81.8888888888889,
+    "x_mm": 651.2222222222223,
+    "y_mm": 869
+  },
+  {
+    "height_mm": 114,
+    "kind": "figure-slot",
+    "name": "candidate-2",
+    "width_mm": 81.8888888888889,
+    "x_mm": 739.1111111111112,
+    "y_mm": 869
+  }
+]

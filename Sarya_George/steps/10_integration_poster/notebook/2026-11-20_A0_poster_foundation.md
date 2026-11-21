@@ -1,0 +1,15 @@
+# 2026-11-20: A0 portrait poster foundation
+
+User request: follow the supplied poster rubric, academic-poster lecture, compilation and two example posters. Fill the title/authorship, background, hypothesis and Methods; provide figure-placement grounds for Results and reserve later sections. The user subsequently supplied the exact ETHUZHFGCZ.png banner and correspondence email, and explicitly requested only the Project analysis SVG in Methods with a text slot, excluding the sample-design matrix and complementary-proteomics-layers figure.
+
+Read the lecture's formatting pages 61–63, 68 and 70 and reviewed the example poster styles. Authored a native, editable PowerPoint in the presentation Artifact Session at exactly 841 × 1189 mm. Arial is used throughout; title 72 pt, section/panel headings 42/36 pt, body 28 pt, affiliations/contact and minimum figure text 24 pt. The title block is 65 mm high. Margin/gutter/line-weight choices are documented separately from the lecture's actual requirements.
+
+Added an R-authored compact poster adaptation of the existing Project analysis SVG, retaining its parallel analysis logic and direct contrast-based STRING selection. The original SVG is preserved. At the placed width, minimum workflow text is approximately 25.7 pt. The rest of the Methods area is an editable text placeholder. No experimental-design matrix or measurement-layer diagram remains on the poster.
+
+The header includes the exact six supplied author names and four affiliations, the original logo asset at its native aspect ratio, and * Correspondence: george.kahvedjian@uzh.ch. Background citations use three original research papers. The neutral proposed title explicitly includes protein and phosphosite responses.
+
+Results have thirteen named figure slots: six volcano panels, enrichment, network, two Venns and three candidate-site cards. Discussion/conclusion, follow-up, acknowledgements and QR areas remain placeholders. The next phase must adapt figures to readable final-size fonts and refine frame sizes as needed, rather than simply shrinking source graphics. No numerical experimental findings or final interpretation were inserted.
+
+Verification: inspected actual PPTX OOXML for A0 dimensions, font declarations and text sizes; rendered the exported PPTX for visual checks, corrected hypothesis overflow and species italics, and inspected an A0 PDF export. The live editor's render path failed on asset handling, while local preview rendering succeeded. The bundled native PDF renderer had a font-alias issue, so the PDF viewing copy was exported through LibreOffice without changing the original editable PPTX. Source example posters, PDFs and experimental files were not modified.
+
+AI assistance: Codex extracted the supplied rubric/guidelines, reviewed inspiration assets, drafted concise source-backed background/hypothesis text, authored the editable poster and SVG, and performed layout/content checks. Poster results, conclusions, follow-up plans and real QR publication remain for the next stage.

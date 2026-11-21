@@ -1,0 +1,2 @@
+contrast	site_id	site_label	uniprot_acc	diff	FDR	estimate_type	best_loc_prob	group_detection_pattern	reason
+interaction_stk_vs_anc_at_TSB_vs_SN	lcl_CP020619.1_prot_ARG46254.1_1820_S538	pyk S538	Q2FXM9	10.6980053178485	9.955997382012113e-9	lod_imputed	0.9227	anc_TSB=0/3; anc_SN=3/3; stk_TSB=3/3; stk_SN=3/3	Poster display only: sole estimate above y=5; retained in full-range figure

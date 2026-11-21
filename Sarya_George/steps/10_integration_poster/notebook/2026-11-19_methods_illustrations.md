@@ -47,3 +47,13 @@ AI assistance: Codex authored design/analysis vectors and assembly/checks. One
 agent independently verified design sources and samples, another checked method
 branch logic, and a third authored and inspected the proteomics acquisition
 illustration. All artwork was generated specifically for this project.
+
+## 2026-11-21 · Approved icon-led project-analysis panel
+
+Sarya requested a more compact Project analysis graphic with larger illustrations and less text. Following her review, Codex added the three protein interaction comparisons (stk vs anc, stp vs anc, stp vs stk) and replaced the JE2 file symbol with an A/T/S/P methods symbol matching her reference image. Sarya then explicitly authorised uploading this revised version to GitHub.
+
+The approved output is `figures/methods_svg/03_analysis_workflow_visual.svg`, with its PNG preview and `scripts/methods_illustrations/05_render_visual_analysis_svg.R`. The methods guide links this poster version prominently; the original detailed artwork remains unchanged. The earlier text-heavy compact draft is not part of this publication.
+
+The illustration retains separate protein and phosphosite branches, direct contrast-based STRING selection bypassing enrichment, within-medium phosphosite comparisons and comparison of parent-protein/site signals. Detailed parameters and the separate phosphosite interaction tests remain documented in the original panel. The icons and letter heights are schematic method symbols, not measured plots, sequences or motifs. No biological data or selection results were changed.
+
+Codex generated the SVG using the existing R palette/icon helpers without importing raw sample data, rendered it to PNG and inspected the layout. Checked: editable SVG text; three comparison labels; unique IDs and resolved arrow markers; no embedded image, script or foreignObject elements. SVG, preview, reproduction code and documentation were prepared together for the authorised GitHub update.

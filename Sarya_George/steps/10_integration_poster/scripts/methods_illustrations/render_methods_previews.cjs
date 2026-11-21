@@ -3,7 +3,7 @@
 const path = require('node:path');
 const sharp = require('sharp');
 const root = path.resolve(__dirname, '../../figures/methods_svg');
-const names = ['00_complete_methods','01_experimental_design','02_proteomics_layers','03_analysis_workflow'];
+const names = ['00_complete_methods','01_experimental_design','02_proteomics_layers','03_analysis_workflow','03_analysis_workflow_visual'];
 (async () => {
   for (const name of names) {
     await sharp(path.join(root,name+'.svg'),{density:120})

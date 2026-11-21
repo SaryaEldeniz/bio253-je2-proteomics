@@ -8,6 +8,13 @@ These are original drawings, not BioRender exports or licensed BioRender assets.
 
 ## Files
 
+**Compact poster version:** [Project analysis SVG](03_analysis_workflow_visual.svg)
+and [PNG preview](03_analysis_workflow_visual.png). This is the icon-led version
+approved by Sarya: large illustrations, short labels, all three protein
+interaction comparisons and the requested A/T/S/P sequence-logo symbol. Its
+letter heights are schematic, not measured frequencies or a computed motif.
+The original detailed panel remains available below.
+
 - `00_complete_methods.svg`: all three panels in a single vertical layout.
 - `01_experimental_design.svg`: PAO1 spent medium, sterile filtration, the
   JE2 ancestor/kinase/phosphatase mutants, and the nine-group sample matrix.
@@ -87,6 +94,7 @@ From `Sarya_George.Rproj`:
 source("steps/10_integration_poster/scripts/methods_illustrations/01_render_design_analysis_svgs.R")
 source("steps/10_integration_poster/scripts/methods_illustrations/02_render_omics_methods_svg.R")
 source("steps/10_integration_poster/scripts/methods_illustrations/03_assemble_methods_svgs.R")
+source("steps/10_integration_poster/scripts/methods_illustrations/05_render_visual_analysis_svg.R")
 ```
 
 These R scripts author the SVGs using native vector elements and `xml2`.

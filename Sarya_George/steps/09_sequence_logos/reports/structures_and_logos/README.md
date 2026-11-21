@@ -8,11 +8,16 @@ phosphosites on 12 proteins.
 | --- | --- |
 | [Sequence logos (±10 AA)](JE2_Sequence_Logos_Plus_Minus_10_AA.pdf) | A pooled logo, four group logos, and the aligned JE2 sequence windows. Letter height shows the observed amino-acid frequency among available residues. |
 | [3D phosphosite structures](JE2_Phosphosites_3D_Structures.pdf) | AlphaFold reference cartoons with highlighted residues, arrows, group labels, and local pLDDT. |
+| [Compact IsaA, Pyk and QoxB SVG](JE2_IsaA_Pyk_QoxB_3D_Compact.svg) | The three selected structure views with editable arrow labels, UniProt IDs in the boxes, and a vertical pLDDT legend within the IsaA panel. |
 | [Linear protein models](JE2_Phosphosite_Protein_Models.pdf) | JE2 residue coordinates with projected UniProt features, Pfam domains, and labelled phosphosites. |
 
 CsbD S5 belongs to both `stp` groups and contributes once to the pooled logo.
 The structural and linear figures map the course's JE2 sequences onto the NCTC 8325
 reference sequences. For Q2FX13, JE2 S51 aligns to reference S53.
+
+The compact SVG shows IsaA S194 (TSB · stk), Pyk T537 (TSB · stp) and
+QoxB T552 (TSB · stp). Its structure images are embedded raster layers.
+Labels, arrows and the legend can be edited in an SVG editor.
 
 ## Rebuild the PDFs
 

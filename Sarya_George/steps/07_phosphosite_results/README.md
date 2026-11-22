@@ -12,6 +12,8 @@ This step compares phosphosite effects with parent-protein effects and annotates
 | [figures/baseline_vs_interaction/](figures/baseline_vs_interaction/) | IsaA S194, Pyk T537 and QoxB T552: sample values, baseline contrasts and separate interaction estimates. |
 | [notebook/](notebook/) | Step 7 and subsequent phosphosite-figure/formatting notes. |
 
+**Poster panel A:** [SVG](figures/baseline_vs_interaction/panel_A_baseline_sites.svg) | [PNG](figures/baseline_vs_interaction/panel_A_baseline_sites.png). The separate panel uses the title **A | Baseline phosphosite differences** and a vertical genotype legend inside the QoxB panel. Plotted samples, means, detection counts and source FDR labels are retained. The footer states that phosphosite signals are not adjusted for parent-protein abundance. The combined figure remains available in the same folder.
+
 Required local data: `dea_phospho_STYH.tsv.gz`, `sites_STYH.tsv.gz`, `abundances_phospho_STYH.tsv.gz` and matched `dea_total.tsv.gz` in the configured `derived/` directory, plus the Step 3 identifier map. Complete plotted coordinates/sample tables remain in `results/step07_volcano_reproduction/`.
 
 ```r

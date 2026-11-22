@@ -10,6 +10,8 @@ Primary research literature in IEEE style. Numbering follows the poster's reques
 
 [4] N. Prust, S. van der Laarse, H. W. P. van den Toorn, N. M. van Sorge, and S. Lemeer, “In-depth characterization of the *Staphylococcus aureus* phosphoproteome reveals new targets of Stk1,” *Mol. Cell. Proteomics*, vol. 20, Art. no. 100034, 2021, doi: [10.1074/mcp.RA120.002232](https://doi.org/10.1074/mcp.RA120.002232). [PubMed](https://pubmed.ncbi.nlm.nih.gov/33444734/), [full text](https://pmc.ncbi.nlm.nih.gov/articles/PMC7950182/).
 
+[5] M. Huemer *et al*., “Serine-threonine phosphoregulation by PknB and Stp contributes to quiescence and antibiotic tolerance in *Staphylococcus aureus*,” *Sci. Signal.*, vol. 16, no. 766, Art. no. eabj8194, Jan. 2023, doi: [10.1126/scisignal.abj8194](https://doi.org/10.1126/scisignal.abj8194). [PubMed](https://pubmed.ncbi.nlm.nih.gov/36595572/), [full text](https://pmc.ncbi.nlm.nih.gov/articles/PMC13625852/).
+
 Metadata verified against the requested PubMed/PMC records on 22 November 2026. Fischer's final journal issue is dated 2021 although its online publication was in 2020. These references are literature sources; the poster's own numerical results come from the project's analyses.
 
 [Project code, figures and reports](README.md)
